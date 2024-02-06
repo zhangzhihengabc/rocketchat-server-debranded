@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/outlookCalendar/lib/NotOnDesktopError.ts","meteor://💻app/<anon>"],"sourcesContent":["export class NotOnDesktopError extends Error {\n\tconstructor() {\n\t\tsuper('Not on desktop');\n\t}\n}\n",null],"names":["module","export","NotOnDesktopError","Error","constructor"],"mappings":"uBAAAA,EAAMC,MAAO,CAAA,CAAAC,kBAAkB,IAAAA,CAAa,EAAtC,OAAOA,UAA0BC,MACtCC,aAAAA,CACC,KAAK,CAAC,iBACP"}

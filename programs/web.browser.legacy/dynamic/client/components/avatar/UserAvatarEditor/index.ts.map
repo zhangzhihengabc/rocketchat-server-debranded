@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/components/avatar/UserAvatarEditor/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './UserAvatarEditor';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,qBAAe,CAAA,QAAA,SAAqB,EAAA"}

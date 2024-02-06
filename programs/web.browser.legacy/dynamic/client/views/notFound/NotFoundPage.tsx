@@ -1,0 +1,2 @@
+function module(t,n,e){var o,i,u;e.link("@rocket.chat/ui-contexts",{useTranslation:function(t){o=t}},0),e.link("react",{default:function(t){i=t}},1),e.link("../../components/NotFoundState",{default:function(t){u=t}},2),e.exportDefault(function(){var t=o();return i.createElement(u,{title:t("Page_not_found"),subtitle:t("Page_not_exist_or_not_permission")})})}
+//# sourceMappingURL=/dynamic/client/views/notFound/9faaaafca205777995c3961ed3207f9358ccfc80.map

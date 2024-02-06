@@ -1,0 +1,2 @@
+function module(e,n,i){i.link("@rocket.chat/fuselage",{Tile:function(e){t=e},PositionAnimated:function(e){a=e}},0),i.link("react",{default:function(e){l=e},forwardRef:function(e){o=e}},1);var t,a,l,o,c=o(function(e,n){var i=e.reference,o=e.children;return l.createElement(a,{anchor:i,placement:"bottom-end",visible:"visible"},l.createElement(t,{is:"ul",padding:0,paddingBlock:12,paddingInline:0,elevation:"2",ref:n},o))});i.exportDefault(c)}
+//# sourceMappingURL=/dynamic/client/components/message/toolbox/c609539f8daae701551cd700c7163e311232488b.map

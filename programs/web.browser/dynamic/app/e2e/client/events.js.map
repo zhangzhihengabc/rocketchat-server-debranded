@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/e2e/client/events.js","meteor://💻app/<anon>"],"sourcesContent":["import { Accounts } from 'meteor/accounts-base';\n\nimport { e2e } from './rocketchat.e2e';\n\nAccounts.onLogout(() => {\n\te2e.stopClient();\n});\n",null],"names":["Accounts","e2e","module","link","v","onLogout","stopClient"],"mappings":"2BAAIA,EAA6EC,EAApEC,EAAOC,IAAI,CAAC,uBAAuB,CAACH,SAASI,CAAC,EAAEJ,EAASI,CAAC,CAAC,EAAE,GAAWF,EAAOC,IAAI,CAAC,mBAAmB,CAACF,IAAIG,CAAC,EAAEH,EAAIG,CAAC,CAAC,EAAE,GAIpIJ,EAASK,QAAQ,CAAC,KACjBJ,EAAIK,UAAU,EACf"}

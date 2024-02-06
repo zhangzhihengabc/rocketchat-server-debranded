@@ -1,0 +1,2 @@
+function module(e,s,o){let t,a,u,c;function r(e){let s=c(),o=u();return t(e,{onCopySuccess:a(()=>o({type:"success",message:s("Copied")})),onCopyError:a(e=>o({type:"error",message:e}))})}o.export({default:()=>r}),o.link("@rocket.chat/fuselage-hooks",{useClipboard(e){t=e},useMutableCallback(e){a=e}},0),o.link("@rocket.chat/ui-contexts",{useToastMessageDispatch(e){u=e},useTranslation(e){c=e}},1)}
+//# sourceMappingURL=/dynamic/client/hooks/467eee9c341a1f0861c5a6647605a95b033fe3d9.map

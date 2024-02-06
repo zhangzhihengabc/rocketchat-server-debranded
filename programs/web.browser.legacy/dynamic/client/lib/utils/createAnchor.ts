@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({createAnchor:function(){return o}}),t.link("./deleteAnchor",{registerAnchor:function(e){r=e}},0);var r,o=function(e){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"div",t=document.getElementById(e);if(t&&t.tagName.toLowerCase()===n)return t;var o=document.createElement(n);return o.id=e,document.body.appendChild(o),r(o,function(){return document.body.removeChild(o)}),o}}
+//# sourceMappingURL=/dynamic/client/lib/utils/a0911c9252055e2490282d1a8f8f12601b5c05b6.map

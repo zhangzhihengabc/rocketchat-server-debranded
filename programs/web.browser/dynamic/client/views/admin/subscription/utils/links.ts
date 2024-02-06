@@ -1,0 +1,2 @@
+function module(t,o,c){c.export({CONTACT_SALES_LINK:()=>r,PRICING_LINK:()=>e,DOWNGRADE_LINK:()=>a,TRIAL_LINK:()=>h});let r="https://go.rocket.chat/i/contact-sales-product",e="https://go.rocket.chat/i/pricing-product",a="https://go.rocket.chat/i/docs-downgrade",h="https://go.rocket.chat/i/docs-trial"}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/utils/2d512394d0dbdc12be4d05cf00615b64b31c9e8b.map

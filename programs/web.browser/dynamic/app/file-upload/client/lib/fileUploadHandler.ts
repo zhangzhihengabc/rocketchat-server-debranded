@@ -1,0 +1,2 @@
+function module(e,o,t){let c,n,r;t.link("meteor/accounts-base",{Accounts(e){c=e}},0),t.link("meteor/meteor",{Meteor(e){n=e}},1),t.link("meteor/tracker",{Tracker(e){r=e}},2),r.autorun(()=>{let e=n.userId();if(e){let o="https:"===location.protocol?"; secure":"";document.cookie="rc_uid=".concat(escape(e),"; path=/").concat(o),document.cookie="rc_token=".concat(escape(c._storedLoginToken()),"; path=/").concat(o)}})}
+//# sourceMappingURL=/dynamic/app/file-upload/client/lib/08a4d0f6449c9b76cbcccfccb861b85ed96648f6.map

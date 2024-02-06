@@ -1,0 +1,2 @@
+function module(e,l,r){let t,u,a,i;r.link("react",{default(e){t=e}},0),r.link("./UrlAudioPreview",{default(e){u=e}},1),r.link("./UrlImagePreview",{default(e){a=e}},2),r.link("./UrlVideoPreview",{default(e){i=e}},3),r.exportDefault(e=>{let{url:l,type:r,originalType:n}=e;switch(r){case"audio":return t.createElement(u,{url:l});case"video":return t.createElement(i,{url:l,originalType:n});case"image":return t.createElement(a,{url:l});default:return null}})}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/e14bce0c47614ed94205bce4f7d74037e4c69127.map

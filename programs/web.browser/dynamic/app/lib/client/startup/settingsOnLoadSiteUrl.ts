@@ -1,0 +1,2 @@
+function module(e,t,r){let n,i,l;r.link("meteor/meteor",{Meteor(e){n=e}},0),r.link("meteor/tracker",{Tracker(e){i=e}},1),r.link("../../../settings/client",{settings(e){l=e}},2),n.startup(()=>{i.autorun(()=>{let e=l.get("Site_Url");null!=e&&""!==e.trim()&&(window.__meteor_runtime_config__.ROOT_URL=e)})})}
+//# sourceMappingURL=/dynamic/app/lib/client/startup/7ac3738558da40e0ba7067e29fd46576ecb990f9.map

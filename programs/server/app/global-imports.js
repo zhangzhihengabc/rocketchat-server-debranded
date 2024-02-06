@@ -1,0 +1,47 @@
+/* Imports for global scope */
+
+OAuth2Server = Package['rocketchat:oauth2-server'].OAuth2Server;
+Streamer = Package['rocketchat:streamer'].Streamer;
+Accounts = Package['accounts-base'].Accounts;
+Google = Package['google-oauth'].Google;
+OAuth = Package.oauth.OAuth;
+check = Package.check.check;
+Match = Package.check.Match;
+DDPRateLimiter = Package['ddp-rate-limiter'].DDPRateLimiter;
+RateLimiter = Package['rate-limit'].RateLimiter;
+Email = Package.email.Email;
+EmailInternals = Package.email.EmailInternals;
+HTTP = Package.http.HTTP;
+HTTPInternals = Package.http.HTTPInternals;
+DDPCommon = Package['ddp-common'].DDPCommon;
+WebApp = Package.webapp.WebApp;
+WebAppInternals = Package.webapp.WebAppInternals;
+main = Package.webapp.main;
+MongoInternals = Package.mongo.MongoInternals;
+Mongo = Package.mongo.Mongo;
+ServiceConfiguration = Package['service-configuration'].ServiceConfiguration;
+FlowRouter = Package['kadira:flow-router'].FlowRouter;
+Inject = Package['meteorhacks:inject-initial'].Inject;
+RoutePolicy = Package.routepolicy.RoutePolicy;
+WebAppHashing = Package['webapp-hashing'].WebAppHashing;
+Facts = Package['facts-base'].Facts;
+Tracker = Package.tracker.Tracker;
+Deps = Package.tracker.Deps;
+ReactiveDict = Package['reactive-dict'].ReactiveDict;
+ReactiveVar = Package['reactive-var'].ReactiveVar;
+Babel = Package['babel-compiler'].Babel;
+BabelCompiler = Package['babel-compiler'].BabelCompiler;
+ECMAScript = Package.ecmascript.ECMAScript;
+Autoupdate = Package.autoupdate.Autoupdate;
+Facebook = Package['facebook-oauth'].Facebook;
+Github = Package['github-oauth'].Github;
+MeteorDeveloperAccounts = Package['meteor-developer-oauth'].MeteorDeveloperAccounts;
+Twitter = Package['twitter-oauth'].Twitter;
+Meteor = Package.meteor.Meteor;
+global = Package.meteor.global;
+meteorEnv = Package.meteor.meteorEnv;
+DDP = Package['ddp-client'].DDP;
+DDPServer = Package['ddp-server'].DDPServer;
+meteorInstall = Package.modules.meteorInstall;
+Promise = Package.promise.Promise;
+

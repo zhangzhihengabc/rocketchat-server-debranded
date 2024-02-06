@@ -1,0 +1,2 @@
+function module(n,e,i){i.export({fetchFeatures:function(){return o}}),i.link("../../../app/ui-cached-collection/client",{CachedCollectionManager:function(n){t=n}},0),i.link("../../../app/utils/client/lib/SDKClient",{sdk:function(n){c=n}},1);var t,c,o=function(){return new Promise(function(n,e){t.onLogin(function(){c.call("license:getModules").then(n,e)})})}}
+//# sourceMappingURL=/dynamic/ee/client/lib/ec37f69972561c783398df602140582197884dc7.map

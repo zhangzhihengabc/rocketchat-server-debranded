@@ -1,0 +1,2 @@
+function module(e,n,t){var l,a,r;t.link("react",{default:function(e){l=e}},0),t.link("../../sidebar/SidebarPortal",{default:function(e){a=e}},1),t.link("./sidebar/AdminSidebar",{default:function(e){r=e}},2),t.exportDefault(function(e){var n=e.children;return l.createElement(l.Fragment,null,l.createElement(a,null,l.createElement(r,null)),n)})}
+//# sourceMappingURL=/dynamic/client/views/admin/2978b114b2693738a7bb80ba0b2d71fa96a8f759.map

@@ -1,0 +1,2 @@
+function module(e,l,n){let t,a;n.export({GenericTableLoadingTable:()=>r}),n.link("react",{default(e){t=e}},0),n.link("./GenericTableLoadingRow",{GenericTableLoadingRow(e){a=e}},1);let r=e=>{let{headerCells:l}=e;return t.createElement(t.Fragment,null,Array.from({length:10},(e,n)=>t.createElement(a,{key:n,cols:l})))}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/296d8d2842a9b3e4011f6374d8dde3d76d2ead8a.map

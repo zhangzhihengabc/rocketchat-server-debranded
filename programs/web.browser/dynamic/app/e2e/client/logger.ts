@@ -1,0 +1,2 @@
+function module(o,e,r){let n,t;r.export({log:()=>g,logError:()=>c}),r.link("../../../client/lib/utils/getConfig",{getConfig(o){n=o}},0);let l=()=>(void 0===t&&(t="true"===n("debug")||"true"===n("debug-e2e")),t),g=function(o){for(var e=arguments.length,r=Array(e>1?e-1:0),n=1;n<e;n++)r[n-1]=arguments[n];l()&&console.log("[".concat(o,"]"),...r)},c=function(o){for(var e=arguments.length,r=Array(e>1?e-1:0),n=1;n<e;n++)r[n-1]=arguments[n];l()&&console.error("[".concat(o,"]"),...r)}}
+//# sourceMappingURL=/dynamic/app/e2e/client/2bebd4c82800b7e56c41f08acb0e74940e6e5b3c.map

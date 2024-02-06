@@ -1,0 +1,2 @@
+function module(e,t,n){n.export({useCreateFontStyleElement:function(){return o}}),n.link("react",{useMemo:function(e){r=e}},0);var r,u=function(e){var t=document.getElementById(e);if(t)return t;var n=document.createElement("style");return n.setAttribute("id",e),n},o=function(){return r(function(){return function(e){var t=u("rcx-font-size");t.innerHTML="html { font-size: "+e+"; }",document.head.appendChild(t)}},[])}}
+//# sourceMappingURL=/dynamic/client/views/account/accessibility/hooks/182d7eb4cbe97ff23c52d3fb9931bed7038b7a94.map

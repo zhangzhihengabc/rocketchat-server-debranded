@@ -1,0 +1,2 @@
+function module(e,n,t){var l,r,a;t.link("@rocket.chat/fuselage",{Box:function(e){l=e}},0),t.link("react",{default:function(e){r=e}},1),t.link("./UserCardInfo",{default:function(e){a=e}},2),t.exportDefault(function(e){var n=e.children;return r.createElement(l,{m:"neg-x2"},r.createElement(a,{flexWrap:"wrap",display:"flex",flexShrink:0},n))})}
+//# sourceMappingURL=/dynamic/client/components/UserCard/ca54a704145608431b5afbb4a8f977868da85092.map

@@ -1,0 +1,2 @@
+function module(e,t,l){let n,r,u,o;l.link("@rocket.chat/fuselage",{Box(e){n=e}},0),l.link("react",{default(e){r=e},useEffect(e){u=e},useState(e){o=e}},1),l.exportDefault(e=>{let{counter:t=0}=e,[l,c]=o(t);return u(()=>{setTimeout(()=>c(l+1),1e3)},[l]),r.createElement(n,{color:"white",textAlign:"center"},new Date(1e3*l).toISOString().substr(11,8))})}
+//# sourceMappingURL=/dynamic/client/views/meet/5f749ba9ae9e29e836b4146c570b10a50795fd9d.map

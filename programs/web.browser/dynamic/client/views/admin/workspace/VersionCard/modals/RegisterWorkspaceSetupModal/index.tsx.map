@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/admin/workspace/VersionCard/modals/RegisterWorkspaceSetupModal/index.tsx","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './RegisterWorkspaceSetupModal';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,gCAAe,CAAAC,QAAAA,SAAgC,EAAA"}

@@ -1,0 +1,2 @@
+function module(e,t,l){let a,r,n;l.link("@rocket.chat/fuselage",{Grid(e){a=e}},0),l.link("@rocket.chat/fuselage-hooks",{useBreakpoints(e){r=e}},1),l.link("react",{default(e){n=e}},2),l.exportDefault(e=>{let{children:t}=e,l=r(),o=!l.includes("lg");return n.createElement(a.Item,{xs:4,sm:4,md:4,lg:6,xl:4,p:8,maxWidth:o?"100%":"50%",flexGrow:1},t)})}
+//# sourceMappingURL=/dynamic/client/views/home/5d53fa34cc3719135aa16fb304f38003148479e9.map

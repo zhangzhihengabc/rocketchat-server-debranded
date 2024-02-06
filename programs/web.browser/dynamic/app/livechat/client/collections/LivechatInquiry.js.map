@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/livechat/client/collections/LivechatInquiry.js","meteor://💻app/<anon>"],"sourcesContent":["import { Mongo } from 'meteor/mongo';\n\nexport const LivechatInquiry = new Mongo.Collection(null);\n",null],"names":["Mongo","module","export","LivechatInquiry","link","v","Collection"],"mappings":"2BAAyDA,EAAzDC,EAAOC,MAAM,CAAC,CAACC,gBAAgB,IAAIA,CAAe,GAAaF,EAAOG,IAAI,CAAC,eAAe,CAACJ,MAAMK,CAAC,EAAEL,EAAMK,CAAC,CAAC,EAAE,GAEvG,IAAMF,EAAkB,IAAIH,EAAMM,UAAU,CAAC"}

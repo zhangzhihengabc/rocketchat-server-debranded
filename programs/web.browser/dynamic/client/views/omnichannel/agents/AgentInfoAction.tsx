@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,i,o;let r=["icon","label"];l.link("@babel/runtime/helpers/extends",{default(e){n=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){a=e}},1),l.link("@rocket.chat/fuselage",{Button(e){i=e}},0),l.link("react",{default(e){o=e}},1),l.exportDefault(e=>{let{icon:t,label:l}=e,u=a(e,r);return o.createElement(i,n({icon:t,"data-qa":"AgentInfoAction-".concat(l),title:l},u,{mi:4}),l)})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/agents/ab574d8ebbcac20e99f20d85b9df186025861e06.map

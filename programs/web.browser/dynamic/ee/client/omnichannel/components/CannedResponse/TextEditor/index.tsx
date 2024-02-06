@@ -1,0 +1,2 @@
+function module(e,t,l){let a,n,x,i;l.link("@rocket.chat/fuselage",{Box(e){a=e}},0),l.link("react",{default(e){n=e}},1),l.link("./Textarea",{default(e){x=e}},2),l.link("./Toolbox",{default(e){i=e}},3),l.exportDefault(Object.assign(e=>{let{children:t}=e;return n.createElement(a,{display:"flex",flexDirection:"column",pbs:"12px",pi:"16px",pbe:"16px","rcx-box--animated":!0,"rcx-input-box__wrapper":!0},t)},{Toolbox:i,Textarea:x}))}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/components/CannedResponse/TextEditor/6dec486fb4366c7f69f9f0953df651cbe988ae7a.map

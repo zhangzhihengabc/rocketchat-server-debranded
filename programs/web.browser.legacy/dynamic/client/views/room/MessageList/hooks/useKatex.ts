@@ -1,0 +1,2 @@
+function module(t,e,n){n.export({useKatex:function(){return x}}),n.link("@rocket.chat/ui-contexts",{useSetting:function(t){a=t}},0);var a,x=function(){var t=!!a("Katex_Enabled"),e=!!a("Katex_Dollar_Syntax")&&t,n=!!a("Katex_Parenthesis_Syntax")&&t;return{katexEnabled:t,katexDollarSyntaxEnabled:e,katexParenthesisSyntaxEnabled:n}}}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/hooks/904224b6b5bbe6498b9d1df0008d239c8378a68d.map

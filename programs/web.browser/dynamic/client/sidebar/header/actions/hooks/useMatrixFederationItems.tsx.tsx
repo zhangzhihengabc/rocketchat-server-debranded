@@ -1,0 +1,2 @@
+function module(e,t,o){let a,r,i;o.export({useMatrixFederationItems:()=>n}),o.link("@rocket.chat/ui-contexts",{useTranslation(e){a=e}},0),o.link("../../MatrixFederationSearch",{default(e){r=e}},1),o.link("../../hooks/useCreateRoomModal",{useCreateRoomModal(e){i=e}},2);let n=e=>{let{isMatrixEnabled:t}=e,o=a(),n=i(r),l={id:"matrix-federation-search",content:o("Federation_Search_federated_rooms"),icon:"magnifier",onClick:()=>{n()}};return[...t?[l]:[]]}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/actions/hooks/94a6a825a150f96e26659bf8fd15b8e058b5440e.map

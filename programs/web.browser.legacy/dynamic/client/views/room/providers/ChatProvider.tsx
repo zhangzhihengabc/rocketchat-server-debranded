@@ -1,0 +1,2 @@
+function module(t,n,e){var o,i,a,s;e.link("react",{default:function(t){o=t}},0),e.link("../contexts/ChatContext",{ChatContext:function(t){i=t}},1),e.link("../contexts/RoomContext",{useRoom:function(t){a=t}},2),e.link("./hooks/useChatMessagesInstance",{useChatMessagesInstance:function(t){s=t}},3),e.exportDefault(function(t){var n=t.children,e=t.tmid,u=s({rid:a()._id,tmid:e});return o.createElement(i.Provider,{value:u},n)})}
+//# sourceMappingURL=/dynamic/client/views/room/providers/236454e5c6f52d4dd7fb4b8d2256065dc7c1f74f.map

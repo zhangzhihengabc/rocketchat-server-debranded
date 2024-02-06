@@ -1,0 +1,2 @@
+function module(t,e,n){let o,l,a;n.link("@rocket.chat/ui-contexts",{useTranslation(t){o=t}},0),n.link("react",{default(t){l=t}},1),n.link("../../components/NotFoundState",{default(t){a=t}},2),n.exportDefault(()=>{let t=o();return l.createElement(a,{title:t("Page_not_found"),subtitle:t("Page_not_exist_or_not_permission")})})}
+//# sourceMappingURL=/dynamic/client/views/notFound/97438b54b6a218e57c77d9b0af8192fb514f3cd3.map

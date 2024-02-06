@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/livechat/client/externalFrame/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './generateNewKey';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA"}

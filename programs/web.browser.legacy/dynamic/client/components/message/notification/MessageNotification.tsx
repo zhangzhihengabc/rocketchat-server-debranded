@@ -1,0 +1,2 @@
+function module(t,e,n){var a,l,i;n.link("@rocket.chat/fuselage",{Box:function(t){a=t}},0),n.link("@rocket.chat/ui-contexts",{useTranslation:function(t){l=t}},1),n.link("react",{default:function(t){i=t}},2),n.exportDefault(function(t){var e=t.label,n=t.bg,u=l();return i.createElement(a,{width:"x8","aria-label":u(e),borderRadius:"full",height:"x8",bg:n})})}
+//# sourceMappingURL=/dynamic/client/components/message/notification/9089496d361e00fcf8504e6db508f0023708b04c.map

@@ -1,0 +1,2 @@
+function module(t,o,e){let n;e.export({syncOutlookEvents:()=>r}),e.link("./NotOnDesktopError",{NotOnDesktopError(t){n=t}},0);let r=async()=>{let t=new Date,o=window.RocketChatDesktop;if(!(null!=o&&o.getOutlookEvents))throw new n;let e=await o.getOutlookEvents(t);if("canceled"===e.status)throw Error("abort")}}
+//# sourceMappingURL=/dynamic/client/views/outlookCalendar/lib/ea8d3cf9ce4e3baa597aefa3ec3391c0c735b08e.map

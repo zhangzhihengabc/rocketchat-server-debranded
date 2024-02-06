@@ -1,0 +1,2 @@
+function module(e,r,t){t.export({mapBusinessHoursForm:()=>i});let i=(e,r)=>{var t;let{daysOpen:i,daysTime:u}=e;return null===(t=r.workHours)||void 0===t?void 0:t.map(e=>{let{day:r,start:{time:t},finish:{time:n}}=e,o=i.includes(r);if(u[r]){let{start:e,finish:t}=u[r];return{day:r,start:e,finish:t,open:o}}return{day:r,start:t,finish:n,open:o}})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/businessHours/3fff8c5e022922a801e00e9fe3b0d3b450ae9d15.map

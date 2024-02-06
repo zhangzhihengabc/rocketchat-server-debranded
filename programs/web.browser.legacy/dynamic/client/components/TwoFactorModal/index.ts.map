@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/components/TwoFactorModal/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './TwoFactorModal';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,mBAAe,CAAA,QAAA,SAAmB,EAAA"}

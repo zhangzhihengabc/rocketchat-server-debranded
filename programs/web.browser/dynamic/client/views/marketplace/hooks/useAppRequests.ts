@@ -1,0 +1,2 @@
+function module(e,t,u){let s,n;u.export({useAppRequests:()=>r}),u.link("@rocket.chat/ui-contexts",{useEndpoint(e){s=e}},0),u.link("@tanstack/react-query",{useQuery(e){n=e}},1);let r=(e,t,u,r,p)=>{let a=s("GET","/apps/app-request");return n({queryKey:["app-requests",e,t,u],queryFn:async()=>a({appId:e,q:p,sort:r,limit:t,offset:u}),cacheTime:0})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/d18ddb7908aede2ba3654a1b1588525413497525.map

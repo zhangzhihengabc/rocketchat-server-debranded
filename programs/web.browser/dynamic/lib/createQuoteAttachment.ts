@@ -1,0 +1,2 @@
+function module(e,t,a){let n,s,l;function r(e,t,a,r){return n(n({text:e.msg,md:e.md},s(e)&&{translations:null==e?void 0:e.translations}),{},{message_link:t,author_name:e.alias||l(e.u.name,e.u.username,a),author_icon:r,attachments:e.attachments||[],ts:e.ts})}a.link("@babel/runtime/helpers/objectSpread2",{default(e){n=e}},0),a.export({createQuoteAttachment:()=>r}),a.link("@rocket.chat/core-typings",{isTranslatedMessage(e){s=e}},0),a.link("./getUserDisplayName",{getUserDisplayName(e){l=e}},1)}
+//# sourceMappingURL=/dynamic/lib/af3e4de02e9e596453e3eb359e03f6c24b032e0c.map

@@ -1,0 +1,2 @@
+function module(e,t,l){let r,n,o,c,a,i,u;l.link("react",{default(e){r=e},memo(e){n=e},useEffect(e){o=e},useState(e){c=e}},0),l.link("react-dom",{createPortal(e){a=e}},1),l.link("../lib/utils/createAnchor",{createAnchor(e){i=e}},2),l.link("../lib/utils/deleteAnchor",{deleteAnchor(e){u=e}},3),l.exportDefault(n(e=>{let{children:t}=e,[l]=c(()=>i("video-conf-root"));return o(()=>()=>u(l),[l]),r.createElement(r.Fragment,null,a(t,l))}))}
+//# sourceMappingURL=/dynamic/client/portals/d72c469f229c4b761383571c2f8c1ab18de4e0c8.map

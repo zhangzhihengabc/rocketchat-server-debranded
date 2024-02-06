@@ -1,0 +1,2 @@
+function module(e,t,l){let n,r,u;l.link("@rocket.chat/fuselage",{OptionColumn(e){n=e},OptionContent(e){r=e}},0),l.link("react",{default(e){u=e}},1),l.exportDefault(e=>{let{shortcut:t,text:l}=e;return u.createElement(u.Fragment,null,u.createElement(n,null,u.createElement("strong",null,t)),u.createElement(r,null,l))})}
+//# sourceMappingURL=/dynamic/app/ui-message/client/popup/components/composerBoxPopup/e5110adeacc78f2d68f59f1c7f919358d1b88be7.map

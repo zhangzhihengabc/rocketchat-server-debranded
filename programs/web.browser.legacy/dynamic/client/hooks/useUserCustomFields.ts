@@ -1,0 +1,2 @@
+function module(e,t,n){n.link("@babel/runtime/helpers/slicedToArray",{default:function(e){u=e}},0),n.export({useUserCustomFields:function(){return i}}),n.link("@rocket.chat/ui-contexts",{useSetting:function(e){o=e}},0);var u,o,i=function(e){var t,n=o("Accounts_CustomFieldsToShowInUserInfo");try{t=JSON.parse(n)}catch(e){t=void 0}if(t)return t.map(function(t){if(t){var n=u(Object.keys(t),1)[0],o=u(Object.values(t),1)[0],i=null==e?void 0:e[o];return{label:n,value:""!==i?i:void 0}}})}}
+//# sourceMappingURL=/dynamic/client/hooks/f23119b23bee456de715b7f32344e941b69e3d06.map

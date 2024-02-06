@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,u,o;l.link("@rocket.chat/ui-contexts",{useRole(e){n=e}},0),l.link("react",{default(e){a=e}},1),l.link("../../notAuthorized/NotAuthorizedPage",{default(e){u=e}},2),l.link("./FederationDashboardPage",{default(e){o=e}},3),l.exportDefault(()=>{let e=n("admin");return e?a.createElement(o,null):a.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/client/views/admin/federationDashboard/c9dc7845253baf1817e7537b6519696acbecad86.map

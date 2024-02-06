@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/message-mark-as-unread/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './actionButton';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA"}

@@ -1,0 +1,2 @@
+function module(e,n,t){t.export({getUidDirectMessage:function(){return r}}),t.link("meteor/meteor",{Meteor:function(e){i=e}},0),t.link("../../../app/models/client",{ChatRoom:function(e){o=e}},1);var i,o,r=function(e){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:i.userId(),t=o.findOne({_id:e},{fields:{t:1,uids:1}});if(t&&"d"===t.t&&t.uids&&!(t.uids.length>2))return t.uids.filter(function(e){return e!==n})[0]}}
+//# sourceMappingURL=/dynamic/client/lib/utils/2b70c8619da45bdc4de2ecb261cc5c2af5409736.map

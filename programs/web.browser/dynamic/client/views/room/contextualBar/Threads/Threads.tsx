@@ -1,0 +1,2 @@
+function module(e,t,l){let o,n,a,u;l.link("react",{default(e){o=e}},0),l.link("../../contexts/RoomToolboxContext",{useRoomToolbox(e){n=e}},1),l.link("./Thread",{default(e){a=e}},2),l.link("./ThreadList",{default(e){u=e}},3),l.exportDefault(()=>{let{context:e}=n();return e?o.createElement(a,{tmid:e}):o.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Threads/80b73c1191ab58746634a1d0413f339f7edca502.map

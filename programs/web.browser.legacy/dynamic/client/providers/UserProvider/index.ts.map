@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/providers/UserProvider/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './UserProvider';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,iBAAe,CAAA,QAAA,SAAiB,EAAA"}

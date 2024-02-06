@@ -1,0 +1,2 @@
+function module(e,t,s){let i,o,u,l;s.export({useSortMenu:()=>n}),s.link("@rocket.chat/ui-contexts",{useTranslation(e){i=e}},0),s.link("./useGroupingListItems",{useGroupingListItems(e){o=e}},1),s.link("./useSortModeItems",{useSortModeItems(e){u=e}},2),s.link("./useViewModeItems",{useViewModeItems(e){l=e}},3);let n=()=>{let e=i(),t=l(),s=u(),n=o(),r=[{title:e("Display"),items:t},{title:e("Sort_By"),items:s},{title:e("Group_by"),items:n}];return r}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/actions/hooks/a1f730a879b78c2c589f757b9ddf929bd8ec4b47.map

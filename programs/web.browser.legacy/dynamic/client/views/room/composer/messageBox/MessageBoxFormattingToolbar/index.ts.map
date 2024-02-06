@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/composer/messageBox/MessageBoxFormattingToolbar/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './MessageBoxFormattingToolbar';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,gCAAe,CAAA,QAAA,SAAgC,EAAA"}

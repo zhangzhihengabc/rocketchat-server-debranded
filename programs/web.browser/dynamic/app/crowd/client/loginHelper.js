@@ -1,0 +1,2 @@
+function module(t,e,o){let r,n;o.link("meteor/accounts-base",{Accounts(t){r=t}},0),o.link("meteor/meteor",{Meteor(t){n=t}},1),n.loginWithCrowd=function(){for(var t=arguments.length,e=Array(t),o=0;o<t;o++)e[o]=arguments[o];let n=e.shift(),i=e.shift(),l=e.shift();r.callLoginMethod({methodArguments:[{crowd:!0,username:n,crowdPassword:i}],userCallback(t){if(l)return t?l(t):l()}})}}
+//# sourceMappingURL=/dynamic/app/crowd/client/a1f143a8d8c16e59ac5bcfe0c2646d4b5bedbd8b.map

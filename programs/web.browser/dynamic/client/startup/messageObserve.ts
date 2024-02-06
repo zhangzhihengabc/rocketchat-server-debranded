@@ -1,0 +1,2 @@
+function module(e,t,i){let n,s,d;i.link("meteor/meteor",{Meteor(e){n=e}},0),i.link("../../app/models/client",{ChatMessage(e){s=e}},1),i.link("../../app/ui-utils/client",{LegacyRoomManager(e){d=e}},2),n.startup(()=>{s.find().observe({removed(e){if(!d.getOpenedRoomByRid(e.rid))return;let t=s.findOne({ts:{$lt:e.ts}},{sort:{ts:-1}});t&&s.update({_id:t._id},{$set:{tick:new Date}});let i=s.findOne({ts:{$gt:e.ts}},{sort:{ts:1}});if(i)return s.update({_id:i._id},{$set:{tick:new Date}})}})})}
+//# sourceMappingURL=/dynamic/client/startup/12202196f3b5764530ce6d2c9de1f32629eaec93.map

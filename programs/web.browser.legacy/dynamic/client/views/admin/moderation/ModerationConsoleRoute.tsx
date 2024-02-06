@@ -1,0 +1,2 @@
+function module(e,n,t){var o,i,u,l;t.link("@rocket.chat/ui-contexts",{usePermission:function(e){o=e}},0),t.link("react",{default:function(e){i=e}},1),t.link("../../notAuthorized/NotAuthorizedPage",{default:function(e){u=e}},2),t.link("./ModerationConsolePage",{default:function(e){l=e}},3),t.exportDefault(function(){return o("view-moderation-console")?i.createElement(l,null):i.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/client/views/admin/moderation/9e705510238575ba1dc352eb0987a9a0320d836c.map

@@ -1,0 +1,2 @@
+function module(e,n,t){var o,l,r;t.link("react",{default:function(e){o=e},memo:function(e){l=e}},0),t.link("./TeamsChannelItem",{default:function(e){r=e}},1),t.exportDefault(l(function(e){var n=e.room,t=e.onClickView,l=e.reload;return n?o.createElement(r,{room:n,onClickView:function(){return t(n)},reload:l}):o.createElement(r.Skeleton,null)}))}
+//# sourceMappingURL=/dynamic/client/views/teams/contextualBar/channels/6951641ab248dddd945fa08811b9a0ed9dd18bfa.map

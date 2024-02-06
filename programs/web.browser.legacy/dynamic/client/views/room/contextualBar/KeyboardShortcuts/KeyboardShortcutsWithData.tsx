@@ -1,0 +1,2 @@
+function module(o,t,e){var n,l,u;e.link("react",{default:function(o){n=o}},0),e.link("../../contexts/RoomToolboxContext",{useRoomToolbox:function(o){l=o}},1),e.link("./KeyboardShortcuts",{default:function(o){u=o}},2),e.exportDefault(function(){var o=l().closeTab;return n.createElement(u,{handleClose:o})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/KeyboardShortcuts/c442fbcaeb918f08f345e444c4e51954d7c438f2.map

@@ -1,0 +1,2 @@
+function module(e,s,i){let a,t,l;i.export({isMessageSequential:()=>d}),i.link("date-fns",{differenceInSeconds(e){a=e}},0),i.link("../../../../../app/ui-utils/lib/MessageTypes",{MessageTypes(e){t=e}},1),i.link("./isMessageNewDay",{isMessageNewDay(e){l=e}},2);let d=(e,s,i)=>!(!s||t.isSystemMessage(e)||t.isSystemMessage(s))&&(e.tmid?[s.tmid,s._id].includes(e.tmid):!s.tmid&&!1!==e.groupable&&e.u._id===s.u._id&&e.alias===s.alias&&a(e.ts,s.ts)<i&&!l(e,s))}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/lib/c5cc8afbeb5ba97e15384111642067026f8ce734.map

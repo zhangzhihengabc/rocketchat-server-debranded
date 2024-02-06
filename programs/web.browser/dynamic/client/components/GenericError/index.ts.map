@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/components/GenericError/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './GenericError';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,iBAAe,CAAAC,QAAAA,SAAiB,EAAA"}

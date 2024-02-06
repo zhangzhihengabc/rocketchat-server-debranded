@@ -1,0 +1,2 @@
+function module(r,e,o){o.export({createFilterFromQuery:function(){return i},createComparatorFromSort:function(){return u}}),o.link("./query",{compileDocumentSelector:function(r){t=r}},0),o.link("./sort",{compileSort:function(r){n=r}},1),o.link("./types",{FieldExpression:"FieldExpression",Query:"Query",Sort:"Sort"},2);var t,n,i=t,u=n}
+//# sourceMappingURL=/dynamic/client/lib/minimongo/50d6557f27e52066d090af53850942022544a97b.map

@@ -1,0 +1,2 @@
+function module(e,l,t){let s,n,a;t.export({useSlaInfo:()=>i}),t.link("@rocket.chat/ui-contexts",{useEndpoint(e){s=e}},0),t.link("@tanstack/react-query",{useQuery(e){n=e}},1),t.link("../../../../../ee/client/hooks/useHasLicenseModule",{useHasLicenseModule(e){a=e}},2);let i=e=>{let l=!0===a("livechat-enterprise"),t=s("GET","/v1/livechat/sla/:slaId",{slaId:e});return n(["/v1/livechat/sla/:slaId",e],()=>t(),{enabled:l&&!!e})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/hooks/d1f2b63831c3aa1f790b774a23284099ff6c5cc7.map

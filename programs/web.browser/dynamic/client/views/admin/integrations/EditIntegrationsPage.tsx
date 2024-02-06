@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,u,i;n.link("@rocket.chat/ui-contexts",{useRouteParameter(e){l=e}},0),n.link("react",{default(e){o=e}},1),n.link("./incoming/EditIncomingWebhook",{default(e){u=e}},2),n.link("./outgoing/EditOutgoingWebhook",{default(e){i=e}},3),n.exportDefault(()=>{let e=l("type");return"outgoing"===e?o.createElement(i,null):o.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/client/views/admin/integrations/c08c1a386bee95217b65da152fc8c6f395bf31e6.map

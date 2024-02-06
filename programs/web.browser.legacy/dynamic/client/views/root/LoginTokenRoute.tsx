@@ -1,0 +1,2 @@
+function module(n,t,e){var o,u,c;e.link("@rocket.chat/ui-contexts",{useRouter:function(n){o=n}},0),e.link("meteor/accounts-base",{Accounts:function(n){u=n}},1),e.link("react",{useEffect:function(n){c=n}},2),e.exportDefault(function(){var n=o();return c(function(){u.callLoginMethod({methodArguments:[{loginToken:n.getRouteParameters().token}],userCallback:function(t){console.error(t),n.navigate("/")}})},[n]),null})}
+//# sourceMappingURL=/dynamic/client/views/root/60011bc1b9881a340628db917f9de5f81f9bb3e7.map

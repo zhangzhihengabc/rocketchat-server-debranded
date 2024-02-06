@@ -1,0 +1,2 @@
+function module(n,t,i){i.export({useAppUiKitInteraction:function(){return o}}),i.link("@rocket.chat/ui-contexts",{useStream:function(n){u=n},useUserId:function(n){e=n}},0),i.link("react",{useEffect:function(n){c=n}},1);var u,e,c,o=function(n){var t=u("notify-user"),i=e();c(function(){if(i)return t(i+"/uiInteraction",function(t){n(t)})},[t,i,n])}}
+//# sourceMappingURL=/dynamic/client/hooks/1f1100d36287b921e690a7a54a5262c5232c2438.map

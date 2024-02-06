@@ -1,0 +1,2 @@
+function module(e,n,t){let a,r,l;t.export({useOmnichannelCloseRoute:()=>o}),t.link("@rocket.chat/ui-contexts",{useRouter(e){a=e},useUserPreference(e){r=e}},0),t.link("react",{useCallback(e){l=e}},1);let o=()=>{var e;let n=null===(e=r("omnichannelHideConversationAfterClosing"))||void 0===e||e,t=a(),o=l(()=>{if(!n)return;let e=t.getRouteName();"omnichannel-current-chats"===e?t.navigate({name:"omnichannel-current-chats"}):t.navigate({name:"home"})},[n,t]);return{navigateHome:o}}}
+//# sourceMappingURL=/dynamic/client/hooks/omnichannel/b3d58214cbcb7adc65f9ec231fcc4586b85b59ef.map

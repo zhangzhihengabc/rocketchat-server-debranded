@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/contextualBar/VideoConference/VideoConfList/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './VideoConfListWithData';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,0BAAe,CAAA,QAAA,SAA0B,EAAA"}

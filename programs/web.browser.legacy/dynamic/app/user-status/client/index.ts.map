@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/user-status/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './notifications/deleteCustomUserStatus';\nimport './notifications/updateCustomUserStatus';\nimport './lib/customUserStatus';\n\nexport { userStatus } from './lib/userStatus';\n",null],"names":["module","link","userStatus"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA,0CAAyCD,EAAAA,IAAAA,CAAAA,0CAAAA,EAAAA,IAAAA,CAAAA,0BAAAA,EAAAA,IAAAA,CAAAA,mBAAAA,CAAAE,WAAAA,YAAA,EAAA"}

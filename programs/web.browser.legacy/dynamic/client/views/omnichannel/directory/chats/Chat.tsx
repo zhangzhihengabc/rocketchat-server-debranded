@@ -1,0 +1,2 @@
+function module(e,t,n){var o,l,r;n.link("@rocket.chat/fuselage",{Box:function(e){o=e}},0),n.link("react",{default:function(e){l=e}},1),n.link("../../../room/RoomOpener",{default:function(e){r=e}},2),n.exportDefault(function(e){var t=e.rid;return l.createElement(o,{position:"absolute",backgroundColor:"surface",width:"full",height:"full"},l.createElement(r,{type:"l",reference:t}))})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/chats/31186c69b8e3dc9cfbef51385545bdf655268d8c.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/lib/utils/exhaustiveCheck.ts","meteor://💻app/<anon>"],"sourcesContent":["export const exhaustiveCheck = (_: never): never => {\n\tthrow new Error('Exhaustive check failed');\n};\n",null],"names":["module","export","exhaustiveCheck","_","Error"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,gBAAkB,WAAoB,OAAAA,CAAA,CAAA,GAA5C,IAAMA,EAAkB,SAACC,CAAQ,EACvC,MAAM,AAAIC,MAAM,0BACjB"}

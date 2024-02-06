@@ -1,0 +1,2 @@
+function module(t,e,n){var u,c,i,o,r;n.link("@rocket.chat/ui-contexts",{useUserId:function(t){u=t},useRouter:function(t){c=t}},0),n.link("@rocket.chat/web-ui-registration",{default:function(t){i=t}},1),n.link("react",{default:function(t){o=t},useEffect:function(t){r=t}},2),n.exportDefault(function(){var t=u(),e=c();return(r(function(){t&&e.navigate("/home")},[t,e]),t)?null:o.createElement(i,{defaultRoute:"secret-register"})})}
+//# sourceMappingURL=/dynamic/client/views/invite/25011e57758505a4acf98263528234850fac687d.map

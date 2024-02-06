@@ -1,0 +1,2 @@
+function module(e,t,l){let n,i,r,u;let a=["icon","label"];l.link("@babel/runtime/helpers/extends",{default(e){n=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){i=e}},1),l.link("@rocket.chat/fuselage",{Button(e){r=e}},0),l.link("react",{default(e){u=e}},1),l.exportDefault(e=>{let{icon:t,label:l}=e,o=i(e,a);return u.createElement(r,n({icon:t,title:l},o,{mi:4}),l)})}
+//# sourceMappingURL=/dynamic/client/components/UserInfo/2fa0bfcc4d950eff3bcb515f0f20d82e6dfdffd4.map

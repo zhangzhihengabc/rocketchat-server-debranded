@@ -1,0 +1,2 @@
+function module(t,n,o){o.export({useContactChatHistoryRoomAction:function(){return e}}),o.link("react",{lazy:function(t){c=t},useMemo:function(t){i=t}},0);var c,i,r=c(function(){return o.dynamicImport("../../views/omnichannel/contactHistory/ContactHistory")}),e=function(){return i(function(){return{id:"contact-chat-history",groups:["live"],title:"Contact_Chat_History",icon:"clock",tabComponent:r,order:11}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/f06abf9c8e3d503011329448b6f6906b4edc425b.map

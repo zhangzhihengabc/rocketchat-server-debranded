@@ -1,0 +1,2 @@
+function module(e,t,n){var l,c,i;n.link("@rocket.chat/fuselage",{Grid:function(e){l=e}},0),n.link("@rocket.chat/fuselage-hooks",{useBreakpoints:function(e){c=e}},1),n.link("react",{default:function(e){i=e}},2),n.exportDefault(function(e){var t=e.children,n=!c().includes("lg");return i.createElement(l.Item,{xs:4,sm:4,md:4,lg:6,xl:4,p:8,maxWidth:n?"100%":"50%",flexGrow:1},t)})}
+//# sourceMappingURL=/dynamic/client/views/home/a839160ea53887d43ef2ae4cc36893d34c642c0a.map

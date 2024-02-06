@@ -1,0 +1,2 @@
+function module(e,t,o){let n,l,r;o.link("@rocket.chat/ui-contexts",{useRouter(e){n=e}},0),o.link("meteor/accounts-base",{Accounts(e){l=e}},1),o.link("react",{useEffect(e){r=e}},2),o.exportDefault(()=>{let e=n();return r(()=>{l.callLoginMethod({methodArguments:[{loginToken:e.getRouteParameters().token}],userCallback(t){console.error(t),e.navigate("/")}})},[e]),null})}
+//# sourceMappingURL=/dynamic/client/views/root/dc6e35f2a703fefb971dfebfe8d169409202021e.map

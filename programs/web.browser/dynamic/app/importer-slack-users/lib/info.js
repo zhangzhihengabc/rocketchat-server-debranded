@@ -1,0 +1,2 @@
+function module(r,t,s){let e;s.export({SlackUsersImporterInfo:()=>o}),s.link("../../importer/lib/ImporterInfo",{ImporterInfo(r){e=r}},0);class o extends e{constructor(){super("slack-users","Slack_Users","text/csv",[{text:"Importer_Slack_Users_CSV_Information",href:"https://rocket.chat/docs/administrator-guides/import/slack/users"}])}}}
+//# sourceMappingURL=/dynamic/app/importer-slack-users/lib/dd45e0cb84300943fb85817fc6ab5cd981e4c424.map

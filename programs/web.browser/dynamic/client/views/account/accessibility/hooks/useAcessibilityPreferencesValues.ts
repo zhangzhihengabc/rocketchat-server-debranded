@@ -1,0 +1,2 @@
+function module(e,t,n){let o;n.export({useAccessiblityPreferencesValues:()=>l}),n.link("@rocket.chat/ui-contexts",{useUserPreference(e){o=e}},0);let l=()=>{var e;let t=o("themeAppearence")||"auto",n=o("fontSize")||"100%",l=o("mentionsWithSymbol")||!1,r=null!==(e=o("clockMode"))&&void 0!==e?e:0,s=o("hideUsernames"),c=o("hideRoles");return{themeAppearence:t,fontSize:n,mentionsWithSymbol:l,clockMode:r,hideUsernames:s,hideRoles:c}}}
+//# sourceMappingURL=/dynamic/client/views/account/accessibility/hooks/2222d0702740bf1c6a44bbd4d9a09bf5e25b695e.map

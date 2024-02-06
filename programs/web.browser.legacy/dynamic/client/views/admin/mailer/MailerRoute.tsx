@@ -1,0 +1,2 @@
+function module(e,t,n){var u,i,l,o;n.link("@rocket.chat/ui-contexts",{usePermission:function(e){u=e}},0),n.link("react",{default:function(e){i=e}},1),n.link("../../notAuthorized/NotAuthorizedPage",{default:function(e){l=e}},2),n.link("./MailerPage",{default:function(e){o=e}},3),n.exportDefault(function(){return u("access-mailer")?i.createElement(o,null):i.createElement(l,null)})}
+//# sourceMappingURL=/dynamic/client/views/admin/mailer/d81b41d722b42b0ef1dd3f0f0802305c0dc9c037.map

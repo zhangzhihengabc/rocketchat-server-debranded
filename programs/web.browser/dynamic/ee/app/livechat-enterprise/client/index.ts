@@ -1,0 +1,2 @@
+function module(e,i,s){let n;s.link("../../license/client",{hasLicense(e){n=e}},0),s.link("../lib/messageTypes"),s.link("./startup"),n("livechat-enterprise").then(e=>{if(e)return Promise.all([s.dynamicImport("./views/livechatSideNavItems"),s.dynamicImport("./views/business-hours/Multiple"),s.dynamicImport("./messageTypes")])})}
+//# sourceMappingURL=/dynamic/ee/app/livechat-enterprise/client/4d41e1a00a783899d4b1336fd730a838f12c1342.map

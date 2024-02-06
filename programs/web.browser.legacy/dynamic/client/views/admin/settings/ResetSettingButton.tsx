@@ -1,0 +1,2 @@
+function module(t,e,n){var a,l,u,i;n.link("@babel/runtime/helpers/extends",{default:function(t){a=t}},0),n.link("@rocket.chat/fuselage",{IconButton:function(t){l=t}},0),n.link("@rocket.chat/ui-contexts",{useTranslation:function(t){u=t}},1),n.link("react",{default:function(t){i=t}},2),n.exportDefault(function(t){var e=u();return i.createElement(l,a({icon:"undo",type:"button","aria-label":e("Reset"),danger:!0,small:!0,title:e("Reset"),style:{padding:0}},t))})}
+//# sourceMappingURL=/dynamic/client/views/admin/settings/2a50c0e943361cf3f0c9ce1f17e476dec085e5b2.map

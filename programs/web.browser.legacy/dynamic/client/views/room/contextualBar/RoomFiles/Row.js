@@ -1,0 +1,2 @@
+function module(e,n,t){var l,i,o;t.link("react",{default:function(e){l=e},memo:function(e){i=e}},0),t.link("./components/FileItem",{default:function(e){o=e}},1),t.exportDefault(i(function(e){var n=e.item,t=e.data,i=e.index,a=t.onClickDelete,c=t.isDeletionAllowed;return n&&l.createElement(o,{index:i,fileData:n,onClickDelete:a,isDeletionAllowed:c})}))}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomFiles/f5cb4dea5d40388d1f9d76a2a3e693d26ec32c5c.map

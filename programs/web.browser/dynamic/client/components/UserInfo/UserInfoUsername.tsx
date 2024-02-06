@@ -1,0 +1,2 @@
+function module(e,t,l){let a,r,n,u;let s=["username","status"];l.link("@babel/runtime/helpers/extends",{default(e){a=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){r=e}},1),l.link("react",{default(e){n=e}},0),l.link("../UserCard",{default(e){u=e}},1),l.exportDefault(e=>{let{username:t,status:l}=e,i=r(e,s);return n.createElement(u.Username,a({name:t,status:l},i))})}
+//# sourceMappingURL=/dynamic/client/components/UserInfo/569888f06700c29af37c0592c6c36ed0956cb93e.map

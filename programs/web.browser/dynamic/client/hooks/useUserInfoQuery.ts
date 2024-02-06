@@ -1,0 +1,2 @@
+function module(e,t,r){let u,n,s;r.link("@babel/runtime/helpers/objectSpread2",{default(e){u=e}},0),r.export({useUserInfoQuery:()=>o}),r.link("@rocket.chat/ui-contexts",{useEndpoint(e){n=e}},0),r.link("@tanstack/react-query",{useQuery(e){s=e}},1);let o=e=>{let t=n("GET","/v1/users.info"),r=s(["users.info",e],()=>t(u({},e)),{keepPreviousData:!0});return r}}
+//# sourceMappingURL=/dynamic/client/hooks/4fd9d6206fea9069807a1f44a1ac9e0a7c1fe96f.map

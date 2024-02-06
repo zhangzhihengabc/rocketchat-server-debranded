@@ -1,0 +1,2 @@
+function module(t,a,e){let l,r;e.export({useUpdateChartData:()=>n}),e.link("@rocket.chat/fuselage-hooks",{useMutableCallback(t){l=t}},0),e.link("../../../../../app/livechat/client/lib/chartHandler",{updateChart(t){r=t}},1);let n=t=>{let{context:a,canvas:e,init:n,t:c}=t;return l(async(t,l)=>{var u;let i=e.current;if(!i)return;let o=null!==(u=a.current)&&void 0!==u?u:await n(i,void 0,c);await r(o,t,l)})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/realTimeMonitoring/charts/23deae8311121e3639c561a5372a85d14a2c7bb3.map

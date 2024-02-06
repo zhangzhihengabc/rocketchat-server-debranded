@@ -1,0 +1,2 @@
+function module(e,n,t){t.link("@babel/runtime/helpers/extends",{default:function(e){r=e}},0),t.link("@rocket.chat/fuselage",{TextAreaInput:function(e){u=e}},0),t.link("react",{default:function(e){l=e},forwardRef:function(e){a=e}},1);var r,u,l,a,f=a(function(e,n){return l.createElement(u,r({ref:n,w:"full",style:{wordBreak:"normal"},"rcx-input-box--undecorated":!0},e))});t.exportDefault(f)}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/components/CannedResponse/TextEditor/c85356f26ad8700cbd8618df818ddd63567b8e22.map

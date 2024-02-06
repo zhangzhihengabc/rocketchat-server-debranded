@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/importer-csv/client/adder.js","meteor://💻app/<anon>"],"sourcesContent":["import { Importers } from '../../importer/client';\nimport { CsvImporterInfo } from '../lib/info';\n\nImporters.add(new CsvImporterInfo());\n",null],"names":["Importers","CsvImporterInfo","module","link","v","add"],"mappings":"2BAAIA,EAAiFC,EAAvEC,EAAOC,IAAI,CAAC,wBAAwB,CAACH,UAAUI,CAAC,EAAEJ,EAAUI,CAAC,CAAC,EAAE,GAAuBF,EAAOC,IAAI,CAAC,cAAc,CAACF,gBAAgBG,CAAC,EAAEH,EAAgBG,CAAC,CAAC,EAAE,GAGvKJ,EAAUK,GAAG,CAAC,IAAIJ"}

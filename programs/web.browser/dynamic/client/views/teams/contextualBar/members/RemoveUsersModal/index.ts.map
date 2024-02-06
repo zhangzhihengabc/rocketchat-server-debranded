@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/teams/contextualBar/members/RemoveUsersModal/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './RemoveUsersModal';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,qBAAe,CAAAC,QAAAA,SAAqB,EAAA"}

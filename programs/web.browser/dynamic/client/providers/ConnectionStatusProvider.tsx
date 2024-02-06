@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,r,a,c;n.link("@babel/runtime/helpers/objectSpread2",{default(e){l=e}},0),n.link("@rocket.chat/ui-contexts",{ConnectionStatusContext(e){o=e}},0),n.link("meteor/meteor",{Meteor(e){r=e}},1),n.link("react",{default(e){a=e}},2),n.link("../hooks/useReactiveValue",{useReactiveValue(e){c=e}},3);let u=()=>l(l({},r.status()),{},{reconnect:r.reconnect});n.exportDefault(e=>{let{children:t}=e,n=c(u);return a.createElement(o.Provider,{children:t,value:n})})}
+//# sourceMappingURL=/dynamic/client/providers/e31aafbd74c0281d5a0e59bf55151122638139ad.map

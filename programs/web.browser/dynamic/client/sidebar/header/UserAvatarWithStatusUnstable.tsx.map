@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/sidebar/header/UserAvatarWithStatusUnstable.tsx","meteor://💻app/<anon>"],"sourcesContent":["import UserAvatarWithStatus from './UserAvatarWithStatus';\n\nexport default UserAvatarWithStatus;\n",null],"names":["UserAvatarWithStatus","module","link","default","exportDefault"],"mappings":"uBAAA,IAAAA,EAAOC,EAAoBC,IAAM,CAAA,yBAAyB,CAAAC,QAAAA,CAAAA,EAAAH,EAAAA,CAAA,CAAA,EAAA,GAA1DC,EAAOG,aAAAA,CAEQJ"}

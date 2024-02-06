@@ -1,0 +1,2 @@
+function module(t,e,n){let s,r;n.export({applyCustomTranslations:()=>i}),n.link("../../../app/settings/client",{settings(t){s=t}},0),n.link("../../../app/utils/lib/i18n",{i18n(t){r=t}},1);let l=t=>{try{return JSON.parse(t)}catch(t){return!1}},i=()=>{let t=s.get("Custom_Translations");if(t&&l(t))try{let e=JSON.parse(t);for(let[t,n]of Object.entries(e))r.addResourceBundle(t,"core",n)}catch(t){console.error("Invalid setting Custom_Translations",t)}}}
+//# sourceMappingURL=/dynamic/client/lib/utils/01e9d7d16ca233ab3f0c6be6f89a331350cfa006.map

@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,u,c;l.link("@rocket.chat/fuselage",{Box(e){n=e}},0),l.link("react",{default(e){a=e}},1),l.link("./IconButton",{default(e){u=e}},2),l.link("./TextButton",{default(e){c=e}},3),l.exportDefault(Object.assign(e=>{let{children:t}=e;return a.createElement(a.Fragment,null,a.createElement(n,{display:"flex",w:"full",justifyContent:"space-between",alignItems:"center"},t))},{IconButton:u,TextButton:c}))}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/components/CannedResponse/TextEditor/f2d6f21732004ffc9974ac395e9919b699116f3d.map

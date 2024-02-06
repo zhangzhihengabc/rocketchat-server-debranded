@@ -1,0 +1,2 @@
+function module(e,t,o){let i,n,r,s,l;o.export({useCanEditRoom:()=>c}),o.link("@rocket.chat/core-typings",{isRoomFederated(e){i=e}},0),o.link("@rocket.chat/ui-contexts",{usePermission(e){n=e},useUser(e){r=e}},1),o.link("../../../../../lib/federation/Federation",{"*"(e){s=e}},2),o.link("../../../contexts/RoomContext",{useRoomSubscription(e){l=e}},3);let c=e=>{let t=r(),o=l(),c=n("edit-room",e._id),d=i(e),u=t&&d?s.isEditableByTheUser(t,e,o)&&c:c;return u}}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Info/hooks/31253e784decd1f3ad5987b529aa48f1ee8ccdf2.map

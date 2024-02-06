@@ -1,0 +1,2 @@
+function module(e,n,t){var i,u,l,o;t.link("@rocket.chat/ui-contexts",{usePermission:function(e){i=e}},0),t.link("react",{default:function(e){u=e}},1),t.link("../../../../client/views/notAuthorized/NotAuthorizedPage",{default:function(e){l=e}},2),t.link("./CannedResponsesPage",{default:function(e){o=e}},3),t.exportDefault(function(){return i("manage-livechat-canned-responses")?u.createElement(o,null):u.createElement(l,null)})}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/cannedResponses/8f88fc6711d2c48ea0aea7a59dc706fad13096eb.map

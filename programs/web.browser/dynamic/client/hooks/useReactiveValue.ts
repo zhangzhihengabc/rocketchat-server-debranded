@@ -1,0 +1,2 @@
+function module(e,t,r){let c,i,n;r.export({useReactiveValue:()=>a}),r.link("react",{useMemo(e){c=e}},0),r.link("use-sync-external-store/shim",{useSyncExternalStore(e){i=e}},1),r.link("../lib/createReactiveSubscriptionFactory",{createReactiveSubscriptionFactory(e){n=e}},2);let a=e=>{let[t,r]=c(()=>n(e)(),[e]);return i(t,r)}}
+//# sourceMappingURL=/dynamic/client/hooks/eb2863660c68b6b916a2141a559658cdeaa25fa7.map

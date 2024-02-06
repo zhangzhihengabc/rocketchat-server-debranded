@@ -1,0 +1,2 @@
+function module(e,t,s){let a,n,u;s.export({useAppRequestStats:()=>r}),s.link("@rocket.chat/ui-contexts",{useEndpoint(e){a=e},usePermission(e){n=e}},0),s.link("@tanstack/react-query",{useQuery(e){u=e}},1);let r=()=>{let e=n("manage-apps"),t=a("GET","/apps/app-request/stats");return u({queryKey:["app-requests-stats"],queryFn:async()=>(await t()).data,refetchOnWindowFocus:!1,retry:!1,enabled:e})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/fb6ce90f4426786e8efede18c1a9c3fe0cbf2651.map

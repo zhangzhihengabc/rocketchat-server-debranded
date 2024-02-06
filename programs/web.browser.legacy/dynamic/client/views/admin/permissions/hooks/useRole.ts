@@ -1,0 +1,2 @@
+function module(n,e,u){u.export({useRole:function(){return c}}),u.link("react",{useCallback:function(n){i=n}},0),u.link("../../../../../app/models/client",{Roles:function(n){t=n}},1),u.link("../../../../hooks/useReactiveValue",{useReactiveValue:function(n){o=n}},2);var i,t,o,c=function(n){return o(i(function(){return t.findOne({_id:n})},[n]))}}
+//# sourceMappingURL=/dynamic/client/views/admin/permissions/hooks/8b05791999da53b5add390c043b15e3507919049.map

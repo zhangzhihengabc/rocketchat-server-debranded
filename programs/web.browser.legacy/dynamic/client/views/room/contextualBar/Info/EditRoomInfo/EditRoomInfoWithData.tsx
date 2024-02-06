@@ -1,0 +1,2 @@
+function module(o,n,t){var e,c,l,i;t.link("react",{default:function(o){e=o}},0),t.link("../../../contexts/RoomContext",{useRoom:function(o){c=o}},1),t.link("../../../contexts/RoomToolboxContext",{useRoomToolbox:function(o){l=o}},2),t.link("./EditRoomInfo",{default:function(o){i=o}},3),t.exportDefault(function(o){var n=o.onClickBack,t=c(),u=l().closeTab;return e.createElement(i,{onClickClose:u,onClickBack:n,room:t})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Info/EditRoomInfo/afc128d91ad1c9ee6c3e58f629baca8923024129.map

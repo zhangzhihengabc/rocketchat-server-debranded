@@ -1,0 +1,2 @@
+function module(e,n,a){let o,t;a.export({useTeamChannelsRoomAction:()=>m}),a.link("react",{lazy(e){o=e},useMemo(e){t=e}},0);let l=o(()=>a.dynamicImport("../../views/teams/contextualBar/channels/TeamsChannels")),m=()=>t(()=>({id:"team-channels",groups:["team"],anonymous:!0,full:!0,title:"Team_Channels",icon:"hash",tabComponent:l,order:2}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/fc10d240d249b98936195cea9fec35f36377945c.map

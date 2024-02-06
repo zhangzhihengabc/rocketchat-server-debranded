@@ -1,0 +1,2 @@
+function module(n,u,l){l.export({useHandleMenuAction:function(){return t}}),l.link("@rocket.chat/fuselage-hooks",{useMutableCallback:function(n){o=n}},0);var o,t=function(n,u){return o(function(l){var o,t=n.find(function(n){return n.id===l&&!!n.onClick});t&&(null===(o=t.onClick)||void 0===o||o.call(t),null==u||u())})}}
+//# sourceMappingURL=/dynamic/client/components/GenericMenu/hooks/15f20fa9a753a7f39bb6237fcf812c750971a9b5.map

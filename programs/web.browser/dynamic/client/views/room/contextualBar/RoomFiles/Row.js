@@ -1,0 +1,2 @@
+function module(e,l,t){let n,i,o;t.link("react",{default(e){n=e},memo(e){i=e}},0),t.link("./components/FileItem",{default(e){o=e}},1),t.exportDefault(i(e=>{let{item:l,data:t,index:i}=e,{onClickDelete:a,isDeletionAllowed:m}=t;return l&&n.createElement(o,{index:i,fileData:l,onClickDelete:a,isDeletionAllowed:m})}))}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomFiles/13f3489d3576a74e2cc559fc4ec72f620685b5b3.map

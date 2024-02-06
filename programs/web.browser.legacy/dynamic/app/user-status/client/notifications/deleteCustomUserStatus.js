@@ -1,0 +1,2 @@
+function module(t,n,e){var o,u,i;e.link("meteor/meteor",{Meteor:function(t){o=t}},0),e.link("../../../notifications/client",{Notifications:function(t){u=t}},1),e.link("../lib/customUserStatus",{deleteCustomUserStatus:function(t){i=t}},2),o.startup(function(){return u.onLogged("deleteCustomUserStatus",function(t){return i(t.userStatusData)})})}
+//# sourceMappingURL=/dynamic/app/user-status/client/notifications/220d1273533eec8d6c52869b8f413ab08ed12c20.map

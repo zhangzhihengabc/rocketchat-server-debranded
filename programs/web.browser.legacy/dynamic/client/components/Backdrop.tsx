@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/extends",{default:function(n){r=n}},0),t.export({Backdrop:function(){return c}}),t.link("@rocket.chat/fuselage",{Modal:function(n){a=n}},0),t.link("react",{default:function(n){u=n}},1);var r,a,u,c=function(n){return u.createElement(a.Backdrop,r({bg:"transparent"},n))}}
+//# sourceMappingURL=/dynamic/client/components/2983ae157c29198a866b5ebfcff15b093e022b35.map

@@ -1,0 +1,2 @@
+function module(e,n,o){o.export({useUserHasRoomRole:function(){return l}}),o.link("react",{useCallback:function(e){u=e}},0),o.link("../../../../app/models/client",{RoomRoles:function(e){i=e}},1),o.link("../../../hooks/useReactiveValue",{useReactiveValue:function(e){t=e}},2);var u,i,t,l=function(e,n,o){return t(u(function(){return!!i.findOne({rid:n,"u._id":e,roles:o})},[e,n,o]))}}
+//# sourceMappingURL=/dynamic/client/views/room/hooks/89c0628c5c683c8c60fc13ec4fbe3a1b52fac4da.map

@@ -1,0 +1,2 @@
+function module(e,t,r){let o,l;r.link("meteor/meteor",{Meteor(e){o=e}},0),r.link("meteor/oauth",{OAuth(e){l=e}},1),o.startup(()=>{let e=l._retrieveCredentialSecret;l._retrieveCredentialSecret=t=>{let r=e.call(l,t);if(!r){let e="".concat(l._storageTokenPrefix).concat(t);r=localStorage.getItem(e),localStorage.removeItem(e)}return r}})}
+//# sourceMappingURL=/dynamic/client/startup/9fa50d9b893b918552dd1cdcc51d04028b574f34.map

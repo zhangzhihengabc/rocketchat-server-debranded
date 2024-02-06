@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,i,s;l.link("react",{default(e){n=e},memo(e){a=e}},0),l.link("../../../../../client/components/GenericNoResults",{default(e){i=e}},1),l.link("./AuditMessageList",{default(e){s=e}},2),l.exportDefault(a(e=>{let{className:t,messages:l}=e;return 0===l.length?n.createElement(i,null):n.createElement("div",{className:t,role:"list","aria-live":"polite"},n.createElement(s,{messages:l}))}))}
+//# sourceMappingURL=/dynamic/ee/client/views/audit/components/7f1b6cf824aae4f0f99291c4077bd369ccddb4a4.map

@@ -1,0 +1,2 @@
+function module(t,e,a){let n,r,l;a.export({updateApp:()=>p}),a.link("../../../../ee/client/apps/orchestrator",{AppClientOrchestratorInstance(t){n=t}},0),a.link("./handleAPIError",{handleAPIError(t){r=t}},1),a.link("./warnStatusChange",{warnStatusChange(t){l=t}},2);let p=async t=>{let{id:e,name:a,marketplaceVersion:p,permissionsGranted:c}=t;try{let{status:t}=await n.updateApp(e,p,c);t&&l(a,t)}catch(t){r(t)}}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/440b00f675882566e93c91165b08013aa4e335cd.map

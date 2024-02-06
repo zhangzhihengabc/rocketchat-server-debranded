@@ -1,0 +1,2 @@
+function module(e,t,r){let l,a,n,u;r.link("@babel/runtime/helpers/extends",{default(e){l=e}},0),r.link("@rocket.chat/fuselage",{Box(e){a=e}},0),r.link("react",{default(e){n=e},forwardRef(e){u=e}},1);let f=u(function e(e,t){return n.createElement(a,l({ref:t,"rcx-user-card":!0,bg:"surface",elevation:"2",p:24,display:"flex",borderRadius:"x4",width:"439px"},e))});r.exportDefault(f)}
+//# sourceMappingURL=/dynamic/client/components/UserCard/3cefd734afc2a22c1f5c27cdc73f60b8ee5d1af5.map

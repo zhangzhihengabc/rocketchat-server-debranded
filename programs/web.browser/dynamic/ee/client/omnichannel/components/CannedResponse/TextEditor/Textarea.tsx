@@ -1,0 +1,2 @@
+function module(e,t,l){let r,n,a,u;l.link("@babel/runtime/helpers/extends",{default(e){r=e}},0),l.link("@rocket.chat/fuselage",{TextAreaInput(e){n=e}},0),l.link("react",{default(e){a=e},forwardRef(e){u=e}},1);let f=u(function e(e,t){return a.createElement(n,r({ref:t,w:"full",style:{wordBreak:"normal"},"rcx-input-box--undecorated":!0},e))});l.exportDefault(f)}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/components/CannedResponse/TextEditor/dfbb7091aeaf144ff78d78d1cb3bc179f2652ee7.map

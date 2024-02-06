@@ -1,0 +1,2 @@
+function module(n,e,t){t.export({usePresence:function(){return i}}),t.link("react",{useCallback:function(n){r=n}},0),t.link("use-sync-external-store/shim",{useSyncExternalStore:function(n){u=n}},1),t.link("../lib/presence",{Presence:function(n){c=n}},2);var r,u,c,i=function(n){return u(r(function(e){return n&&c.listen(n,e),function(){n&&c.stop(n,e)}},[n]),function(){return n?c.store.get(n):void 0})}}
+//# sourceMappingURL=/dynamic/client/hooks/4915483ee0a31bfd21b3100f441fed88854906c5.map

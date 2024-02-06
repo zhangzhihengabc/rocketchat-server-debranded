@@ -1,0 +1,2 @@
+function module(e,n,a){let l,t,f,o,i;a.link("../InfoPanel",{default(e){l=e}},0),a.link("./UserInfo",{default(e){t=e}},1),a.link("./UserInfoAction",{default(e){f=e}},2),a.link("./UserInfoAvatar",{default(e){o=e}},3),a.link("./UserInfoUsername",{default(e){i=e}},4),a.exportDefault(Object.assign(t,{Action:f,Avatar:o,Info:l.Text,Label:l.Label,Username:i}))}
+//# sourceMappingURL=/dynamic/client/components/UserInfo/831ba3185fc825eeb6ea99386273456ab99d8cdc.map

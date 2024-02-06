@@ -1,0 +1,2 @@
+function module(e,t,n){let r,a;n.export({useDepartmentInfo:()=>i}),n.link("@rocket.chat/ui-contexts",{useEndpoint(e){r=e}},0),n.link("@tanstack/react-query",{useQuery(e){a=e}},1);let i=e=>{let t=r("GET","/v1/livechat/department/:_id",{_id:e});return a(["livechat/department",e],()=>t({}))}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/hooks/bc7278a979f16ff58ac563803e2e7154185a9c88.map

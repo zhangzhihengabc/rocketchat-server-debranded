@@ -1,0 +1,2 @@
+function module(n,e,t){var a,i,l,r;t.link("react",{default:function(n){a=n},useMemo:function(n){i=n}},0),t.link("../../../../../../app/threads/client/lib/normalizeThreadTitle",{normalizeThreadTitle:function(n){l=n}},1),t.link("../../../../../components/Contextualbar",{ContextualbarTitle:function(n){r=n}},2),t.exportDefault(function(n){var e=n.mainMessage,t=i(function(){return{__html:l(e)}},[e]);return a.createElement(r,{dangerouslySetInnerHTML:t})})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Threads/components/578cea32b42afe47d45cff5576294e12d410f039.map

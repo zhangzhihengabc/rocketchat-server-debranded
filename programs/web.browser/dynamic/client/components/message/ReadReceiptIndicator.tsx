@@ -1,0 +1,2 @@
+function module(e,t,n){let o,l,a;n.link("@rocket.chat/fuselage",{Box(e){o=e},Icon(e){l=e}},0),n.link("react",{default(e){a=e}},1),n.exportDefault(e=>{let{unread:t}=e;return a.createElement(o,{position:"absolute",insetBlockStart:2,insetInlineEnd:8},a.createElement(l,{name:"check",size:"x16",color:t?"annotation":"info"}))})}
+//# sourceMappingURL=/dynamic/client/components/message/8fd3940c6faef32cbbe7ee78d846609a27a091bb.map

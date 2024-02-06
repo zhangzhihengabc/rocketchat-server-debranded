@@ -1,0 +1,2 @@
+function module(l,a,e){let o,t,c,i;e.link("meteor/meteor",{Meteor(l){o=l}},0),e.link("../../../app/ui-utils/client",{LegacyRoomManager(l){t=l}},1),e.link("../../../lib/callbacks",{callbacks(l){c=l}},2),e.link("../../../lib/callbacks/afterLogoutCleanUpCallback",{afterLogoutCleanUpCallback(l){i=l}},3),o.startup(()=>{i.add(()=>t.closeAllRooms(),c.priority.MEDIUM,"roommanager-after-logout-cleanup")})}
+//# sourceMappingURL=/dynamic/client/startup/afterLogoutCleanUp/18100466171469dfa272480995b33e36bb0750fe.map

@@ -1,0 +1,2 @@
+function module(e,n,r){r.export({ResizeContext:function(){return c},ResizeObserver:function(){return s}}),r.link("react",{default:function(e){t=e},cloneElement:function(e){i=e},createContext:function(e){o=e}},0),r.link("../hooks/useResizeObserver",{useResizeObserver:function(e){u=e}},1);var t,i,o,u,c=o(!1),s=function(e){var n=e.children,r=u(),o=r.ref,s=r.isResizing;return t.createElement(c.Provider,{value:s},i(n,{ref:o}))}}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/reports/components/35ce6adbf8dedbf025dda0e2a4c33db533542dd9.map

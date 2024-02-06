@@ -1,0 +1,2 @@
+function module(e,t,n){var o,i,u,r;n.link("@rocket.chat/ui-contexts",{usePermission:function(e){o=e}},0),n.link("react",{default:function(e){i=e}},1),n.link("../../../notAuthorized/NotAuthorizedPage",{default:function(e){u=e}},2),n.link("./UsersTable",{default:function(e){r=e}},3),n.exportDefault(function(e){var t=o("view-outside-room"),n=o("view-d-room");return t&&n?i.createElement(r,e):i.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/client/views/directory/tabs/users/ffe99661a01f8222d61cbbda34689d1007002286.map

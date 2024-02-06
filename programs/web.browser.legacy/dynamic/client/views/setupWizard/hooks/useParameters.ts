@@ -1,0 +1,2 @@
+function module(e,t,r){r.export({useParameters:function(){return u}}),r.link("@rocket.chat/ui-contexts",{useMethod:function(e){n=e}},0),r.link("@tanstack/react-query",{useQuery:function(e){a=e}},1);var n,a,u=function(){return a(["setupWizard/parameters"],n("getSetupWizardParameters"),{initialData:{settings:[],serverAlreadyRegistered:!1}})}}
+//# sourceMappingURL=/dynamic/client/views/setupWizard/hooks/ecc3b017bf61224f49f4714c2f258457966618c0.map

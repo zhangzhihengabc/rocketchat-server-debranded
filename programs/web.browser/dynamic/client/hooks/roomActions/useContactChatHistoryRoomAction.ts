@@ -1,0 +1,2 @@
+function module(t,o,c){let n,i;c.export({useContactChatHistoryRoomAction:()=>a}),c.link("react",{lazy(t){n=t},useMemo(t){i=t}},0);let e=n(()=>c.dynamicImport("../../views/omnichannel/contactHistory/ContactHistory")),a=()=>i(()=>({id:"contact-chat-history",groups:["live"],title:"Contact_Chat_History",icon:"clock",tabComponent:e,order:11}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/5d1cf4969625e78939a5fc050ca971e0cf438d00.map

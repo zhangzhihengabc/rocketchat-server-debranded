@@ -1,0 +1,2 @@
+function module(e,n,a){var t,l,r;a.link("react",{default:function(e){t=e},memo:function(e){l=e}},0),a.link("./RoomMembersItem",{default:function(e){r=e}},1),a.exportDefault(l(function(e){var n=e.user,a=e.data,l=a.onClickView,i=a.rid,u=e.index,d=e.reload,o=e.useRealName;return null!=n&&n._id?t.createElement(r,{key:u,useRealName:o,username:n.username,_id:n._id,rid:i,name:n.name,federated:n.federated,onClickView:l,reload:d}):t.createElement(r.Skeleton,null)}))}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/RoomMembers/489105e6676418ca0606383029b8d4a48146029a.map

@@ -1,0 +1,2 @@
+function module(e,n,t){var o,u,l,i;t.link("@rocket.chat/ui-contexts",{useRouteParameter:function(e){o=e}},0),t.link("react",{default:function(e){u=e}},1),t.link("../hooks/useRole",{useRole:function(e){l=e}},2),t.link("./UsersInRolePage",{default:function(e){i=e}},3),t.exportDefault(function(){var e=l(o("_id"));return e?u.createElement(i,{role:e}):null})}
+//# sourceMappingURL=/dynamic/client/views/admin/permissions/UsersInRole/1676795df3746d52df5eaac45ec2761e44a9237e.map

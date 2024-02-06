@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/ee/client/lib/voip/parseOutboundPhoneNumber.ts","meteor://💻app/<anon>"],"sourcesContent":["export const parseOutboundPhoneNumber = (phoneNumber: string | undefined): string => (phoneNumber ? phoneNumber.replace(/\\*/g, '+') : '');\n",null],"names":["module","export","parseOutboundPhoneNumber","phoneNumber","replace"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,yBAA2B,WAAC,OAA6CA,CAAc,CAAW,GAAxG,IAAMA,EAA2B,SAACC,CAA+B,EAAA,OAAcA,EAAcA,EAAYC,OAAO,CAAC,MAAO,KAAO,EAAE"}

@@ -1,0 +1,2 @@
+function module(e,t,n){var c,l,o,a;n.link("@rocket.chat/fuselage",{Box:function(e){c=e},Divider:function(e){l=e},Margins:function(e){o=e}},0),n.link("react",{default:function(e){a=e}},1),n.exportDefault(function(e){var t=e.title,n=e.command;return a.createElement(o,{block:16},a.createElement(c,{is:"section",color:"default"},a.createElement(c,{fontScale:"p2m",fontWeight:"700"},t),a.createElement(l,null),a.createElement(c,{fontScale:"p2"},n)))})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/KeyboardShortcuts/bb804b881b68a804c975e4e9b695ae5483c7d0d9.map

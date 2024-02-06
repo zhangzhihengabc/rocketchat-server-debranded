@@ -1,0 +1,2 @@
+function module(e,t,r){var o,n;r.link("meteor/meteor",{Meteor:function(e){o=e}},0),r.link("meteor/oauth",{OAuth:function(e){n=e}},1),o.startup(function(){var e=n._retrieveCredentialSecret;n._retrieveCredentialSecret=function(t){var r=e.call(n,t);if(!r){var o=""+n._storageTokenPrefix+t;r=localStorage.getItem(o),localStorage.removeItem(o)}return r}})}
+//# sourceMappingURL=/dynamic/client/startup/6a1691489d73cfee9bd9f7ce95de1ec698c7119e.map

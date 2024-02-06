@@ -1,0 +1,2 @@
+function module(e,t,n){var l,u,a,c;n.link("@rocket.chat/ui-contexts",{useTranslation:function(e){l=e}},0),n.link("react",{default:function(e){u=e}},1),n.link("../../../components/Page",{default:function(e){a=e}},2),n.link("./QueueListTable",{default:function(e){c=e}},3),n.exportDefault(function(){var e=l();return u.createElement(a,null,u.createElement(a.Header,{title:e("Livechat_Queue")}),u.createElement(a.Content,null,u.createElement(c,null)))})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/queueList/961ebff980e863a6c88b6614e0562e34b3dd9fc4.map

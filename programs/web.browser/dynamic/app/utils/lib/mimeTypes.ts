@@ -1,0 +1,2 @@
+function module(e,i,n){let o;n.export({mime:()=>o,getExtension:()=>t}),n.link("mime-type/with-db",{default(e){o=e}},0),o.types.wav="audio/wav",o.define("image/vnd.microsoft.icon",{source:"",extensions:["ico"]},o.dupAppend),o.define("image/x-icon",{source:"",extensions:["ico"]},o.dupAppend),o.types.ico="image/x-icon";let t=e=>{let i=o.extension(e);return i&&"boolean"!=typeof i?i:""}}
+//# sourceMappingURL=/dynamic/app/utils/lib/3714b5e890686e3717e660cfc7993a2fbc272127.map

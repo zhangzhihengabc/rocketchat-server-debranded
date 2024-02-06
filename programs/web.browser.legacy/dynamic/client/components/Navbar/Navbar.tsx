@@ -1,0 +1,2 @@
+function module(n,e,t){t.export({Navbar:function(){return u}}),t.link("@rocket.chat/fuselage",{Box:function(n){a=n},ButtonGroup:function(n){r=n}},0),t.link("react",{default:function(n){i=n}},1);var a,r,i,u=function(n){var e=n.children;return i.createElement(a,{"aria-label":"main-navigation",bg:"surface-tint",is:"nav",pb:16,pi:14},i.createElement(r,{large:!0,role:"menubar",is:"ul",vertical:!0},e))}}
+//# sourceMappingURL=/dynamic/client/components/Navbar/824ae785b102f7e0985757f5484c11a283b63865.map

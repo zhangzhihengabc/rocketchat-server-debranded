@@ -1,0 +1,2 @@
+function module(o,n,t){var e,i,r,c;t.link("meteor/meteor",{Meteor:function(o){e=o}},0),t.link("meteor/session",{Session:function(o){i=o}},1),t.link("meteor/tracker",{Tracker:function(o){r=o}},2),t.link("../../app/notifications/client",{Notifications:function(o){c=o}},3),e.startup(function(){r.autorun(function(){e.userId()&&(i.set("force_logout",!1),c.onUser("force_logout",function(){i.set("force_logout",!0)}))})})}
+//# sourceMappingURL=/dynamic/client/startup/3bf4e39859cff4214b1a20d2427f0ca3878d01b2.map

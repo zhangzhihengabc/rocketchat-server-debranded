@@ -1,0 +1,2 @@
+function module(e,t,r){let i,n,o,a,l;r.link("meteor/meteor",{Meteor(e){i=e}},0),r.link("meteor/tracker",{Tracker(e){n=e}},1),r.link("../../app/authorization/client",{hasRole(e){o=e}},2),r.link("../../app/settings/client",{settings(e){a=e}},3),r.link("../providers/RouterProvider",{router(e){l=e}},4),i.startup(()=>{n.autorun(()=>{let e=i.userId(),t=a.get("Show_Setup_Wizard"),r=e&&o(e,"admin")&&"in_progress"===t,n=!e&&"pending"===t||r;n&&l.navigate("/setup-wizard")})})}
+//# sourceMappingURL=/dynamic/client/startup/0b41e8f0991c873c4f9f89bb353df94056273e17.map

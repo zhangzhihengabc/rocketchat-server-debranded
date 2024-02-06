@@ -1,0 +1,2 @@
+function module(e,t,r){let n,o;function i(e,t,r){let{text:i,itemsPerPage:l,current:u}=e,[c,s]=t,f=arguments.length>3&&void 0!==arguments[3]?arguments[3]:"local";return o(()=>n(n({query:JSON.stringify({type:r,text:i,workspace:f}),sort:JSON.stringify({[c]:"asc"===s?1:-1})},l&&{count:l}),u&&{offset:u}),[l,u,c,s,r,f,i])}r.link("@babel/runtime/helpers/objectSpread2",{default(e){n=e}},0),r.export({useDirectoryQuery:()=>i}),r.link("react",{useMemo(e){o=e}},0)}
+//# sourceMappingURL=/dynamic/client/views/directory/hooks/b93cfbecce9d3c690dea5ce1b713210374035164.map

@@ -1,0 +1,2 @@
+function module(e,t,l){let a,n,r,u,c,i;l.link("@rocket.chat/ui-client",{FeaturePreview(e){a=e},FeaturePreviewOn(e){n=e},FeaturePreviewOff(e){r=e}},0),l.link("react",{default(e){u=e},lazy(e){c=e},memo(e){i=e}},1);let m=c(()=>l.dynamicImport("./Header")),o=c(()=>l.dynamicImport("./HeaderUnstable"));l.exportDefault(i(()=>u.createElement(a,{feature:"navigationBar"},u.createElement(r,null,u.createElement(m,null)),u.createElement(n,null,u.createElement(o,null)))))}
+//# sourceMappingURL=/dynamic/client/sidebar/header/eb457744fd9a9a5d03511bcb362601d6594f4115.map

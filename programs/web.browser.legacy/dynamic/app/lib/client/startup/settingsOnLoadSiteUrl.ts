@@ -1,0 +1,2 @@
+function module(t,n,e){var i,r,o;e.link("meteor/meteor",{Meteor:function(t){i=t}},0),e.link("meteor/tracker",{Tracker:function(t){r=t}},1),e.link("../../../settings/client",{settings:function(t){o=t}},2),i.startup(function(){r.autorun(function(){var t=o.get("Site_Url");null!=t&&""!==t.trim()&&(window.__meteor_runtime_config__.ROOT_URL=t)})})}
+//# sourceMappingURL=/dynamic/app/lib/client/startup/d052b951cd301de9dc0f172b927b7d4b10bca227.map

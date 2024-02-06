@@ -1,0 +1,2 @@
+function module(e,n,t){var r,l,i,c,a=["children"];t.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){r=e}},0),t.export({GenericTableHeader:function(){return u}}),t.link("@rocket.chat/fuselage",{TableHead:function(e){l=e}},0),t.link("react",{default:function(e){i=e}},1),t.link("./GenericTableRow",{GenericTableRow:function(e){c=e}},2);var u=function(e){var n=e.children,t=r(e,a);return i.createElement(l,t,i.createElement(c,null,n))}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/0174d5b3cb93a41ea1e35615b96d4e200ea989f1.map

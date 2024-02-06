@@ -1,0 +1,2 @@
+function module(e,t,l){let n,o,u,a;l.link("@rocket.chat/ui-contexts",{useTranslation(e){n=e}},0),l.link("react",{default(e){o=e},memo(e){u=e}},1),l.link("../hooks/useUTCClock",{useUTCClock(e){a=e}},2),l.exportDefault(u(e=>{let{utcOffset:t}=e,l=a(t),u=n();return o.createElement(o.Fragment,null,u("Local_Time_time",{time:l}))}))}
+//# sourceMappingURL=/dynamic/client/components/8d6e58361bdf662a079a350c22e302f037699bc7.map

@@ -1,0 +1,2 @@
+function module(e,l,t){let i,n,r,a;let u=["children"];t.link("@babel/runtime/helpers/extends",{default(e){i=e}},0),t.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){n=e}},1),t.link("@rocket.chat/fuselage",{Sidebar(e){r=e}},0),t.link("react",{default(e){a=e}},1),t.exportDefault(e=>{let{children:l}=e,t=n(e,u);return a.createElement(r,i({},t,{role:"navigation",display:"flex",flexDirection:"column",h:"full",children:l}))})}
+//# sourceMappingURL=/dynamic/client/components/Sidebar/89e2b67a97e15eb0a576b787e3493d874836f913.map

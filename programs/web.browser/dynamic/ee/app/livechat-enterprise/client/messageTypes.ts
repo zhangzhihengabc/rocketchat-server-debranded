@@ -1,0 +1,2 @@
+function module(a,e,t){let r,l;t.link("../../../../app/ui-utils/client",{MessageTypes(a){r=a}},0),t.link("../../../../app/utils/lib/i18n",{t(a){l=a}},1),r.registerType({id:"livechat_transfer_history_fallback",system:!0,message:"New_chat_transfer_fallback",data(a){if(!a.transferData)return{fallback:"SHOULD_NEVER_HAPPEN"};let e=a.transferData.prevDepartment,t=a.transferData.department.name;return{fallback:l("Livechat_transfer_failed_fallback",{from:e,to:t})}}})}
+//# sourceMappingURL=/dynamic/ee/app/livechat-enterprise/client/1c4f9df35f2026a8a5c9a0f6d3918000f7f279f4.map

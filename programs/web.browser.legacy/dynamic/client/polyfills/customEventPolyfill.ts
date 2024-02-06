@@ -1,0 +1,2 @@
+function module(){"function"!=typeof window.CustomEvent&&(window.CustomEvent=function(n){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},e=t.bubbles,o=void 0!==e&&e,i=t.cancelable,u=void 0!==i&&i,v=t.detail,d=void 0===v?null:v,l=document.createEvent("CustomEvent");return l.initCustomEvent(n,o,u,d),l})}
+//# sourceMappingURL=/dynamic/client/polyfills/9d67d5691fb764e2cbc7d5b47a043d0202696f12.map

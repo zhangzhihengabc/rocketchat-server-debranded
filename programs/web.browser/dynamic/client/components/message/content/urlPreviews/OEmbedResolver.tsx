@@ -1,0 +1,2 @@
+function module(e,t,l){let r,a,n,i;l.link("react",{default(e){r=e}},0),l.link("./OEmbedHtmlPreview",{default(e){a=e}},1),l.link("./OEmbedImagePreview",{default(e){n=e}},2),l.link("./OEmbedLinkPreview",{default(e){i=e}},3),l.exportDefault(e=>{let{meta:t}=e;switch(t.type){case"rich":case"video":return r.createElement(a,t);case"photo":return r.createElement(n,t);default:return r.createElement(i,t)}})}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/b28925554d44509bb7ae26562e9ef43e70cac6ce.map

@@ -1,0 +1,2 @@
+function module(t,e,r){let o,a;r.export({getRoomAvatarURL:()=>l}),r.link("../../settings/client",{settings(t){o=t}},0),r.link("./getAvatarURL",{getAvatarURL(t){a=t}},1);let l=t=>{let{roomId:e,cache:r=""}=t,l=(o.get("Accounts_RoomAvatarExternalProviderUrl")||"").trim().replace(/\/$/,"");return l&&"string"==typeof l?l.replace("{roomId}",e):e?a({roomId:e,cache:r}):void 0}}
+//# sourceMappingURL=/dynamic/app/utils/client/f902d781c924552a2a6c8315393f5ef50b77f0e8.map

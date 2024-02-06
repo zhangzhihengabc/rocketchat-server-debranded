@@ -1,0 +1,2 @@
+function module(t,r,n){n.link("@babel/runtime/helpers/inheritsLoose",{default:function(t){o=t}},0),n.export({CsvImporterInfo:function(){return e}}),n.link("../../importer/lib/ImporterInfo",{ImporterInfo:function(t){i=t}},0);var o,i,e=function(t){function r(){return t.call(this,"csv","CSV","application/zip",[{text:"Importer_CSV_Information",href:"https://rocket.chat/docs/administrator-guides/import/csv/"}])||this}return o(r,t),r}(i)}
+//# sourceMappingURL=/dynamic/app/importer-csv/lib/c4d7325ae9c42c4a77b7684217a3707a43065aa9.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let o,i,r,a,l;n.link("meteor/meteor",{Meteor(e){o=e}},0),n.link("meteor/tracker",{Tracker(e){i=e}},1),n.link("../../app/models/client",{CachedChatRoom(e){r=e},CachedChatSubscription(e){a=e}},2),n.link("../../app/settings/client",{settings(e){l=e}},3),o.startup(()=>{i.autorun(()=>{o.userId()||!0!==l.get("Accounts_AllowAnonymousRead")||(r.init(),a.ready.set(!0))})})}
+//# sourceMappingURL=/dynamic/client/startup/dacf3cb02bc9c53450932bb5110f6f05877639a7.map

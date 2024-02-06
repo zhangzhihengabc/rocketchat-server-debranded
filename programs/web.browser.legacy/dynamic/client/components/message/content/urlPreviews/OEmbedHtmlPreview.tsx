@@ -1,0 +1,2 @@
+function module(e,t,n){var l,i,o,u,r=["html"];n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){l=e}},0),n.link("@rocket.chat/fuselage",{Box:function(e){i=e}},0),n.link("react",{default:function(e){o=e}},1),n.link("./OEmbedCollapsible",{default:function(e){u=e}},2),n.exportDefault(function(e){var t=e.html,n=l(e,r);return o.createElement(u,n,t&&o.createElement(i,{withRichContent:!0,dangerouslySetInnerHTML:{__html:t}}))})}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/19e0bb105d012f8e3fea9012aa444abada16dc19.map

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/marketplace/helpers/formatPrice.ts","meteor://💻app/<anon>"],"sourcesContent":["export const formatPrice = (price: number): string => `\\$${price.toFixed(2)}`;\n",null],"names":["module","export","formatPrice","price","toFixed"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,YAAc,WAA2B,OAAKA,CAAa,CAAC,GAAlE,IAAMA,EAAc,SAACC,CAAa,EAAA,MAAA,IAAkBA,EAAMC,OAAO,CAAC,EAAE"}

@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/ee/app/canned-responses/client/collections/CannedResponse.ts","meteor://💻app/<anon>"],"sourcesContent":["import { Mongo } from 'meteor/mongo';\n\nexport const CannedResponse = new Mongo.Collection<{\n\t_id: string;\n\tshortcut: string;\n\ttext: string;\n}>(null);\n",null],"names":["Mongo","module","export","CannedResponse","Collection"],"mappings":"2BAAqCA,EAArCC,EAAOC,MAAE,CAAK,CAAAC,eAAQ,IAAAA,CAAe,GAAAF,EAAAA,IAAAA,CAAAA,eAAAA,CAAAD,MAAAA,CAAAA,EAAAA,EAAAA,CAAA,CAAA,EAAA,GAE9B,IAAMG,EAAiB,IAAIH,EAAMI,UAAU,CAI/C"}

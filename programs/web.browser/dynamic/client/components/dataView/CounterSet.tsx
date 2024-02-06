@@ -1,0 +1,2 @@
+function module(e,t,l){let n,r,a;l.link("@rocket.chat/fuselage",{Grid(e){n=e}},0),l.link("react",{default(e){r=e}},1),l.link("./Counter",{default(e){a=e}},2),l.exportDefault(e=>{let{counters:t=[]}=e;return r.createElement(n,null,t.map((e,t)=>{let{count:l,variation:u,description:c}=e;return r.createElement(n.Item,{key:t},r.createElement(a,{count:l,variation:u,description:c}))}))})}
+//# sourceMappingURL=/dynamic/client/components/dataView/7a66022f44bf5fcbc822afdb9731a72feb289488.map

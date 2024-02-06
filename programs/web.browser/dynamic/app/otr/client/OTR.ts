@@ -1,0 +1,2 @@
+function module(o,t,s){let n;s.link("./OTRRoom",{OTRRoom(o){n=o}},0),s.exportDefault(new class o{constructor(){this.instancesByRoomId=void 0,this.instancesByRoomId={}}getInstanceByRoomId(o,t){if(this.instancesByRoomId[t])return this.instancesByRoomId[t];let s=n.create(o,t);if(s)return this.instancesByRoomId[t]=s,this.instancesByRoomId[t]}})}
+//# sourceMappingURL=/dynamic/app/otr/client/9dbc8f2f97767d348b3d5ac4baba7da9bb7db446.map

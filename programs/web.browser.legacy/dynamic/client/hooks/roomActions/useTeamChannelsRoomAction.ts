@@ -1,0 +1,2 @@
+function module(n,e,t){t.export({useTeamChannelsRoomAction:function(){return r}}),t.link("react",{lazy:function(n){o=n},useMemo:function(n){a=n}},0);var o,a,u=o(function(){return t.dynamicImport("../../views/teams/contextualBar/channels/TeamsChannels")}),r=function(){return a(function(){return{id:"team-channels",groups:["team"],anonymous:!0,full:!0,title:"Team_Channels",icon:"hash",tabComponent:u,order:2}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/f633f0ae3058d40f4a673324df4c4dbfc3798fac.map

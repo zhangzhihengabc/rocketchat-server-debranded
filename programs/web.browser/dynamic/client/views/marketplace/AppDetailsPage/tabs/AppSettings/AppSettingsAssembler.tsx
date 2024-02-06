@@ -1,0 +1,2 @@
+function module(e,t,l){let a,n,c,r;l.link("@rocket.chat/fuselage",{Box(e){a=e}},0),l.link("@rocket.chat/string-helpers",{capitalize(e){n=e}},1),l.link("react",{default(e){c=e}},2),l.link("./AppSetting",{default(e){r=e}},3),l.exportDefault(e=>{let{settings:t,values:l,handlers:u}=e;return c.createElement(a,null,Object.values(t).map(e=>{let{id:t}=e;return c.createElement(r,{key:t,appSetting:e,value:l[t],onChange:u["handle".concat(n(t))]})}))})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/AppDetailsPage/tabs/AppSettings/39c964e38c1b1da408ba14658ed1c10f077ef581.map

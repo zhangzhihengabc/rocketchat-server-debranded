@@ -1,0 +1,2 @@
+function module(e,l,n){let s,i,o,t;n.export({useOpenAppPermissionsReviewModal:()=>a}),n.link("@rocket.chat/ui-contexts",{useSetModal(e){s=e}},0),n.link("react",{default(e){i=e},useCallback(e){o=e}},1),n.link("../AppPermissionsReviewModal",{default(e){t=e}},2);let a=e=>{let{app:l,onCancel:n,onConfirm:a}=e,r=s();return o(()=>r(i.createElement(t,{appPermissions:l.permissions,onCancel:()=>{r(null),n()},onConfirm:e=>{r(null),a(e)}})),[l.permissions,n,a,r])}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/hooks/0cf85c7efe90d49cf3bb2df7aceb4e7122d3cfb8.map

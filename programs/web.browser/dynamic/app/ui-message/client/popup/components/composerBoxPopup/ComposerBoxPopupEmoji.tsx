@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,o,u;l.link("@rocket.chat/fuselage",{OptionColumn(e){n=e},OptionContent(e){a=e}},0),l.link("react",{default(e){o=e}},1),l.link("../../../../../../client/components/Emoji",{default(e){u=e}},2),l.exportDefault(e=>{let{_id:t}=e;return o.createElement(o.Fragment,null,o.createElement(n,null,o.createElement(u,{emojiHandle:t})),o.createElement(a,null,t))})}
+//# sourceMappingURL=/dynamic/app/ui-message/client/popup/components/composerBoxPopup/a03018c777125341a5d05f42a72ed37c1402316d.map

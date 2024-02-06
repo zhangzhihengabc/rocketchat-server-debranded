@@ -1,0 +1,2 @@
+function module(e,t,n){var i,r,l,u=["children"];n.link("@babel/runtime/helpers/extends",{default:function(e){i=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){r=e}},1),n.export({NavbarAction:function(){return o}}),n.link("react",{default:function(e){l=e}},0);var o=function(e){var t=e.children,n=r(e,u);return l.createElement("li",i({style:{position:"relative"},role:"menuitem"},n),t)}}
+//# sourceMappingURL=/dynamic/client/components/Navbar/dbb43d0fa37637ee25f39d6c699746464750974e.map

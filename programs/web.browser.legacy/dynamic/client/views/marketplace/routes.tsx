@@ -1,0 +1,2 @@
+function module(e,t,n){n.export({registerMarketplaceRoute:function(){return a}}),n.link("react",{lazy:function(e){r=e}},0),n.link("../../lib/createRouteGroup",{createRouteGroup:function(e){o=e}},1);var r,o,a=o("marketplace","/marketplace",r(function(){return n.dynamicImport("./MarketplaceRouter")}));a("/:context?/:page?/:id?/:version?/:tab?",{name:"marketplace",component:r(function(){return n.dynamicImport("./AppsRoute")})})}
+//# sourceMappingURL=/dynamic/client/views/marketplace/f00394bc9c7dc9a7622ee355826f7a70b2c0fc0e.map

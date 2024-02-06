@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,u,r;l.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),l.link("react",{default(e){a=e}},1),l.link("../../notAuthorized/NotAuthorizedPage",{default(e){u=e}},2),l.link("./DepartmentsPage",{default(e){r=e}},3),l.exportDefault(()=>{let e=n("manage-livechat-departments");return e?a.createElement(r,null):a.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/departments/623864bbb0c489ef8fc149db2d915f408ade3260.map

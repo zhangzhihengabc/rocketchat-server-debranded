@@ -1,0 +1,2 @@
+function module(e,n,r){r.link("@babel/runtime/helpers/slicedToArray",{default:function(e){t=e}},0),r.export({usePeriodSelectorState:function(){return o}}),r.link("react",{useState:function(e){u=e}},0);var t,u,o=function(){for(var e=arguments.length,n=Array(e),r=0;r<e;r++)n[r]=arguments[r];var o=t(u(n[0]),2),a=o[0],i=o[1];return[a,{periods:n,value:a,onChange:function(e){return i(e)}}]}}
+//# sourceMappingURL=/dynamic/ee/client/components/dashboards/d6ea6c3fdad25c90caf1edc963e4be17c72ae39e.map

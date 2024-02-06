@@ -1,0 +1,2 @@
+function module(e,n,t){var o,u,r,s;function c(e){var n=s(),t=r();return o(e,{onCopySuccess:u(function(){return t({type:"success",message:n("Copied")})}),onCopyError:u(function(e){return t({type:"error",message:e})})})}t.export({default:function(){return c}}),t.link("@rocket.chat/fuselage-hooks",{useClipboard:function(e){o=e},useMutableCallback:function(e){u=e}},0),t.link("@rocket.chat/ui-contexts",{useToastMessageDispatch:function(e){r=e},useTranslation:function(e){s=e}},1)}
+//# sourceMappingURL=/dynamic/client/hooks/ce1c5bc13b3e4ad1e1fc7e42b764b9e02a19e628.map

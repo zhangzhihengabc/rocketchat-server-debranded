@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,o,r,i;l.link("@rocket.chat/ui-client",{HeaderState(e){n=e}},0),l.link("@rocket.chat/ui-contexts",{useSetting(e){a=e},useTranslation(e){o=e}},1),l.link("react",{default(e){r=e},memo(e){i=e}},2),l.exportDefault(i(e=>{let{room:{autoTranslateLanguage:t,autoTranslate:l}}=e,i=o(),u=a("AutoTranslate_Enabled"),c=i("Translated");return u&&l&&t?r.createElement(n,{title:c,icon:"language",color:"info"}):null}))}
+//# sourceMappingURL=/dynamic/client/views/room/Header/icons/7256d01bf30816665e4ac34d6986867ed6e93dce.map

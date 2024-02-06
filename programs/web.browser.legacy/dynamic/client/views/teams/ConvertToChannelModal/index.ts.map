@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/teams/ConvertToChannelModal/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './ConvertToChannelModal';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,0BAAe,CAAA,QAAA,SAA0B,EAAA"}

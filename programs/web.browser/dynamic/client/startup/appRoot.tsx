@@ -1,0 +1,2 @@
+function module(e,t,o){let r,n,l,d;o.link("react",{default(e){r=e},StrictMode(e){n=e}},0),o.link("react-dom",{render(e){l=e}},1),o.link("../views/root/AppRoot",{default(e){d=e}},2);let c=(()=>{let e=document.getElementById("react-root");if(!e)throw Error("could not find the element #react-root on DOM tree");return document.body.insertBefore(e,document.body.firstChild),e})();l(r.createElement(n,null,r.createElement(d,null)),c)}
+//# sourceMappingURL=/dynamic/client/startup/ca6e6ac6a244a8f4936fc51405b6482aeeae25ab.map

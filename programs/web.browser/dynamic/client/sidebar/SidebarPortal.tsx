@@ -1,0 +1,2 @@
+function module(e,t,l){let a,n,r,c;l.link("@rocket.chat/fuselage",{Box(e){a=e}},0),l.link("react",{default(e){n=e},memo(e){r=e}},1),l.link("react-dom",{createPortal(e){c=e}},2),l.exportDefault(r(e=>{let{children:t}=e,l=document.getElementById("sidebar-region");return l?n.createElement(n.Fragment,null,c(n.createElement(a,{className:"rcx-sidebar flex-nav"},t),l)):null}))}
+//# sourceMappingURL=/dynamic/client/sidebar/aa9e215aabf12096f2d6de9f1c2cc98c17e35857.map

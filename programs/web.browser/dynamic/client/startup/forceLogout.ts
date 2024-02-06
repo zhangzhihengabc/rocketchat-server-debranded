@@ -1,0 +1,2 @@
+function module(e,o,t){let r,i,n,s;t.link("meteor/meteor",{Meteor(e){r=e}},0),t.link("meteor/session",{Session(e){i=e}},1),t.link("meteor/tracker",{Tracker(e){n=e}},2),t.link("../../app/notifications/client",{Notifications(e){s=e}},3),r.startup(()=>{n.autorun(()=>{let e=r.userId();e&&(i.set("force_logout",!1),s.onUser("force_logout",()=>{i.set("force_logout",!0)}))})})}
+//# sourceMappingURL=/dynamic/client/startup/07b46d2987bf709902905673710b0ec9f6214ad2.map

@@ -1,0 +1,2 @@
+function module(t,e,l){let n,i,o,a,u,c;l.link("@rocket.chat/ui-contexts",{useSetting(t){n=t}},0),l.link("react",{default(t){i=t},useEffect(t){o=t}},1),l.link("../../../app/ui/client/lib/KonchatNotification",{KonchatNotification(t){a=t}},2),l.link("./CustomHomePage",{default(t){u=t}},3),l.link("./DefaultHomePage",{default(t){c=t}},4),l.exportDefault(()=>{o(()=>{a.getDesktopPermission()},[]);let t=n("Layout_Custom_Body_Only");return t?i.createElement(u,null):i.createElement(c,null)})}
+//# sourceMappingURL=/dynamic/client/views/home/df1b96a648e9a771d759bb60a2f98036390c6b79.map

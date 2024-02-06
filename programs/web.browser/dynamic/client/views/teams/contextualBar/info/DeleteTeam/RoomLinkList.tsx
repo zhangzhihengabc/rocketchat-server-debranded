@@ -1,0 +1,2 @@
+function module(e,t,r){let n,l,o;r.link("react",{default(e){n=e},Fragment(e){l=e}},0),r.link("../../../../../lib/rooms/roomCoordinator",{roomCoordinator(e){o=e}},1),r.exportDefault(e=>{let{rooms:t}=e,r=Object.values(t);return n.createElement(n.Fragment,null,r.map((e,t)=>{var a;let m=o.getRouteLink(e.t,e);return n.createElement(l,{key:t},n.createElement("a",{href:m||void 0},"#",null!==(a=e.fname)&&void 0!==a?a:e.name),t===r.length-1?".":", ")}))})}
+//# sourceMappingURL=/dynamic/client/views/teams/contextualBar/info/DeleteTeam/203fab2b5a6e4eb7918833a4fd08f34d083e9175.map

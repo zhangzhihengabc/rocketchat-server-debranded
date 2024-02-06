@@ -1,0 +1,2 @@
+function module(e,t,n){let r,s,o,l;n.export({useUserData:()=>u}),n.link("react",{useContext(e){r=e},useMemo(e){s=e}},0),n.link("use-sync-external-store/shim",{useSyncExternalStore(e){o=e}},1),n.link("../contexts/UserPresenceContext",{UserPresenceContext(e){l=e}},2);let u=e=>{let t=r(l),{subscribe:n,get:u}=s(()=>{var n;return null!==(n=null==t?void 0:t.queryUserData(e))&&void 0!==n?n:{subscribe:()=>()=>void 0,get:()=>void 0}},[t,e]);return o(n,u)}}
+//# sourceMappingURL=/dynamic/client/hooks/58a78c9d8ba198b7ac739cf85fbc818682c06d1b.map

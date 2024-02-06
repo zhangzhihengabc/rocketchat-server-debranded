@@ -1,0 +1,2 @@
+function module(e,i,n){let l,t,o;n.export({useOnHoldChatQuickAction:()=>u}),n.link("react",{useMemo(e){l=e}},0),n.link("../../../../client/views/room/lib/quickActions",{QuickActionsEnum(e){t=e}},1),n.link("../useHasLicenseModule",{useHasLicenseModule(e){o=e}},2);let u=()=>{let e=!0===o("livechat-enterprise");return l(()=>{if(e)return{groups:["live"],id:t.OnHoldChat,title:"Omnichannel_onHold_Chat",icon:"pause-unfilled",order:4}},[e])}}
+//# sourceMappingURL=/dynamic/ee/client/hooks/quickActions/cd82a9739ad859ee69547921450d4763c435011d.map

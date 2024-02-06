@@ -1,0 +1,2 @@
+function module(n,e,t){var i,u,l,o;t.link("@rocket.chat/ui-contexts",{usePermission:function(n){i=n}},0),t.link("react",{default:function(n){u=n}},1),t.link("../../notAuthorized/NotAuthorizedPage",{default:function(n){l=n}},2),t.link("./EmailInboxPage",{default:function(n){o=n}},3),t.exportDefault(function(){return i("manage-email-inbox")?u.createElement(o,null):u.createElement(l,null)})}
+//# sourceMappingURL=/dynamic/client/views/admin/emailInbox/95ad22f4e3472bab0e758bb0fb55c7f5e772bb6f.map

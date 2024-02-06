@@ -1,0 +1,2 @@
+function module(l,t,n){let a,r,e;n.export({installApp:()=>p}),n.link("../../../../ee/client/apps/orchestrator",{AppClientOrchestratorInstance(l){a=l}},0),n.link("./handleAPIError",{handleAPIError(l){r=l}},1),n.link("./warnAppInstall",{warnAppInstall(l){e=l}},2);let p=async l=>{let{id:t,name:n,marketplaceVersion:p,permissionsGranted:i}=l;try{let{status:l}=await a.installApp(t,p,i);l&&e(n,l)}catch(l){r(l)}}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/45a5c0b69ac742b1cdc6d6254923120d7d015629.map

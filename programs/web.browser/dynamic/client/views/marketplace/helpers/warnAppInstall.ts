@@ -1,0 +1,2 @@
+function module(t,s,e){let a,l,p;e.export({warnAppInstall:()=>n}),e.link("../../../../app/utils/lib/i18n",{t(t){a=t}},0),e.link("../../../lib/toast",{dispatchToastMessage(t){l=t}},1),e.link("./appErroredStatuses",{appErroredStatuses(t){p=t}},2);let n=(t,s)=>{if(p.includes(s)){l({type:"error",message:(a("App_status_".concat(s)),t)});return}l({type:"success",message:"".concat(t," installed")})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/39d1d0e807c14218947a53431fd8fdac0cf4feff.map

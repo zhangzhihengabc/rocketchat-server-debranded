@@ -1,0 +1,2 @@
+function module(e,t,l){let a,r,i;l.link("@rocket.chat/fuselage",{Box(e){a=e}},0),l.link("@rocket.chat/ui-contexts",{useTranslation(e){r=e}},1),l.link("react",{default(e){i=e}},2),l.exportDefault(e=>{let{label:t,bg:l}=e,n=r();return i.createElement(a,{width:"x8","aria-label":n(t),borderRadius:"full",height:"x8",bg:l})})}
+//# sourceMappingURL=/dynamic/client/components/message/notification/74abc06da93dfec1644509a6d97694929d469550.map

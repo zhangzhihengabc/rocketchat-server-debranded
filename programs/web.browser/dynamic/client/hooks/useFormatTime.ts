@@ -1,0 +1,2 @@
+function module(e,t,r){let a,m,o,c;r.export({useFormatTime:()=>n}),r.link("@rocket.chat/ui-contexts",{useUserPreference(e){a=e},useSetting(e){m=e}},0),r.link("moment",{default(e){o=e}},1),r.link("react",{useCallback(e){c=e}},2);let l=["h:mm A","H:mm"],n=()=>{let e=a("clockMode"),t=m("Message_TimeFormat"),r=void 0!==e?l[e-1]:t;return c(a=>{switch(e){case 1:case 2:return o(a).format(r);default:return o(a).format(t)}},[e,t,r])}}
+//# sourceMappingURL=/dynamic/client/hooks/5cb0b82ddd02818dea19aa38cebd390e1c0a548f.map

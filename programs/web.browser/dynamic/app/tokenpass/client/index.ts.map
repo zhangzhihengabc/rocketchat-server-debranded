@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/tokenpass/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './lib';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA"}

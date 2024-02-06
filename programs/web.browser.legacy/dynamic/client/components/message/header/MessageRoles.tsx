@@ -1,0 +1,2 @@
+function module(e,t,n){var l,o,u,a;n.link("@rocket.chat/fuselage",{MessageRole:function(e){l=e},MessageRoles:function(e){o=e}},0),n.link("@rocket.chat/ui-contexts",{useTranslation:function(e){u=e}},1),n.link("react",{default:function(e){a=e}},2),n.exportDefault(function(e){var t=e.roles,n=e.isBot,c=u();return a.createElement(o,null,t.map(function(e,t){return a.createElement(l,{key:t},e)}),n&&a.createElement(l,null,c("Bot")))})}
+//# sourceMappingURL=/dynamic/client/components/message/header/ebf8711838c7b6d630b145b92cbc1d49f89cf8a4.map

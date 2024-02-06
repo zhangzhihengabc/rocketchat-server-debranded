@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/importer-slack/client/adder.js","meteor://💻app/<anon>"],"sourcesContent":["import { Importers } from '../../importer/client';\nimport { SlackImporterInfo } from '../lib/info';\n\nImporters.add(new SlackImporterInfo());\n",null],"names":["Importers","SlackImporterInfo","module","link","v","add"],"mappings":"2BAAIA,EAA0FC,EAAhFC,EAAOC,IAAI,CAAC,wBAAwB,CAACH,UAAU,SAASI,CAAC,EAAEJ,EAAUI,CAAC,CAAC,EAAE,GAAyBF,EAAOC,IAAI,CAAC,cAAc,CAACF,kBAAkB,SAASG,CAAC,EAAEH,EAAkBG,CAAC,CAAC,EAAE,GAG/LJ,EAAUK,GAAG,CAAC,IAAIJ"}

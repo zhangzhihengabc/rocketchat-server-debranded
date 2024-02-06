@@ -1,0 +1,2 @@
+function module(e,t,n){var i,l,o,a,u=["icon","label"];n.link("@babel/runtime/helpers/extends",{default:function(e){i=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){l=e}},1),n.link("@rocket.chat/fuselage",{Button:function(e){o=e}},0),n.link("react",{default:function(e){a=e}},1),n.exportDefault(function(e){var t=e.icon,n=e.label,c=l(e,u);return a.createElement(o,i({icon:t,"data-qa":"AgentInfoAction-"+n,title:n},c,{mi:4}),n)})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/agents/7bafcab77dcc8d378d2520de20608753487c7e3e.map

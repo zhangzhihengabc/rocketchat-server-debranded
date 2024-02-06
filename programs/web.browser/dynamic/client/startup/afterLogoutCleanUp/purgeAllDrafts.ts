@@ -1,0 +1,2 @@
+function module(e,a,l){let t,o,c;l.link("meteor/meteor",{Meteor(e){t=e}},0),l.link("../../../lib/callbacks",{callbacks(e){o=e}},1),l.link("../../../lib/callbacks/afterLogoutCleanUpCallback",{afterLogoutCleanUpCallback(e){c=e}},2),t.startup(()=>{c.add(()=>{Object.keys(t._localStorage).filter(e=>0===e.indexOf("messagebox_")).forEach(e=>t._localStorage.removeItem(e))},o.priority.MEDIUM,"chatMessages-after-logout-cleanup")})}
+//# sourceMappingURL=/dynamic/client/startup/afterLogoutCleanUp/ea3730126aaa6526780f20285c86cd37735ca364.map

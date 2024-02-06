@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/hooks/omnichannel/useOmnichannelAgentAvailable.ts","meteor://💻app/<anon>"],"sourcesContent":["import { useOmnichannel } from './useOmnichannel';\n\nexport const useOmnichannelAgentAvailable = (): boolean => useOmnichannel().agentAvailable;\n",null],"names":["useOmnichannel","module","export","useOmnichannelAgentAvailable","agentAvailable"],"mappings":"2BAAkDA,EAAlDC,EAAOC,MAAE,CAAA,CAAAC,6BAAsB,IAAAA,CAAmB,GAAAF,EAAAA,IAAAA,CAAAA,mBAAAA,CAAAD,eAAAA,CAAAA,EAAAA,EAAAA,CAAA,CAAA,EAAA,GAE3C,IAAMG,EAA+B,IAAeH,IAAiBI,cAAc"}

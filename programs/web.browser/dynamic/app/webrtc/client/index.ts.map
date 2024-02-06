@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/webrtc/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './adapter';\nimport './actionLink';\n\nexport * from './WebRTCClass';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA,aAAYD,EAAAA,IAAAA,CAAAA,gBAAAA,EAAAA,IAAAA,CAAAA,gBAAAA,CAAA,IAAA,GAAA,EAAA"}

@@ -1,0 +1,2 @@
+function module(e,s,i){var n,t;i.link("meteor/meteor",{Meteor:function(e){n=e}},0),i.link("../../../../ui-utils/client",{MessageTypes:function(e){t=e}},1),n.startup(function(){t.registerType({id:"discussion-created",system:!1,message:"discussion-created",data:function(e){return{message:'<svg class="rc-icon" aria-hidden="true"><use xlink:href="#icon-discussion"></use></svg> '+e.msg}}})})}
+//# sourceMappingURL=/dynamic/app/discussion/client/lib/messageTypes/e4acc91caf1c049f58a0d61d27c588595a67f72b.map

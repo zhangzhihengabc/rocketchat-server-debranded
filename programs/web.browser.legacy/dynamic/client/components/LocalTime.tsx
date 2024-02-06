@@ -1,0 +1,2 @@
+function module(t,n,e){var o,u,c,i;e.link("@rocket.chat/ui-contexts",{useTranslation:function(t){o=t}},0),e.link("react",{default:function(t){u=t},memo:function(t){c=t}},1),e.link("../hooks/useUTCClock",{useUTCClock:function(t){i=t}},2),e.exportDefault(c(function(t){var n=i(t.utcOffset),e=o();return u.createElement(u.Fragment,null,e("Local_Time_time",{time:n}))}))}
+//# sourceMappingURL=/dynamic/client/components/d40b8f5eb64d17a6869d4c796826ed2e7c8af484.map

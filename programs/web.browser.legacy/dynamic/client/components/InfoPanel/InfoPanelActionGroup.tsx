@@ -1,0 +1,2 @@
+function module(e,n,t){var l,u,a,c;t.link("@babel/runtime/helpers/extends",{default:function(e){l=e}},0),t.link("@rocket.chat/fuselage",{ButtonGroup:function(e){u=e}},0),t.link("react",{default:function(e){a=e}},1),t.link("./InfoPanelSection",{default:function(e){c=e}},2),t.exportDefault(function(e){return a.createElement(c,null,a.createElement(u,l({align:"center"},e)))})}
+//# sourceMappingURL=/dynamic/client/components/InfoPanel/e43978a80eb3e68b871e5e87296e660859ae23fe.map

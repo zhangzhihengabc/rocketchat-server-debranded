@@ -1,0 +1,2 @@
+function module(e,t,a){let r,n;a.link("@babel/runtime/helpers/objectSpread2",{default(e){r=e}},0),a.export({useQuery:()=>i}),a.link("react",{useMemo(e){n=e}},0);let s=e=>"asc"===e?1:-1,i=(e,t)=>{let{text:a,itemsPerPage:i,current:l}=e,[u,o]=t;return n(()=>r(r({fields:JSON.stringify({name:1,username:1,emails:1,avatarETag:1}),text:a,sort:JSON.stringify({[u]:s(o),usernames:"name"===u?s(o):void 0})},i&&{count:i}),l&&{offset:l}),[a,i,l,u,o])}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/agents/hooks/2d5e8bd204f65fcaf56934954a64b8eace8ddbb5.map

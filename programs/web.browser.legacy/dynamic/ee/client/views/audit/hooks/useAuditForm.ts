@@ -1,0 +1,2 @@
+function module(t,n,e){e.export({useAuditForm:function(){return u}}),e.link("react-hook-form",{useForm:function(t){o=t}},0),e.link("../utils/dateRange",{createEndOfToday:function(t){r=t},createStartOfToday:function(t){i=t}},1);var o,r,i,u=function(){return o({defaultValues:{msg:"",dateRange:{start:i(),end:r()},rid:void 0,users:[],visitor:void 0,agent:void 0}})}}
+//# sourceMappingURL=/dynamic/ee/client/views/audit/hooks/39ddb07e0cb62db24ae91c68d320d60f95ba750c.map

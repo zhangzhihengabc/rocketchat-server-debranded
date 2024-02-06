@@ -1,0 +1,2 @@
+function module(e,t,n){var l,o;n.link("@rocket.chat/fuselage",{Box:function(e){l=e}},0),n.link("react",{default:function(e){o=e}},1),n.exportDefault(function(e){return o.createElement(l,{fontFamily:"mono",alignSelf:"center",fontScale:"p2",style:{wordBreak:"break-all"},mie:4,flexGrow:1,withRichContent:!0},o.createElement("pre",null,o.createElement("code",null,e)))})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/installation/c920a6594882cbf572ebaf8f9e0e0914f452cc0b.map

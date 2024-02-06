@@ -1,0 +1,2 @@
+function module(l,a,n){let e,i,s;n.link("@babel/runtime/helpers/objectSpread2",{default(l){e=l}},0),n.link("../../utils/client/lib/SDKClient",{sdk(l){i=l}},0),n.link("../../utils/lib/slashCommand",{slashCommands(l){s=l}},1),s.add({command:"unflip",callback:async l=>{let{message:a,params:n}=l;await i.call("sendMessage",e(e({},a),{},{msg:"".concat(n," ┬─┬ ノ( ゜-゜ノ)")}))},options:{description:"Slash_TableUnflip_Description",params:"your_message_optional",clientOnly:!0}})}
+//# sourceMappingURL=/dynamic/app/slashcommand-asciiarts/client/a47b58ccd4d89748d0aad5d87ae3096a4b72278e.map

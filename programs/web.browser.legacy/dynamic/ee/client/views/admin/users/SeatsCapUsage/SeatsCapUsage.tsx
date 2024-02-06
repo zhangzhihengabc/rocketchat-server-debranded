@@ -1,0 +1,2 @@
+function module(e,t,n){var a,i,c;n.link("@rocket.chat/ui-contexts",{useTranslation:function(e){a=e}},0),n.link("react",{default:function(e){i=e}},1),n.link("../../../../../../client/components/GenericResourceUsage",{GenericResourceUsage:function(e){c=e}},2),n.exportDefault(function(e){var t=e.limit,n=e.members,r=a();return i.createElement(c,{title:r("Seats_Available",{seatsLeft:Math.max(0,t-n)}),value:n,max:t,percentage:Math.max(0,Math.min(100/t*n,100))})})}
+//# sourceMappingURL=/dynamic/ee/client/views/admin/users/SeatsCapUsage/fadf4a67fa6abb670954bc95366352c5ff621a2b.map

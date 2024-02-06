@@ -1,0 +1,2 @@
+function module(e,o,n){let t,i,r;n.export({useRedirectModerationConsole:()=>s}),n.link("@rocket.chat/ui-contexts",{usePermission(e){t=e},useRoute(e){i=e},useTranslation(e){r=e}},0);let s=e=>{let o=r(),n=t("view-moderation-console"),s=i("moderation-console");if(n)return{content:o("Moderation_Action_View_reports"),icon:"warning",onClick:()=>{s.push({uid:e})},type:"privileges"}}}
+//# sourceMappingURL=/dynamic/client/views/room/hooks/useUserInfoActions/actions/49f1b9ad4401b78b63dd8809325257cc19a1c436.map

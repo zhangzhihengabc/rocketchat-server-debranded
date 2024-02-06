@@ -1,0 +1,2 @@
+function module(e,s,t){let c,a,n;function u(e,s){let t=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{keys:{}},u=a(e,s,t.keys),o=c();return n(async e=>{try{let s=await u(e);return t.successMessage&&o({type:"success",message:t.successMessage}),s}catch(e){throw o({type:"error",message:e}),e}},[o,u,t.successMessage])}t.export({useEndpointAction:()=>u}),t.link("@rocket.chat/ui-contexts",{useToastMessageDispatch(e){c=e},useEndpoint(e){a=e}},0),t.link("react",{useCallback(e){n=e}},1)}
+//# sourceMappingURL=/dynamic/client/hooks/b20d17d3172db399c56e1b71c94109ac6f3c92de.map

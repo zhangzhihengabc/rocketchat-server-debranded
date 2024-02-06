@@ -1,0 +1,2 @@
+function module(e,t,a){let l,n,r,i;a.link("@rocket.chat/fuselage",{Badge(e){l=e}},0),a.link("@rocket.chat/ui-client",{useFeaturePreviewList(e){n=e}},1),a.link("@rocket.chat/ui-contexts",{useTranslation(e){r=e}},2),a.link("react",{default(e){i=e}},3),a.exportDefault(()=>{let e=r(),{unseenFeatures:t}=n();return t?i.createElement(l,{variant:"primary","aria-label":e("Unseen_features")},t):null})}
+//# sourceMappingURL=/dynamic/client/views/account/featurePreview/994bb8276fe1bffed8d5372af5434b428521e313.map

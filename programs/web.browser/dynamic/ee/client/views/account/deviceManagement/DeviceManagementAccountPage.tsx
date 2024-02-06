@@ -1,0 +1,2 @@
+function module(e,t,n){let l,a,c,u;n.link("@rocket.chat/ui-contexts",{useTranslation(e){l=e}},0),n.link("react",{default(e){a=e}},1),n.link("../../../../../client/components/Page",{default(e){c=e}},2),n.link("./DeviceManagementAccountTable",{default(e){u=e}},3),n.exportDefault(()=>{let e=l();return a.createElement(c,null,a.createElement(c.Header,{title:e("Manage_Devices")}),a.createElement(c.Content,null,a.createElement(u,null)))})}
+//# sourceMappingURL=/dynamic/ee/client/views/account/deviceManagement/676ca72a3568c2fa40a2f840e7605620c2276de5.map

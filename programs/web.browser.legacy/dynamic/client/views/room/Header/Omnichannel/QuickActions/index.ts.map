@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/Header/Omnichannel/QuickActions/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import { lazy } from 'react';\n\nexport default lazy(() => import('./QuickActions'));\n",null],"names":["lazy","module","link","exportDefault","dynamicImport"],"mappings":"uBAAA,IAAAA,EAASC,EAAMC,IAAA,CAAM,QAAQ,CAAAF,KAAAA,SAAAA,CAAAA,EAAAA,EAAAA,CAAA,CAAA,EAAA,GAA7BC,EAAOE,aAAQ,CAEAH,EAAK,WAAA,OAAMC,EAAAG,aAAA,CAAO,iBAAiB"}

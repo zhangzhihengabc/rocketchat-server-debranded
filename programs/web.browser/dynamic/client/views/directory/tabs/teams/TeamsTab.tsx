@@ -1,0 +1,2 @@
+function module(e,t,l){let n,u,o,a;l.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),l.link("react",{default(e){u=e}},1),l.link("../../../notAuthorized/NotAuthorizedPage",{default(e){o=e}},2),l.link("./TeamsTable",{default(e){a=e}},3),l.exportDefault(()=>{let e=n("view-c-room");return e?u.createElement(a,null):u.createElement(o,null)})}
+//# sourceMappingURL=/dynamic/client/views/directory/tabs/teams/2df3b955c608ca321fabb17379f5642fb1234ac6.map

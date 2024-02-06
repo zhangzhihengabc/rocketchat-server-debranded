@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,r,o;l.link("@rocket.chat/ui-contexts",{useTranslation(e){n=e}},0),l.link("react",{default(e){a=e}},1),l.link("../../../../client/components/Page",{default(e){r=e}},2),l.link("./MonitorsTable",{default(e){o=e}},3),l.exportDefault(()=>{let e=n();return a.createElement(r,{flexDirection:"row"},a.createElement(r,null,a.createElement(r.Header,{title:e("Livechat_Monitors")}),a.createElement(r.Content,null,a.createElement(o,null))))})}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/monitors/1597ed6b184eb76169d61fb51300ba00cb92cbbe.map

@@ -1,0 +1,2 @@
+function module(e,o,t){let n,l,a;t.export({useOutlookCalenderRoomAction:()=>u}),t.link("@rocket.chat/ui-contexts",{useSetting(e){n=e}},0),t.link("react",{lazy(e){l=e},useMemo(e){a=e}},1);let r=l(()=>t.dynamicImport("../../views/outlookCalendar/OutlookEventsRoute")),u=()=>{let e=n("Outlook_Calendar_Enabled",!1);return a(()=>{if(e)return{id:"outlookCalendar",groups:["channel","group","team"],icon:"calendar",title:"Outlook_calendar",tabComponent:r,order:999}},[e])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/dd053729452d3f4594c6482dc7eb9e1e58f4c51e.map

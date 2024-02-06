@@ -1,0 +1,2 @@
+function module(e,t,n){let l,a,u,o;n.link("@rocket.chat/ui-contexts",{useSetting(e){l=e}},0),n.link("react",{default(e){a=e}},1),n.link("../../notAuthorized/NotAuthorizedPage",{default(e){u=e}},2),n.link("./AccountIntegrationsPage",{default(e){o=e}},3),n.exportDefault(()=>{let e=l("Webdav_Integration_Enabled");return e?a.createElement(o,null):a.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/client/views/account/integrations/db2b7e8801d893ebef22206621baf95f73bd9a76.map

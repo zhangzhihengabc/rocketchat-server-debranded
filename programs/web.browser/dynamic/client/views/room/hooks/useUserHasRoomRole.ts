@@ -1,0 +1,2 @@
+function module(e,l,o){let s,a,i;o.export({useUserHasRoomRole:()=>u}),o.link("react",{useCallback(e){s=e}},0),o.link("../../../../app/models/client",{RoomRoles(e){a=e}},1),o.link("../../../hooks/useReactiveValue",{useReactiveValue(e){i=e}},2);let u=(e,l,o)=>i(s(()=>!!a.findOne({rid:l,"u._id":e,roles:o}),[e,l,o]))}
+//# sourceMappingURL=/dynamic/client/views/room/hooks/ba1d1a6052d14abbd7b16d4d9a3c3a7f8d1eb40f.map

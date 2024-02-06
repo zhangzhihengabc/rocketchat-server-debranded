@@ -1,0 +1,2 @@
+function module(e,t,r){let l;r.link("react",{default(e){l=e}},0);let o={maxWidth:"100%"};r.exportDefault(e=>{let{url:t,originalType:r}=e;return l.createElement("video",{controls:!0,style:o},l.createElement("source",{src:t,type:r}),"Your browser doesn't support the video element.")})}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/ea76ed70be608eff91f79359e3df27e4ba8553a3.map

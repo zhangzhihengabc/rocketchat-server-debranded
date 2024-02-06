@@ -1,0 +1,2 @@
+function module(o,n,a){var i;a.link("../../utils/lib/slashCommand",{slashCommands:function(o){i=o}},0),i.add({command:"invite-all-to",options:{description:"Invite_user_to_join_channel_all_to",params:"#room",permission:["add-user-to-joined-room","add-user-to-any-c-room","add-user-to-any-p-room"]}}),i.add({command:"invite-all-from",options:{description:"Invite_user_to_join_channel_all_from",params:"#room",permission:"add-user-to-joined-room"}})}
+//# sourceMappingURL=/dynamic/app/slashcommands-inviteall/client/e347192f3d101cfc8d9f86dae8767381cfdd2e4d.map

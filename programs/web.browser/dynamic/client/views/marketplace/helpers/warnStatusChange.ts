@@ -1,0 +1,2 @@
+function module(t,e,s){let a,p,n;s.export({warnStatusChange:()=>r}),s.link("../../../../app/utils/lib/i18n",{t(t){a=t}},0),s.link("../../../lib/toast",{dispatchToastMessage(t){p=t}},1),s.link("./appErroredStatuses",{appErroredStatuses(t){n=t}},2);let r=(t,e)=>{if(n.includes(e)){p({type:"error",message:(a("App_status_".concat(e)),t)});return}p({type:"info",message:(a("App_status_".concat(e)),t)})}}
+//# sourceMappingURL=/dynamic/client/views/marketplace/helpers/48fc73e9a334c8f42f30ae3d969670be49f8d008.map

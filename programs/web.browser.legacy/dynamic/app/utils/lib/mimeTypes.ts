@@ -1,0 +1,2 @@
+function module(e,n,i){i.export({mime:function(){return o},getExtension:function(){return t}}),i.link("mime-type/with-db",{default:function(e){o=e}},0),o.types.wav="audio/wav",o.define("image/vnd.microsoft.icon",{source:"",extensions:["ico"]},o.dupAppend),o.define("image/x-icon",{source:"",extensions:["ico"]},o.dupAppend),o.types.ico="image/x-icon";var o,t=function(e){var n=o.extension(e);return n&&"boolean"!=typeof n?n:""}}
+//# sourceMappingURL=/dynamic/app/utils/lib/45496a35ef0f4fe33ae4ee7484a06c584f5dc667.map

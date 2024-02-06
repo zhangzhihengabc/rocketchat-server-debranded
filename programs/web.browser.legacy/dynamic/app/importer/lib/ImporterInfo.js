@@ -1,0 +1,2 @@
+function module(i,t,n){n.export({ImporterInfo:function(){return e}});var e=function(i){var t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"",n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:"",e=arguments.length>3&&void 0!==arguments[3]?arguments[3]:[];this.key=i,this.name=t,this.mimeType=n,this.warnings=e,this.importer=void 0,this.instance=void 0}}
+//# sourceMappingURL=/dynamic/app/importer/lib/76ed7165987cac2275e2e80c2d42cc5d7a1149ed.map

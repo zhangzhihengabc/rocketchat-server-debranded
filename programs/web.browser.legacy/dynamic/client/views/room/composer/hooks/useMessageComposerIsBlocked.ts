@@ -1,0 +1,2 @@
+function module(o,e,n){n.export({useMessageComposerIsBlocked:function(){return c}}),n.link("@rocket.chat/core-typings",{isDirectMessageRoom:function(o){t=o}},0),n.link("../../contexts/RoomContext",{useRoom:function(o){r=o}},1);var t,r,c=function(o){var e=o.subscription;if(!t(r())||!e)return!1;var n=!!e.blocked,c=!!e.blocker;return n||c}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/hooks/95925d2d85264eda638de6c7ea5b81f08ad6e499.map

@@ -1,0 +1,2 @@
+function module(l,a,n){var o,t,c,e;n.link("meteor/meteor",{Meteor:function(l){o=l}},0),n.link("../../../app/ui-utils/client",{LegacyRoomManager:function(l){t=l}},1),n.link("../../../lib/callbacks",{callbacks:function(l){c=l}},2),n.link("../../../lib/callbacks/afterLogoutCleanUpCallback",{afterLogoutCleanUpCallback:function(l){e=l}},3),o.startup(function(){e.add(function(){return t.closeAllRooms()},c.priority.MEDIUM,"roommanager-after-logout-cleanup")})}
+//# sourceMappingURL=/dynamic/client/startup/afterLogoutCleanUp/9c8cbad7a92634211a21df752573838a39d1e7e0.map

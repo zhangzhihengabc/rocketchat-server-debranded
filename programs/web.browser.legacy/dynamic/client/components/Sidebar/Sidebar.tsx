@@ -1,0 +1,2 @@
+function module(e,n,t){var l,i,r,u,a=["children"];t.link("@babel/runtime/helpers/extends",{default:function(e){l=e}},0),t.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){i=e}},1),t.link("@rocket.chat/fuselage",{Sidebar:function(e){r=e}},0),t.link("react",{default:function(e){u=e}},1),t.exportDefault(function(e){var n=e.children,t=i(e,a);return u.createElement(r,l({},t,{role:"navigation",display:"flex",flexDirection:"column",h:"full",children:n}))})}
+//# sourceMappingURL=/dynamic/client/components/Sidebar/58db47f780293506d54ef727c63c029e6b29581b.map

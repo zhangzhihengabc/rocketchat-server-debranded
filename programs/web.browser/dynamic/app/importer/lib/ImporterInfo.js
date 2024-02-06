@@ -1,0 +1,2 @@
+function module(t,i,e){e.export({ImporterInfo:()=>o});class o{constructor(t){let i=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"",e=arguments.length>2&&void 0!==arguments[2]?arguments[2]:"",o=arguments.length>3&&void 0!==arguments[3]?arguments[3]:[];this.key=t,this.name=i,this.mimeType=e,this.warnings=o,this.importer=void 0,this.instance=void 0}}}
+//# sourceMappingURL=/dynamic/app/importer/lib/ee0b81ba232d7bd5eb3114dcfe26c197d2b53e6b.map

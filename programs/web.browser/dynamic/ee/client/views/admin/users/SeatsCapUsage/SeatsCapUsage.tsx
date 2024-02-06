@@ -1,0 +1,2 @@
+function module(e,t,a){let n,l,c;a.link("@rocket.chat/ui-contexts",{useTranslation(e){n=e}},0),a.link("react",{default(e){l=e}},1),a.link("../../../../../../client/components/GenericResourceUsage",{GenericResourceUsage(e){c=e}},2),a.exportDefault(e=>{let{limit:t,members:a}=e,i=n();return l.createElement(c,{title:i("Seats_Available",{seatsLeft:Math.max(0,t-a)}),value:a,max:t,percentage:Math.max(0,Math.min(100/t*a,100))})})}
+//# sourceMappingURL=/dynamic/ee/client/views/admin/users/SeatsCapUsage/378ae066ac20315c55cd088eee852cef47cae271.map

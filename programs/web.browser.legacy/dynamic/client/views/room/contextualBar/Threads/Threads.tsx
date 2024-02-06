@@ -1,0 +1,2 @@
+function module(t,n,e){var o,l,u,i;e.link("react",{default:function(t){o=t}},0),e.link("../../contexts/RoomToolboxContext",{useRoomToolbox:function(t){l=t}},1),e.link("./Thread",{default:function(t){u=t}},2),e.link("./ThreadList",{default:function(t){i=t}},3),e.exportDefault(function(){var t=l().context;return t?o.createElement(u,{tmid:t}):o.createElement(i,null)})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/Threads/ebb2d5f1bd0121e62eac7ad266ef95d33b1515a3.map

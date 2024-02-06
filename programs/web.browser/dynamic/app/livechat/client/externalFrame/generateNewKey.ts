@@ -1,0 +1,2 @@
+function module(e,n,t){let l,a,i;t.link("meteor/meteor",{Meteor(e){l=e}},0),t.link("../../../utils/client/lib/SDKClient",{sdk(e){a=e}},1),t.link("./crypto",{generateKey(e){i=e}},2),l.methods({async omnichannelExternalFrameGenerateKey(){let e=await i();await a.call("saveSetting","Omnichannel_External_Frame_Encryption_JWK",e)}})}
+//# sourceMappingURL=/dynamic/app/livechat/client/externalFrame/d4b308a0156194ad0940ac5a1e04fe76744b1d1d.map

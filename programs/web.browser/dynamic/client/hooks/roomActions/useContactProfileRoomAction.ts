@@ -1,0 +1,2 @@
+function module(t,o,e){let n,c;e.export({useContactProfileRoomAction:()=>i}),e.link("react",{lazy(t){n=t},useMemo(t){c=t}},0);let a=n(()=>e.dynamicImport("../../views/omnichannel/directory/contacts/contextualBar/ContactsContextualBar")),i=()=>c(()=>({id:"contact-profile",groups:["live"],title:"Contact_Info",icon:"user",tabComponent:a,order:1}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/5b649535179aadca19d94c000805d1d75a9813e7.map

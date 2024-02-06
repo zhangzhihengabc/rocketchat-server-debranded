@@ -1,0 +1,2 @@
+function module(e,t,n){var i,u,l,o;n.link("@rocket.chat/ui-contexts",{usePermission:function(e){i=e}},0),n.link("react",{default:function(e){u=e}},1),n.link("../../notAuthorized/NotAuthorizedPage",{default:function(e){l=e}},2),n.link("./InvitesPage",{default:function(e){o=e}},3),n.exportDefault(function(){return i("create-invite-links")?u.createElement(o,null):u.createElement(l,null)})}
+//# sourceMappingURL=/dynamic/client/views/admin/invites/80513f1a42287fb66d88de04905bf61fa22a576a.map

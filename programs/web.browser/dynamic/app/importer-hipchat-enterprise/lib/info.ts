@@ -1,0 +1,2 @@
+function module(t,r,e){let i;e.export({HipChatEnterpriseImporterInfo:()=>p}),e.link("../../importer/lib/ImporterInfo",{ImporterInfo(t){i=t}},0);class p extends i{constructor(){super("hipchatenterprise","HipChat (tar.gz)","application/gzip",[{text:"Importer_HipChatEnterprise_Information",href:"https://rocket.chat/docs/administrator-guides/import/hipchat/enterprise/"}])}}}
+//# sourceMappingURL=/dynamic/app/importer-hipchat-enterprise/lib/a453d4f2cff88059201cf24ca40664f5eb1aa179.map

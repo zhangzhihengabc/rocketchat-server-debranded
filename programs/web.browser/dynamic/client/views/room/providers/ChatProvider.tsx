@@ -1,0 +1,2 @@
+function module(e,t,n){let o,s,a,l;n.link("react",{default(e){o=e}},0),n.link("../contexts/ChatContext",{ChatContext(e){s=e}},1),n.link("../contexts/RoomContext",{useRoom(e){a=e}},2),n.link("./hooks/useChatMessagesInstance",{useChatMessagesInstance(e){l=e}},3),n.exportDefault(e=>{let{children:t,tmid:n}=e,{_id:u}=a(),c=l({rid:u,tmid:n});return o.createElement(s.Provider,{value:c},t)})}
+//# sourceMappingURL=/dynamic/client/views/room/providers/919fa261299e5229801146f3d23cdb523404a721.map

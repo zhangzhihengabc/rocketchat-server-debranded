@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,r;l.link("@rocket.chat/ui-client",{HeaderTitle(e){n=e}},0),l.link("react",{default(e){a=e}},1),l.link("./HeaderIconWithRoom",{default(e){r=e}},2),l.exportDefault(e=>{let{room:t}=e;return a.createElement(a.Fragment,null,a.createElement(r,{room:t}),a.createElement(n,{is:"h1"},t.name))})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/40b18900c39aedcd6a772198d478b75fd400ddc5.map

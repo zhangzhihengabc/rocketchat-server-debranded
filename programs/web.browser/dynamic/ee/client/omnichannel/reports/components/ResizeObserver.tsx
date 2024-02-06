@@ -1,0 +1,2 @@
+function module(e,t,r){let l,n,s,o;r.export({ResizeContext:()=>i,ResizeObserver:()=>u}),r.link("react",{default(e){l=e},cloneElement(e){n=e},createContext(e){s=e}},0),r.link("../hooks/useResizeObserver",{useResizeObserver(e){o=e}},1);let i=s(!1),u=e=>{let{children:t}=e,{ref:r,isResizing:s}=o();return l.createElement(i.Provider,{value:s},n(t,{ref:r}))}}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/reports/components/43d5ab99533bf62e5625ae4a34f7a37fff36509c.map

@@ -1,0 +1,2 @@
+function module(e,t,n){let l,s,r;n.export({usePresence:()=>c}),n.link("react",{useCallback(e){l=e}},0),n.link("use-sync-external-store/shim",{useSyncExternalStore(e){s=e}},1),n.link("../lib/presence",{Presence(e){r=e}},2);let c=e=>{let t=l(t=>(e&&r.listen(e,t),()=>{e&&r.stop(e,t)}),[e]);return s(t,()=>e?r.store.get(e):void 0)}}
+//# sourceMappingURL=/dynamic/client/hooks/fb37a807a97a0aaf2b449b44e4a80e7127fc481b.map

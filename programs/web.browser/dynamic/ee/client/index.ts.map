@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/ee/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import '../app/authorization/client';\nimport '../app/canned-responses/client';\nimport '../app/license/client';\nimport '../app/livechat-enterprise/client';\nimport './omnichannel';\nimport './startup';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA,+BAA8BD,EAAAA,IAAAA,CAAAA,kCAAAA,EAAAA,IAAAA,CAAAA,yBAAAA,EAAAA,IAAAA,CAAAA,qCAAAA,EAAAA,IAAAA,CAAAA,iBAAAA,EAAAA,IAAAA,CAAAA"}

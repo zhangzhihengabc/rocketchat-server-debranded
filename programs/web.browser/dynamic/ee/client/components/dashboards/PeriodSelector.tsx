@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,o,i,r;l.link("@rocket.chat/fuselage",{Select(e){n=e}},0),l.link("@rocket.chat/ui-contexts",{useTranslation(e){a=e}},1),l.link("react",{default(e){o=e},useMemo(e){i=e}},2),l.link("./periods",{getPeriod(e){r=e}},3),l.exportDefault(e=>{let{periods:t,value:l,name:u,onChange:c}=e,s=a(),k=i(()=>t.map(e=>[e,s(...r(e).label)]),[t,s]);return o.createElement(n,{name:u,options:k,value:l,onChange:e=>c(e)})})}
+//# sourceMappingURL=/dynamic/ee/client/components/dashboards/d195f32f6f28cbb04e5acc6fe9617965ddc77062.map

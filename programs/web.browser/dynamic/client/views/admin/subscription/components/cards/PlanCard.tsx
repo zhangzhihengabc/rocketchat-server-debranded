@@ -1,0 +1,2 @@
+function module(e,l,a){let n,t,r;a.link("react",{default(e){n=e}},0),a.link("./PlanCard/PlanCardPremium",{default(e){t=e}},1),a.link("./PlanCard/PlanCardTrial",{default(e){r=e}},2),a.exportDefault(e=>{let{licenseInformation:l,licenseLimits:a}=e,i=l.trial;return!0===i?n.createElement(r,{licenseInformation:l}):n.createElement(t,{licenseInformation:l,licenseLimits:a})})}
+//# sourceMappingURL=/dynamic/client/views/admin/subscription/components/cards/b55dbd5426d72ec7447e3352a611564df45c96b8.map

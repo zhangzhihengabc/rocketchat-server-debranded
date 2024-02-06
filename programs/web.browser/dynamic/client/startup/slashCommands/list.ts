@@ -1,0 +1,2 @@
+function module(e,l,t){let n,r,s,a;t.link("meteor/meteor",{Meteor(e){n=e}},0),t.link("meteor/tracker",{Tracker(e){r=e}},1),t.link("../../../app/utils/client",{slashCommands(e){s=e}},2),t.link("../../../app/utils/client/lib/SDKClient",{sdk(e){a=e}},3);let i=null;r.autorun(async()=>{let e=n.userId();null===i&&e&&a.rest.get("/v1/commands.list").then(e=>{e.commands.forEach(e=>{s.add(e)})}),i=n.userId()})}
+//# sourceMappingURL=/dynamic/client/startup/slashCommands/5ba855ee1132cc321f8040b910c3c460d7dfd5cc.map

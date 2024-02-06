@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/teams/contextualBar/channels/AddExistingModal/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './AddExistingModal';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,qBAAe,CAAA,QAAA,SAAqB,EAAA"}

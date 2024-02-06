@@ -1,0 +1,2 @@
+function module(t,o,n){var i,e,u;n.link("meteor/meteor",{Meteor:function(t){i=t}},0),n.link("../../../notifications/client",{Notifications:function(t){e=t}},1),n.link("../lib/emojiCustom",{updateEmojiCustom:function(t){u=t}},2),i.startup(function(){return e.onLogged("updateEmojiCustom",function(t){return u(t.emojiData)})})}
+//# sourceMappingURL=/dynamic/app/emoji-custom/client/notifications/dae5bf2eb9b914bbcc83d94dc914ffe15fffd91e.map

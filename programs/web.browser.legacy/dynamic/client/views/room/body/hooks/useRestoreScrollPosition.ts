@@ -1,0 +1,2 @@
+function module(o,n,t){var e,r;function l(o,n,t){e(function(){var e=r.getStore(o);null!=e&&e.scroll&&!e.atBottom?n(function(){return{left:30,top:e.scroll}}):t()},[o,n,t])}t.export({useRestoreScrollPosition:function(){return l}}),t.link("react",{useEffect:function(o){e=o}},0),t.link("../../../../lib/RoomManager",{RoomManager:function(o){r=o}},1)}
+//# sourceMappingURL=/dynamic/client/views/room/body/hooks/a5f5a55929529228bde4d1c2760405267993e83a.map

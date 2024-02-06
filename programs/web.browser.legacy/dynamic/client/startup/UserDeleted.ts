@@ -1,0 +1,2 @@
+function module(n,e,t){var i,o,c;t.link("meteor/meteor",{Meteor:function(n){i=n}},0),t.link("../../app/models/client",{ChatMessage:function(n){o=n}},1),t.link("../../app/notifications/client",{Notifications:function(n){c=n}},2),i.startup(function(){c.onLogged("Users:Deleted",function(n){var e=n.userId;o.remove({"u._id":e})})})}
+//# sourceMappingURL=/dynamic/client/startup/44423cf47c713f0b56bf64bf0eb420143a66c077.map

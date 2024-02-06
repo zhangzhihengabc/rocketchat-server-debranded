@@ -1,0 +1,2 @@
+function module(e,t,l){let i,r,n;let a=["children"];l.link("@babel/runtime/helpers/extends",{default(e){i=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){r=e}},1),l.export({NavbarAction:()=>o}),l.link("react",{default(e){n=e}},0);let o=e=>{let{children:t}=e,l=r(e,a);return n.createElement("li",i({style:{position:"relative"},role:"menuitem"},l),t)}}
+//# sourceMappingURL=/dynamic/client/components/Navbar/b407fb2e2b235c96791b6a3fb14abd2804ada6af.map

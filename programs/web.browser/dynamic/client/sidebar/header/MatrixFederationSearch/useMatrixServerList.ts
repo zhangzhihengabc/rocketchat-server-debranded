@@ -1,0 +1,2 @@
+function module(e,r,t){let s,n;t.export({useMatrixServerList:()=>i}),t.link("@rocket.chat/ui-contexts",{useEndpoint(e){s=e}},0),t.link("@tanstack/react-query",{useQuery(e){n=e}},1);let i=()=>{let e=s("GET","/v1/federation/listServersByUser");return n(["federation/listServersByUsers"],async()=>e(),{useErrorBoundary:!0,staleTime:1/0})}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/MatrixFederationSearch/166893b8b37c85e0b404944b8309012ac3549704.map

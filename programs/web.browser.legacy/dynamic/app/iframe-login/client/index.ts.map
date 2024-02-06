@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/iframe-login/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './iframe_client';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA"}

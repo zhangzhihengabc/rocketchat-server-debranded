@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/lib/asyncState/AsyncStatePhase.ts","meteor://💻app/<anon>"],"sourcesContent":["export enum AsyncStatePhase {\n\tLOADING = 'loading',\n\tRESOLVED = 'resolved',\n\tREJECTED = 'rejected',\n\tUPDATING = 'updating',\n}\n",null],"names":["AsyncStatePhase","module","export","runSetters"],"mappings":"2BAAYA,EAAAA,EAAZC,EAAAC,MAAY,CAAA,CAAAF,gBAKX,WAAA,OAAAA,CAAA,CAAA,GAJAA,CADWA,EAAAA,GAAeC,EAAAE,UAAA,CAAfH,EAAe,CAAA,EAAA,CAAA,kBAAA,GAC1BA,OAAAA,CAAAA,UACAA,EAAAA,QAAAA,CAAAA,WACAA,EAAAA,QAAAA,CAAAA,WACAA,EAAAA,QAAAA,CAAAA"}

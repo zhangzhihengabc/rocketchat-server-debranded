@@ -1,0 +1,2 @@
+function module(e,t,l){let o,i,n,r;l.link("@rocket.chat/ui-contexts",{usePermission(e){o=e}},0),l.link("react",{default(e){i=e}},1),l.link("../../../notAuthorized/NotAuthorizedPage",{default(e){n=e}},2),l.link("./UsersTable",{default(e){r=e}},3),l.exportDefault(e=>{let t=o("view-outside-room"),l=o("view-d-room");return t&&l?i.createElement(r,e):i.createElement(n,null)})}
+//# sourceMappingURL=/dynamic/client/views/directory/tabs/users/6f99af3e0dc621602f1ed35f69bca5e41fd684da.map

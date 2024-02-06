@@ -1,0 +1,2 @@
+function module(e,t,n){var u,o,l,a;n.link("@rocket.chat/ui-contexts",{useRole:function(e){u=e}},0),n.link("react",{default:function(e){o=e}},1),n.link("../../notAuthorized/NotAuthorizedPage",{default:function(e){l=e}},2),n.link("./FederationDashboardPage",{default:function(e){a=e}},3),n.exportDefault(function(){return u("admin")?o.createElement(a,null):o.createElement(l,null)})}
+//# sourceMappingURL=/dynamic/client/views/admin/federationDashboard/44a5b0d17be4465e0795e59d50c2b8617ec7ec9a.map

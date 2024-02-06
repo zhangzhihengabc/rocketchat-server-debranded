@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/startup/afterLogoutCleanUp/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './customScriptOnLogout';\nimport './purgeAllDrafts';\nimport './roomManager';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA,0BAAyBD,EAAAA,IAAAA,CAAAA,oBAAAA,EAAAA,IAAAA,CAAAA"}

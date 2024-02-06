@@ -1,0 +1,2 @@
+function module(e,t,l){let m,n,a,r;l.link("@babel/runtime/helpers/extends",{default(e){m=e}},0),l.export({FormSkeleton:()=>c}),l.link("@rocket.chat/fuselage",{Box(e){n=e},Skeleton(e){a=e}},0),l.link("react",{default(e){r=e}},1);let c=e=>r.createElement(n,m({w:"full",pb:24},e),r.createElement(a,{mbe:8}),r.createElement(a,{mbe:4}),r.createElement(a,{mbe:4}),r.createElement(a,{mbe:8}),r.createElement(a,{mbe:4}),r.createElement(a,{mbe:8}))}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/components/3004c1912208ad24be31d5dbfc9b7b2eac9f50c2.map

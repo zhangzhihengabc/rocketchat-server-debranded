@@ -1,0 +1,2 @@
+function module(e,t,i){let r,n,o,l,a;i.link("@rocket.chat/ui-contexts",{usePermission(e){r=e},useRouteParameter(e){n=e}},0),i.link("react",{default(e){o=e}},1),i.link("../../../../client/views/notAuthorized/NotAuthorizedPage",{default(e){l=e}},2),i.link("./PrioritiesPage",{PrioritiesPage(e){a=e}},3),i.exportDefault(()=>{let e=r("manage-livechat-priorities"),t=n("context"),i=n("id")||"";return e?o.createElement(a,{priorityId:i,context:t}):o.createElement(l,null)})}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/priorities/e43a0fff3f0ca001028d0a6fc7712eab56b8c20b.map

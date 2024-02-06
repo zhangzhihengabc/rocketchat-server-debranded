@@ -1,0 +1,2 @@
+function module(n,o,e){var t,i,l,r;e.link("@rocket.chat/ui-client",{HeaderTagSkeleton:function(n){t=n}},0),e.link("react",{default:function(n){i=n}},1),e.link("../../../hooks/useRoomInfoEndpoint",{useRoomInfoEndpoint:function(n){l=n}},2),e.link("./ParentRoom",{default:function(n){r=n}},3),e.exportDefault(function(n){var o=l(n.rid),e=o.data,u=o.isLoading,a=o.isError;return u?i.createElement(t,null):a||!(null!=e&&e.room)?null:i.createElement(r,{room:e.room})})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/2bc4388621049c7276d9abc22f456762f2acaf31.map

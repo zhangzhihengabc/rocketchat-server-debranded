@@ -1,0 +1,2 @@
+function module(e,o,n){let l,t,r,u;n.link("@rocket.chat/ui-client",{HeaderTagSkeleton(e){l=e}},0),n.link("react",{default(e){t=e}},1),n.link("../../../hooks/useRoomInfoEndpoint",{useRoomInfoEndpoint(e){r=e}},2),n.link("./ParentRoom",{default(e){u=e}},3),n.exportDefault(e=>{let{rid:o}=e,{data:n,isLoading:a,isError:i}=r(o);return a?t.createElement(l,null):i||!(null!=n&&n.room)?null:t.createElement(u,{room:n.room})})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/905ba76202be7a2b81bc551371f1ce94a5841a86.map

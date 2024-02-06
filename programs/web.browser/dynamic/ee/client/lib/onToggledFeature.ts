@@ -1,0 +1,2 @@
+function module(e,t,l){let r,u,n;l.export({onToggledFeature:()=>i}),l.link("@tanstack/react-query",{QueryObserver(e){r=e}},0),l.link("../../../client/lib/queryClient",{queryClient(e){u=e}},1),l.link("./fetchFeatures",{fetchFeatures(e){n=e}},2);let i=(e,t)=>{let{up:l,down:i}=t,s=new r(u,{queryKey:["ee.features"],queryFn:n,staleTime:1/0}),a=!1;return s.subscribe(t=>{if(!t.isSuccess)return;let r=t.data,u=r.includes(e);!a&&u&&(null==l||l(),a=!0),a&&!u&&(null==i||i(),a=!1)})}}
+//# sourceMappingURL=/dynamic/ee/client/lib/ac29f2cadc9f4ff0dd3dad90b904b6594ff34b4f.map

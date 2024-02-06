@@ -1,0 +1,2 @@
+function module(t,r,e){let o;e.export({createLookupFunction:()=>p}),e.link("./comparisons",{isEmptyArray(t){o=t}},0);let n=t=>null==t,i=t=>null!=t&&("object"==typeof t||"function"==typeof t),l=(t,r)=>Array.isArray(t)||r,p=t=>{let[r,e]=t.split(/\.(.+)/);if(!e)return t=>n(t)||!i(t)?[void 0]:[t[r]];let u=p(e),a=/^\d+(\.|$)/.test(e);return t=>{if(n(t)||!i(t))return[void 0];let e=t[r];if(o(e))return[void 0];let p=l(e,a)?e:[e];return Array.prototype.concat.apply([],p.map(u))}}}
+//# sourceMappingURL=/dynamic/client/lib/minimongo/f986589d59ea51118b8e752805dc3c81da150f59.map

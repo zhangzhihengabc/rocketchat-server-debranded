@@ -1,0 +1,2 @@
+function module(e,l,t){let r,n,a,i;let c=["children"];t.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){r=e}},0),t.export({GenericTableHeader:()=>o}),t.link("@rocket.chat/fuselage",{TableHead(e){n=e}},0),t.link("react",{default(e){a=e}},1),t.link("./GenericTableRow",{GenericTableRow(e){i=e}},2);let o=e=>{let{children:l}=e,t=r(e,c);return a.createElement(n,t,a.createElement(i,null,l))}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/482631c0284cd39ec56aee6a37269c7ccc263c58.map

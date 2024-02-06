@@ -1,0 +1,2 @@
+function module(e,n,i){var t,o;i.link("../lib/utils/domEvents",{"*":function(e){t=e}},0),i.link("../lib/utils/isIOsDevice",{isIOsDevice:function(e){o=e}},1),o&&window.matchMedia("(hover: none)").matches&&t.delegate({parent:document.body,eventName:"touchend",elementSelector:"a:hover",listener:function(e,n){t.triggerClick(n)}})}
+//# sourceMappingURL=/dynamic/client/polyfills/adf873c6610c253b62b772edc64f29bc760b1879.map

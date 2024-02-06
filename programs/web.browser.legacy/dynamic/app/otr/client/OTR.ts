@@ -1,0 +1,2 @@
+function module(n,o,t){t.link("./OTRRoom",{OTRRoom:function(n){i=n}},0);var i,s=function(){function n(){this.instancesByRoomId=void 0,this.instancesByRoomId={}}return n.prototype.getInstanceByRoomId=function(n,o){if(this.instancesByRoomId[o])return this.instancesByRoomId[o];var t=i.create(n,o);if(t)return this.instancesByRoomId[o]=t,this.instancesByRoomId[o]},n}();t.exportDefault(new s)}
+//# sourceMappingURL=/dynamic/app/otr/client/18580993c8d84ee61b3530e56342e029218f83a4.map

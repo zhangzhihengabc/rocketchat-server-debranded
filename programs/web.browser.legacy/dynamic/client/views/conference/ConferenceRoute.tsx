@@ -1,0 +1,2 @@
+function module(e,n,t){var u,a,l;t.link("react",{default:function(e){u=e}},0),t.link("../root/MainLayout/AuthenticationCheck",{default:function(e){a=e}},1),t.link("./ConferencePage",{default:function(e){l=e}},2),t.exportDefault(function(){return u.createElement(a,{guest:!0},u.createElement(l,null))})}
+//# sourceMappingURL=/dynamic/client/views/conference/c64ff8ac10f56548edd59421cf5823777866d878.map

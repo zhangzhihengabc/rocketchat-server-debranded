@@ -1,0 +1,2 @@
+function module(e,t,r){let n;r.link("@babel/runtime/helpers/objectSpread2",{default(e){n=e}},0),r.export({parseStringToIceServer:()=>l,parseStringToIceServers:()=>o});let l=e=>{let t=e.trim().split("@"),r=t.pop(),[l,o]=1===t.length?t[0].split(":"):[];return n({urls:r},l&&o&&{username:decodeURIComponent(l),credential:decodeURIComponent(o)})},o=e=>{let t=e.trim()?e.split(","):[];return t.map(e=>l(e))}}
+//# sourceMappingURL=/dynamic/client/providers/CallProvider/lib/5db73a30b43d92ea0f5626b23fc79b5785a362e6.map

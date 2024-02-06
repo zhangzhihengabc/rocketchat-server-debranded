@@ -1,0 +1,2 @@
+function module(e,a,n){var l,t;n.link("react",{default:function(e){l=e}},0),n.link("../../components/LoadingIndicator",{default:function(e){t=e}},1),n.exportDefault(function(){return l.createElement("div",{className:"page-loading",role:"alert","aria-busy":"true","aria-live":"polite","aria-label":"loading"},l.createElement(t,null))})}
+//# sourceMappingURL=/dynamic/client/views/root/9f4a8bde0133d2880952eb278e98985724a6168e.map

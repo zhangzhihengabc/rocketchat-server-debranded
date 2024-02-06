@@ -1,0 +1,2 @@
+function module(e,n,l){l.export({InfoField:function(){return o}}),l.link("react",{default:function(e){t=e}},0),l.link("../../../../../components/InfoPanel",{default:function(e){u=e}},1);var t,u,o=function(e){var n=e.label,l=e.info;return t.createElement(u.Field,null,t.createElement(u.Label,null,n),t.createElement(u.Text,null,l))}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/calls/contextualBar/195bc36f9ea334d610b45412a9155544ffb8da0d.map

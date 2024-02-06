@@ -1,0 +1,2 @@
+function module(e,t,n){let l;n.export({useActionSpread:()=>i}),n.link("react",{useMemo(e){l=e}},0);let r=e=>{let[t,{action:n,label:l,icon:r}]=e;return[t,{label:{label:l,icon:r},action:n}]},i=function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:2;return l(()=>{let n=Object.entries(e),l=n.slice(0,t),i=n.slice(t,n.length).map(r),o=i.length?Object.fromEntries(i):void 0;return{actions:l,menu:o}},[e,t])}}
+//# sourceMappingURL=/dynamic/client/views/hooks/83c7f622ac4b0dd205ce6111f7490a070eebd9be.map

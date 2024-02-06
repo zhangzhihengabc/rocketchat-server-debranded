@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/views/room/composer/messageBox/MessageBoxActionsToolbar/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { default } from './MessageBoxActionsToolbar';\n",null],"names":["module","link","default"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,6BAAe,CAAAC,QAAAA,SAA6B,EAAA"}

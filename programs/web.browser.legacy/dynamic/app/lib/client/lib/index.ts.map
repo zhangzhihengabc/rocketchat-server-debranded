@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/lib/client/lib/index.ts","meteor://💻app/<anon>"],"sourcesContent":["export { LoginPresence } from './LoginPresence';\n",null],"names":["module","link","LoginPresence"],"mappings":"uBAAAA,EAAOC,IAAE,CAAA,kBAAqB,CAAAC,cAAAA,eAAkB,EAAA"}

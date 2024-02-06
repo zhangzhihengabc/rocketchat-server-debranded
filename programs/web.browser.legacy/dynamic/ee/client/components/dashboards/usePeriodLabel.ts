@@ -1,0 +1,2 @@
+function module(n,e,t){t.link("@babel/runtime/helpers/toConsumableArray",{default:function(n){o=n}},0),t.export({usePeriodLabel:function(){return l}}),t.link("@rocket.chat/ui-contexts",{useTranslation:function(n){i=n}},0),t.link("react",{useMemo:function(n){r=n}},1),t.link("./periods",{getPeriod:function(n){u=n}},2);var o,i,r,u,l=function(n){var e=i();return r(function(){return e.apply(void 0,o(u(n).label))},[n,e])}}
+//# sourceMappingURL=/dynamic/ee/client/components/dashboards/45659bcff11a0e968aece287a54bbeddf6d000f6.map

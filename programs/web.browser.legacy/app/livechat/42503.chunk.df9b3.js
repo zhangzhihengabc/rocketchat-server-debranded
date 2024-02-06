@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk_rocket_chat_livechat=self.webpackChunk_rocket_chat_livechat||[]).push([[42503],{42503:function(e,c,t){t.r(c);var a=t(26414),n=t(40038);c.default=function(e){var c=e.code;return(0,a.tZ)("code",{className:"code-colors inline",children:(0,a.tZ)(n.Z,{text:c})})}}}]);
+//# sourceMappingURL=42503.chunk.df9b3.js.map

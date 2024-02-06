@@ -1,0 +1,2 @@
+function module(e,l,t){let n,a;t.export({InfoField:()=>u}),t.link("react",{default(e){n=e}},0),t.link("../../../../../components/InfoPanel",{default(e){a=e}},1);let u=e=>{let{label:l,info:t}=e;return n.createElement(a.Field,null,n.createElement(a.Label,null,l),n.createElement(a.Text,null,t))}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/calls/contextualBar/43e826cabfefd836c579a2eb5cf69d27b85cbc93.map

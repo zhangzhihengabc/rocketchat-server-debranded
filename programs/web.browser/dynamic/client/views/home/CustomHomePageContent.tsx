@@ -1,0 +1,2 @@
+function module(e,t,n){let l,o,r,u;n.link("@babel/runtime/helpers/extends",{default(e){l=e}},0),n.link("@rocket.chat/fuselage",{Box(e){o=e}},0),n.link("@rocket.chat/ui-contexts",{useSetting(e){r=e}},1),n.link("react",{default(e){u=e}},2),n.exportDefault(e=>{let t=String(r("Layout_Home_Body"));return u.createElement(o,l({withRichContent:!0,dangerouslySetInnerHTML:{__html:t}},e))})}
+//# sourceMappingURL=/dynamic/client/views/home/bb84b33f957a6ec65f484f47cc483c8a6fd35564.map

@@ -1,0 +1,2 @@
+function module(t,e,n){var a,r;n.link("react",{default:function(t){a=t}},0),n.link("./VersionCardActionItem",{default:function(t){r=t}},1),n.exportDefault(function(t){var e=t.actionItems;return a.createElement(a.Fragment,null,e.map(function(t,e){return a.createElement(r,{key:e,actionItem:t})}))})}
+//# sourceMappingURL=/dynamic/client/views/admin/workspace/VersionCard/components/e8b7db4e727b4f474f1c65367156b8b36a300989.map

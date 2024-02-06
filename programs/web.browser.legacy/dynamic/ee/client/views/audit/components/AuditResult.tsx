@@ -1,0 +1,2 @@
+function module(e,t,n){var l,a,i,s;n.link("react",{default:function(e){l=e},memo:function(e){a=e}},0),n.link("../../../../../client/components/GenericNoResults",{default:function(e){i=e}},1),n.link("./AuditMessageList",{default:function(e){s=e}},2),n.exportDefault(a(function(e){var t=e.className,n=e.messages;return 0===n.length?l.createElement(i,null):l.createElement("div",{className:t,role:"list","aria-live":"polite"},l.createElement(s,{messages:n}))}))}
+//# sourceMappingURL=/dynamic/ee/client/views/audit/components/45f39276a7e7ab3c0dff34fc4b4ac9e983148f02.map

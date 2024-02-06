@@ -1,0 +1,2 @@
+function module(t,n,e){var o,a,i;e.link("@rocket.chat/fuselage",{Box:function(t){o=t}},0),e.link("@rocket.chat/ui-contexts",{useTranslation:function(t){a=t}},1),e.link("react",{default:function(t){i=t}},2),e.exportDefault(function(){var t=a();return i.createElement(o,{pb:20,fontScale:"h4",key:"bots",dangerouslySetInnerHTML:{__html:t("additional_integrations_Bots")}})})}
+//# sourceMappingURL=/dynamic/client/views/admin/integrations/c53fabbfbe2a8edf0ff4192abcd910d6cc0e223d.map

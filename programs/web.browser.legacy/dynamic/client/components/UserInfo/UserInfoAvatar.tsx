@@ -1,0 +1,2 @@
+function module(e,t,n){var a,r,u,i,l=["username"];n.link("@babel/runtime/helpers/extends",{default:function(e){a=e}},0),n.link("@babel/runtime/helpers/objectWithoutProperties",{default:function(e){r=e}},1),n.link("react",{default:function(e){u=e}},0),n.link("../avatar/UserAvatar",{default:function(e){i=e}},1),n.exportDefault(function(e){var t=e.username,n=r(e,l);return u.createElement(i,a({title:t,username:t,size:"x332"},n))})}
+//# sourceMappingURL=/dynamic/client/components/UserInfo/4b00fe1c6a5996c7851381576d2b48585a72c79f.map

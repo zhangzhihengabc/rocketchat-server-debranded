@@ -1,0 +1,2 @@
+function module(e,a,t){let n,r,l,i;t.link("@rocket.chat/ui-client",{HeaderTag(e){n=e},HeaderTagIcon(e){r=e}},0),t.link("react",{default(e){l=e},useMemo(e){i=e}},1),t.exportDefault(e=>{let{room:a}=e,t=i(()=>{var e;return null===(e=a.federationOriginalName)||void 0===e?void 0:e.split(":")[1]},[a.federationOriginalName]);return t?l.createElement(n,{"data-qa":"federated-origin-server-name"},l.createElement(r,{icon:{name:"globe"}}),t):null})}
+//# sourceMappingURL=/dynamic/client/views/room/Header/7f1df8310b45e7cb7275a16ecb8fa6dfd891b273.map

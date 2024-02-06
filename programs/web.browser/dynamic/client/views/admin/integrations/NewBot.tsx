@@ -1,0 +1,2 @@
+function module(t,e,n){let l,a,o;n.link("@rocket.chat/fuselage",{Box(t){l=t}},0),n.link("@rocket.chat/ui-contexts",{useTranslation(t){a=t}},1),n.link("react",{default(t){o=t}},2),n.exportDefault(()=>{let t=a();return o.createElement(l,{pb:20,fontScale:"h4",key:"bots",dangerouslySetInnerHTML:{__html:t("additional_integrations_Bots")}})})}
+//# sourceMappingURL=/dynamic/client/views/admin/integrations/0ee5e7f5ebf28684a02806541b7b91dedcf5e602.map

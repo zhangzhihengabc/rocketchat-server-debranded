@@ -1,0 +1,2 @@
+function module(e,t,l){let n,r,a,i;let o=["html"];l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){n=e}},0),l.link("@rocket.chat/fuselage",{Box(e){r=e}},0),l.link("react",{default(e){a=e}},1),l.link("./OEmbedCollapsible",{default(e){i=e}},2),l.exportDefault(e=>{let{html:t}=e,l=n(e,o);return a.createElement(i,l,t&&a.createElement(r,{withRichContent:!0,dangerouslySetInnerHTML:{__html:t}}))})}
+//# sourceMappingURL=/dynamic/client/components/message/content/urlPreviews/220f5d159afd1c39d197d8f758f636002c013edf.map

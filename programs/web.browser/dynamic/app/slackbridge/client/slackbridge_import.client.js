@@ -1,0 +1,2 @@
+function module(s,i,l){let d,e;l.link("../../settings/client",{settings(s){d=s}},0),l.link("../../utils/lib/slashCommand",{slashCommands(s){e=s}},1),d.onload("SlackBridge_Enabled",(s,i)=>{i?e.add({command:"slackbridge-import",options:{description:"Import_old_messages_from_slackbridge"}}):delete e.commands["slackbridge-import"]})}
+//# sourceMappingURL=/dynamic/app/slackbridge/client/0d900f9cb9d2a22b008f2c05997e26830a7fdb82.map

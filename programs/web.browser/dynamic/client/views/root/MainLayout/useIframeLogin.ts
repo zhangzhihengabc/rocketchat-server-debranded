@@ -1,0 +1,2 @@
+function module(e,i,t){let a,l;t.export({useIframeLogin:()=>r}),t.link("../../../../app/ui-utils/client/lib/IframeLogin",{iframeLogin(e){a=e}},0),t.link("../../../hooks/useReactiveValue",{useReactiveValue(e){l=e}},1);let n=()=>{if(a.reactiveEnabled.get())return a.reactiveIframeUrl.get()},r=()=>l(n)}
+//# sourceMappingURL=/dynamic/client/views/root/MainLayout/40bb57b925cc5881b124bd082003bcbabd8c56c6.map

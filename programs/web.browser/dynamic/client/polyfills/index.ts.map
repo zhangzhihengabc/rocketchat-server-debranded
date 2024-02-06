@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/client/polyfills/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import '@rocket.chat/fuselage-polyfills';\nimport 'url-polyfill';\nimport './childNodeRemove';\nimport './cssVars';\nimport './customEventPolyfill';\nimport './hoverTouchClick';\nimport './promiseFinally';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA,mCAAkCD,EAAAA,IAAAA,CAAAA,gBAAAA,EAAAA,IAAAA,CAAAA,qBAAAA,EAAAA,IAAAA,CAAAA,aAAAA,EAAAA,IAAAA,CAAAA,yBAAAA,EAAAA,IAAAA,CAAAA,qBAAAA,EAAAA,IAAAA,CAAAA"}

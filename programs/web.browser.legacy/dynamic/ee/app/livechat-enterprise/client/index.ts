@@ -1,0 +1,2 @@
+function module(e,i,n){var s;n.link("../../license/client",{hasLicense:function(e){s=e}},0),n.link("../lib/messageTypes"),n.link("./startup"),s("livechat-enterprise").then(function(e){if(e)return Promise.all([n.dynamicImport("./views/livechatSideNavItems"),n.dynamicImport("./views/business-hours/Multiple"),n.dynamicImport("./messageTypes")])})}
+//# sourceMappingURL=/dynamic/ee/app/livechat-enterprise/client/64bb89bad5a902baa80cd7f5c5cd3f43f32b8331.map

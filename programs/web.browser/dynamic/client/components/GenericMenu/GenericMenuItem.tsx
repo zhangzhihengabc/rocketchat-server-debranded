@@ -1,0 +1,2 @@
+function module(e,t,n){let l,u,m,a,r;n.link("@rocket.chat/fuselage",{MenuItemColumn(e){l=e},MenuItemContent(e){u=e},MenuItemIcon(e){m=e},MenuItemInput(e){a=e}},0),n.link("react",{default(e){r=e}},1),n.exportDefault(e=>{let{icon:t,content:n,addon:c,status:o,gap:E}=e;return r.createElement(r.Fragment,null,E&&r.createElement(l,null),t&&r.createElement(m,{name:t}),o&&r.createElement(l,null,o),n&&r.createElement(u,null,n),c&&r.createElement(a,null,c))})}
+//# sourceMappingURL=/dynamic/client/components/GenericMenu/a9d524a1c00296debb9e473875dde49038143d41.map

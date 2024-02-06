@@ -1,0 +1,2 @@
+function module(e,t,s){let a,l,r;s.export({useDropTarget:()=>i}),s.link("react",{useCallback(e){a=e},useMemo(e){l=e},useState(e){r=e}},0);let u=e=>e.types.includes("Files"),n=e=>e.types.includes("text/uri-list")&&e.types.includes("text/html"),i=()=>{let[e,t]=r(!1),s=a(e=>{e.stopPropagation(),(u(e.dataTransfer)||n(e.dataTransfer))&&t(!0)},[]),i=a(()=>{t(!1)},[]),o=l(()=>({onDragEnter:s}),[s]),p=l(()=>({visible:e,onDismiss:i}),[e,i]);return{triggerProps:o,overlayProps:p}}}
+//# sourceMappingURL=/dynamic/client/views/room/body/hooks/4829baa458e477daad37b37a0a6996fe7f3e7d4e.map

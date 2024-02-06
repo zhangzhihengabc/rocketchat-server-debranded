@@ -1,0 +1,2 @@
+function module(n,e,t){var l,a,u;t.link("react",{default:function(n){l=n}},0),t.link("../EngagementDashboardCard",{default:function(n){a=n}},1),t.link("./ChannelsOverview",{default:function(n){u=n}},2),t.exportDefault(function(){return l.createElement(a,null,l.createElement(u,null))})}
+//# sourceMappingURL=/dynamic/ee/client/views/admin/engagementDashboard/channels/36f9ac40fdf5ac23d117e0a71451b95b60538b62.map

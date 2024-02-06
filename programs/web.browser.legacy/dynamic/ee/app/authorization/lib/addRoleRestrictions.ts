@@ -1,0 +1,2 @@
+function module(i,t,n){n.export({addRoleRestrictions:function(){return e}}),n.link("../../../../app/authorization/lib/AuthorizationUtils",{AuthorizationUtils:function(i){o=i}},0),n.link("./guestPermissions",{guestPermissions:function(i){s=i}},1);var o,s,e=function(){o.addRolePermissionWhiteList("guest",s)}}
+//# sourceMappingURL=/dynamic/ee/app/authorization/lib/f7eb37314e94546cb0e1e0de72eb5d4622f68fa8.map

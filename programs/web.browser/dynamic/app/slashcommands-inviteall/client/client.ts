@@ -1,0 +1,2 @@
+function module(o,n,a){let i;a.link("../../utils/lib/slashCommand",{slashCommands(o){i=o}},0),i.add({command:"invite-all-to",options:{description:"Invite_user_to_join_channel_all_to",params:"#room",permission:["add-user-to-joined-room","add-user-to-any-c-room","add-user-to-any-p-room"]}}),i.add({command:"invite-all-from",options:{description:"Invite_user_to_join_channel_all_from",params:"#room",permission:"add-user-to-joined-room"}})}
+//# sourceMappingURL=/dynamic/app/slashcommands-inviteall/client/15271ef4ffd701238bca3130e319f8bdd6bfe8b5.map

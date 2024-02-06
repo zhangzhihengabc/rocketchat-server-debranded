@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/ee/app/authorization/lib/guestPermissions.ts","meteor://💻app/<anon>"],"sourcesContent":["export const guestPermissions = ['view-d-room', 'view-joined-room', 'view-p-room', 'start-discussion'];\n",null],"names":["module","export","guestPermissions"],"mappings":"uBAAAA,EAAOC,MAAM,CAAA,CAAAC,iBAAmB,WAAC,OAAeA,CAAkB,CAAA,GAA3D,IAAMA,EAAmB,CAAC,cAAe,mBAAoB,cAAe,mBAAmB"}

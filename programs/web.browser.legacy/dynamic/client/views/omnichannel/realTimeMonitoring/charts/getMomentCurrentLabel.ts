@@ -1,0 +1,2 @@
+function module(n,t,o){o.export({getMomentCurrentLabel:function(){return r}}),o.link("moment",{default:function(n){e=n}},0);var e,r=function(){var n=arguments.length>0&&void 0!==arguments[0]?arguments[0]:Date.now(),t=e(n),o=e(t).add(1,"hours");return t.format("hA")+"-"+o.format("hA")}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/realTimeMonitoring/charts/05f2f3f020111ca1f9b6a45c3f0c6d29c43de376.map

@@ -1,0 +1,2 @@
+function module(e,t,l){let r,n,a,o;l.link("react",{default(e){r=e}},0),l.link("use-sync-external-store/shim",{useSyncExternalStore(e){n=e}},1),l.link("../../lib/portals/portalsSubscription",{portalsSubscription(e){a=e}},2),l.link("./PortalWrapper",{default(e){o=e}},3),l.exportDefault(()=>{let e=n(a.subscribe,a.getSnapshot);return r.createElement(r.Fragment,null,e.map(e=>{let{key:t,portal:l}=e;return r.createElement(o,{key:t,portal:l})}))})}
+//# sourceMappingURL=/dynamic/client/views/root/679316b1ddc3a1dc565f768eb339c5946c5a61b8.map

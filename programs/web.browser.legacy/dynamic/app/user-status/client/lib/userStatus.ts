@@ -1,0 +1,2 @@
+function module(e,a,t){t.export({userStatus:function(){return i}}),t.link("@rocket.chat/core-typings",{UserStatus:function(e){n=e}},0);var n,i={packages:{base:{render:function(e){return e}}},list:{online:{name:n.ONLINE,localizeName:!0,id:n.ONLINE,statusType:n.ONLINE},away:{name:n.AWAY,localizeName:!0,id:n.AWAY,statusType:n.AWAY},busy:{name:n.BUSY,localizeName:!0,id:n.BUSY,statusType:n.BUSY},offline:{name:n.OFFLINE,localizeName:!0,id:n.OFFLINE,statusType:n.OFFLINE}}}}
+//# sourceMappingURL=/dynamic/app/user-status/client/lib/fe2b4691192ed2d8247c8c81e3c891f3bb3d5ca7.map

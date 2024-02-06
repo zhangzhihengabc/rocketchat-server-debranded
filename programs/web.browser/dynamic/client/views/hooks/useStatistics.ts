@@ -1,0 +1,2 @@
+function module(t,e,s){let i,n;s.export({useStatistics:()=>a}),s.link("@rocket.chat/ui-contexts",{useEndpoint(t){i=t}},0),s.link("@tanstack/react-query",{useQuery(t){n=t}},1);let a=function(){let{refresh:t}=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{refresh:"false"},e=i("GET","/v1/statistics");return n(["analytics"],()=>e({refresh:t}),{staleTime:6e5})}}
+//# sourceMappingURL=/dynamic/client/views/hooks/d154ffd178f64b3c423618eee10bb048ce17d08a.map

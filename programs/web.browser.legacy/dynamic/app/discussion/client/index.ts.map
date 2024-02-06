@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/discussion/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["// Other UI extensions\nimport './lib/messageTypes/discussionMessage';\nimport './createDiscussionMessageAction';\n",null],"names":["module"],"mappings":"uBAAAA,EAAAA,IAAAA,CAAAA,wCAAsBA,EAAAA,IAAAA,CAAAA"}

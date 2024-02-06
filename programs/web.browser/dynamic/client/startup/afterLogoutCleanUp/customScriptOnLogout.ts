@@ -1,0 +1,2 @@
+function module(l,t,a){let o,e,i,c;a.link("meteor/meteor",{Meteor(l){o=l}},0),a.link("../../../lib/callbacks",{callbacks(l){e=l}},1),a.link("../../../lib/callbacks/afterLogoutCleanUpCallback",{afterLogoutCleanUpCallback(l){i=l}},2),a.link("../../lib/utils/fireGlobalEvent",{fireGlobalEvent(l){c=l}},3),o.startup(()=>{i.add(async()=>c("Custom_Script_On_Logout"),e.priority.LOW,"custom-script-on-logout")})}
+//# sourceMappingURL=/dynamic/client/startup/afterLogoutCleanUp/1e547ce7b1ae455c4cd6a3c77aaf68dd40232a5e.map

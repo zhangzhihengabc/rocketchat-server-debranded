@@ -1,0 +1,2 @@
+function module(o,e,t){let n,i;t.export({useRoomInfoRoomAction:()=>a}),t.link("react",{lazy(o){n=o},useMemo(o){i=o}},0);let r=n(()=>t.dynamicImport("../../views/omnichannel/directory/chats/contextualBar/ChatsContextualBar")),a=()=>i(()=>({id:"room-info",groups:["live"],title:"Room_Info",icon:"info-circled",tabComponent:r,order:0}),[])}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/efb6534fa120b1636e7dfb60b95c4b7fd3ffc33a.map

@@ -1,0 +1,2 @@
+function module(e,t,l){let n,o,u,a;l.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),l.link("react",{default(e){o=e}},1),l.link("../../../notAuthorized/NotAuthorizedPage",{default(e){u=e}},2),l.link("./ContactTable",{default(e){a=e}},3),l.exportDefault(()=>{let e=n("view-l-room");return e?o.createElement(a,null):o.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/contacts/20bf7bbe390afffe0e458ceacf3df583febe20a7.map

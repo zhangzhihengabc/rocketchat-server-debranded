@@ -1,0 +1,2 @@
+function module(e,t,a){let o,d,r;a.export({useAuditForm:()=>i}),a.link("react-hook-form",{useForm(e){o=e}},0),a.link("../utils/dateRange",{createEndOfToday(e){d=e},createStartOfToday(e){r=e}},1);let i=()=>o({defaultValues:{msg:"",dateRange:{start:r(),end:d()},rid:void 0,users:[],visitor:void 0,agent:void 0}})}
+//# sourceMappingURL=/dynamic/ee/client/views/audit/hooks/dc30a6292185a27f02beea054621bfed12bb7ef7.map

@@ -1,0 +1,2 @@
+function module(e,o,t){let n,r,i;t.export({useRoomInfoEndpoint:()=>l}),t.link("@rocket.chat/ui-contexts",{useEndpoint(e){n=e}},0),t.link("@tanstack/react-query",{useQuery(e){r=e}},1),t.link("date-fns",{minutesToMilliseconds(e){i=e}},2);let l=e=>{let o=n("GET","/v1/rooms.info");return r(["rooms/info",e],()=>o({roomId:e}),{cacheTime:i(15),staleTime:i(5),retry:(e,o)=>!(e>2)&&"not-allowed"!==o.error})}}
+//# sourceMappingURL=/dynamic/client/hooks/e6cc310614741472ac89d3c3aec66ca32f690f22.map

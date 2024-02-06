@@ -1,0 +1,2 @@
+function module(e,s,i){let t,c;i.link("meteor/meteor",{Meteor(e){t=e}},0),i.link("../../../../ui-utils/client",{MessageTypes(e){c=e}},1),t.startup(()=>{c.registerType({id:"discussion-created",system:!1,message:"discussion-created",data:e=>({message:'<svg class="rc-icon" aria-hidden="true"><use xlink:href="#icon-discussion"></use></svg> '.concat(e.msg)})})})}
+//# sourceMappingURL=/dynamic/app/discussion/client/lib/messageTypes/1a7651671bfcd043c9efc86396678b43ab5156fe.map

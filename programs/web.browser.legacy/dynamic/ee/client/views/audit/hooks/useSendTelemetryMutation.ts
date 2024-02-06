@@ -1,0 +1,2 @@
+function module(t,n,e){e.export({useSendTelemetryMutation:function(){return r}}),e.link("@rocket.chat/ui-contexts",{useEndpoint:function(t){o=t}},0),e.link("@tanstack/react-query",{useMutation:function(t){u=t}},1);var o,u,r=function(){return u(o("POST","/v1/statistics.telemetry"),{onError:function(t){console.warn(t)}})}}
+//# sourceMappingURL=/dynamic/ee/client/views/audit/hooks/33854ee70ecdf5dcc6dfbde65229444ef269d068.map

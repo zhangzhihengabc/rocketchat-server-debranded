@@ -1,0 +1,2 @@
+function module(e,t,n){let i,l,a,o,r;n.link("@babel/runtime/helpers/extends",{default(e){i=e}},0),n.link("@rocket.chat/fuselage",{Sidebar(e){l=e}},0),n.link("@rocket.chat/ui-contexts",{useSessionDispatch(e){a=e},useTranslation(e){o=e}},1),n.link("react",{default(e){r=e}},2),n.exportDefault(e=>{let t=a("forceLogin"),n=o();return r.createElement(l.TopBar.Action,i({},e,{primary:!0,icon:"login",title:n("Sign_in_to_start_talking"),onClick:()=>t(!0)}))})}
+//# sourceMappingURL=/dynamic/client/sidebar/header/actions/3936738b411e7a5d27adf616a6603d9402c3305f.map

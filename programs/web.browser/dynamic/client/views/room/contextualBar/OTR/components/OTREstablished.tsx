@@ -1,0 +1,2 @@
+function module(e,t,n){let l,r,c,a;n.link("@rocket.chat/fuselage",{Button(e){l=e},ButtonGroup(e){r=e}},0),n.link("@rocket.chat/ui-contexts",{useTranslation(e){c=e}},1),n.link("react",{default(e){a=e}},2),n.exportDefault(e=>{let{onClickRefresh:t,onClickEnd:n}=e,o=c();return a.createElement(r,{stretch:!0},a.createElement(l,{onClick:t},o("Refresh_keys")),a.createElement(l,{secondary:!0,danger:!0,onClick:n},o("End_OTR")))})}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/OTR/components/342be8b19e18b12ae86662467840ab5d7a3a9f80.map

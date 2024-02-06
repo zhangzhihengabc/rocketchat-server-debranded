@@ -1,0 +1,2 @@
+function module(e,t,a){let l,n,o,u,c;a.link("@rocket.chat/fuselage-hooks",{useMutableCallback(e){l=e}},0),a.link("react",{default(e){n=e},useState(e){o=e}},1),a.link("../../../room/contextualBar/Info/EditRoomInfo",{default(e){u=e}},2),a.link("./TeamsInfoWithData",{default(e){c=e}},3),a.exportDefault(()=>{let[e,t]=o(!1),a=l(()=>t(!1));return e?n.createElement(u,{onClickBack:a}):n.createElement(c,{openEditing:t})})}
+//# sourceMappingURL=/dynamic/client/views/teams/contextualBar/info/1215962654a362cd6841188ded0d6ec0a2c4f787.map

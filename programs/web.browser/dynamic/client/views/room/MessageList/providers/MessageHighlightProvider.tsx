@@ -1,0 +1,2 @@
+function module(e,t,l){let n,s,i,r,u;l.link("react",{default(e){n=e},useMemo(e){s=e}},0),l.link("use-sync-external-store/shim",{useSyncExternalStore(e){i=e}},1),l.link("../contexts/MessageHighlightContext",{default(e){r=e}},2),l.link("./messageHighlightSubscription",{"*"(e){u=e}},3),l.exportDefault(e=>{let{children:t}=e,l=i(u.subscribe,u.getSnapshot),a=s(()=>({highlightMessageId:l}),[l]);return n.createElement(r.Provider,{value:a},t)})}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/providers/92f13087fb36f716e0ab1f3e1dfc2c0f02a661b1.map

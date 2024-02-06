@@ -1,0 +1,2 @@
+function module(e,l,t){let n,a;t.link("@rocket.chat/fuselage",{Box(e){n=e}},0),t.link("react",{default(e){a=e}},1),t.exportDefault(e=>a.createElement(n,{fontFamily:"mono",alignSelf:"center",fontScale:"p2",style:{wordBreak:"break-all"},mie:4,flexGrow:1,withRichContent:!0},a.createElement("pre",null,a.createElement("code",null,e))))}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/installation/61999e99534ced9f05d400eb0db08812d5ff6128.map

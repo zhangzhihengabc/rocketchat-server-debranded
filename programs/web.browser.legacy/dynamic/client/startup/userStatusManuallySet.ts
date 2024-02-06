@@ -1,0 +1,2 @@
+function module(t,l,n){var a,e,u;n.link("meteor/meteor",{Meteor:function(t){a=t}},0),n.link("../../lib/callbacks",{callbacks:function(t){e=t}},1),n.link("../lib/utils/fireGlobalEvent",{fireGlobalEvent:function(t){u=t}},2),a.startup(function(){e.add("userStatusManuallySet",function(t){u("user-status-manually-set",t)})})}
+//# sourceMappingURL=/dynamic/client/startup/28f9b7b2afa0e6f48b1275feebd58330a5a09129.map

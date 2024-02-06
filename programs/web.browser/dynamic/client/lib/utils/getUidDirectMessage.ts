@@ -1,0 +1,2 @@
+function module(e,t,i){let d,l;i.export({getUidDirectMessage:()=>n}),i.link("meteor/meteor",{Meteor(e){d=e}},0),i.link("../../../app/models/client",{ChatRoom(e){l=e}},1);let n=function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:d.userId(),i=l.findOne({_id:e},{fields:{t:1,uids:1}});if(i&&"d"===i.t&&i.uids&&!(i.uids.length>2))return i.uids.filter(e=>e!==t)[0]}}
+//# sourceMappingURL=/dynamic/client/lib/utils/fb7c265b38a2c688d0b71294579a91bbd2e3bcda.map

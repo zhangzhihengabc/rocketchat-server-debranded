@@ -1,0 +1,2 @@
+function module(e,t,l){let n,r,a,o,d,u;l.link("@babel/runtime/helpers/extends",{default(e){n=e}},0),l.link("react",{default(e){r=e},forwardRef(e){a=e},useContext(e){o=e}},0),l.link("./PageContent",{default(e){d=e}},1),l.link("./PageContext",{default(e){u=e}},2);let f=a(function e(e,t){let[l]=o(u);return r.createElement(d,n({},e,{pb:16,ref:t,borderBlockEndColor:l?"extra-light":"transparent",borderBlockEndWidth:"default",height:"auto"}))});l.exportDefault(f)}
+//# sourceMappingURL=/dynamic/client/components/Page/7c7e115b7fce5699a8c7f730c205da249e32fb16.map

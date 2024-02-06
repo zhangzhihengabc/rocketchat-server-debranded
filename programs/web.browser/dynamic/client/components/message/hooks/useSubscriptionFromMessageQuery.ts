@@ -1,0 +1,2 @@
+function module(e,t,s){let n,r;s.export({useSubscriptionFromMessageQuery:()=>u}),s.link("@tanstack/react-query",{useQuery(e){n=e}},0),s.link("../../../views/room/contexts/ChatContext",{useChat(e){r=e}},1);let u=e=>{let t=r();return n(["messages",e._id,"subscription"],async()=>{var s;return null!==(s=null==t?void 0:t.data.getSubscriptionFromMessage(e))&&void 0!==s?s:null})}}
+//# sourceMappingURL=/dynamic/client/components/message/hooks/6bb52a37cbe0d10fb067e4aea2e98e00aa3f61fe.map

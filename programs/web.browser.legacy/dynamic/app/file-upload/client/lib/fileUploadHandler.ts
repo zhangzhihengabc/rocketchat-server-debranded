@@ -1,0 +1,2 @@
+function module(o,e,t){var c,n,r;t.link("meteor/accounts-base",{Accounts:function(o){c=o}},0),t.link("meteor/meteor",{Meteor:function(o){n=o}},1),t.link("meteor/tracker",{Tracker:function(o){r=o}},2),r.autorun(function(){var o=n.userId();if(o){var e="https:"===location.protocol?"; secure":"";document.cookie="rc_uid="+escape(o)+"; path=/"+e,document.cookie="rc_token="+escape(c._storedLoginToken())+"; path=/"+e}})}
+//# sourceMappingURL=/dynamic/app/file-upload/client/lib/dff8d0c225482c8f1fd6670de8ff6c1f70e73321.map

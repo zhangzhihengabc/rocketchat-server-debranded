@@ -1,0 +1,2 @@
+function module(e,t,l){let o,a,n;l.link("@rocket.chat/ui-composer",{MessageFooterCallout(e){o=e}},0),l.link("@rocket.chat/ui-contexts",{useTranslation(e){a=e}},1),l.link("react",{default(e){n=e}},2),l.exportDefault(()=>{let e=a();return n.createElement(o,null,e("Composer_not_available_phone_calls"))})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/de4b0a986ec0f6f67124e1e0bb4737a9f4c57ac0.map

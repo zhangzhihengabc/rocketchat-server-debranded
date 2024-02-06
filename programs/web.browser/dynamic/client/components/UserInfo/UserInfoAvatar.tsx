@@ -1,0 +1,2 @@
+function module(e,t,l){let a,r,n,u;let i=["username"];l.link("@babel/runtime/helpers/extends",{default(e){a=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){r=e}},1),l.link("react",{default(e){n=e}},0),l.link("../avatar/UserAvatar",{default(e){u=e}},1),l.exportDefault(e=>{let{username:t}=e,l=r(e,i);return n.createElement(u,a({title:t,username:t,size:"x332"},l))})}
+//# sourceMappingURL=/dynamic/client/components/UserInfo/8f5820e88063b19f674879a6548dcb937a2fee2e.map

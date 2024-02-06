@@ -1,0 +1,2 @@
+function module(t,n,e){var i,a,c;e.link("@rocket.chat/ui-client",{ExternalLink:function(t){i=t}},0),e.link("@rocket.chat/ui-contexts",{useTranslation:function(t){a=t}},1),e.link("react",{default:function(t){c=t}},2),e.exportDefault(function(t){var n=t.linkUrl,e=t.imageUrl,r=a();return c.createElement(i,{to:n},c.createElement("img",{src:e,alt:r("Shared_Location")}))})}
+//# sourceMappingURL=/dynamic/client/components/message/content/location/30a513ec0cea29c34d836c6f96f974b975d157e8.map

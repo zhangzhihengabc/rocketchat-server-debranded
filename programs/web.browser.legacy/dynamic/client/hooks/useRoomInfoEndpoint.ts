@@ -1,0 +1,2 @@
+function module(n,o,t){t.export({useRoomInfoEndpoint:function(){return u}}),t.link("@rocket.chat/ui-contexts",{useEndpoint:function(n){e=n}},0),t.link("@tanstack/react-query",{useQuery:function(n){r=n}},1),t.link("date-fns",{minutesToMilliseconds:function(n){i=n}},2);var e,r,i,u=function(n){var o=e("GET","/v1/rooms.info");return r(["rooms/info",n],function(){return o({roomId:n})},{cacheTime:i(15),staleTime:i(5),retry:function(n,o){return!(n>2)&&"not-allowed"!==o.error}})}}
+//# sourceMappingURL=/dynamic/client/hooks/1f4aec499fee5a787181d91c009437dd6c4ca32e.map

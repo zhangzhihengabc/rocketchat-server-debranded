@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,o,c;l.link("@rocket.chat/fuselage",{Box(e){n=e}},0),l.link("@rocket.chat/ui-contexts",{useTranslation(e){a=e}},1),l.link("react",{default(e){o=e}},2),l.link("../../components/Page",{default(e){c=e}},3),l.exportDefault(()=>{let e=a();return o.createElement(c,null,o.createElement(c.Content,{pb:24},o.createElement(n,{is:"p",fontScale:"p2",color:"default"},e("You_are_not_authorized_to_view_this_page"))))})}
+//# sourceMappingURL=/dynamic/client/views/notAuthorized/6d5b3535d30ccc0d0685dddcde9d709ba11bc261.map

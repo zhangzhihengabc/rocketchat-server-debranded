@@ -1,0 +1,2 @@
+function module(l,a,e){let i,n,s;async function t(l){let{message:a,params:e}=l;await n.call("sendMessage",i(i({},a),{},{msg:"༼ つ ◕_◕ ༽つ ".concat(e)}))}e.link("@babel/runtime/helpers/objectSpread2",{default(l){i=l}},0),e.link("../../utils/client/lib/SDKClient",{sdk(l){n=l}},0),e.link("../../utils/lib/slashCommand",{slashCommands(l){s=l}},1),s.add({command:"gimme",callback:t,options:{description:"Slash_Gimme_Description",params:"your_message_optional",clientOnly:!0}})}
+//# sourceMappingURL=/dynamic/app/slashcommand-asciiarts/client/a8fc00176dab3606c2f38bc0ca6e266f18fc786d.map

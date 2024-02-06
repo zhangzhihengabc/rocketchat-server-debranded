@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/lib/callbacks/afterLogoutCleanUpCallback.ts","meteor://💻app/<anon>"],"sourcesContent":["import { Callbacks } from './callbacksBase';\n\nexport const afterLogoutCleanUpCallback = Callbacks.create('afterLogoutCleanUp');\n",null],"names":["module","export","afterLogoutCleanUpCallback","Callbacks","create"],"mappings":"uBAAAA,EAAOC,MAAE,CAAA,CAAAC,2BAAiB,WAAkB,OAAAA,CAAA,CAAA,GAAAF,EAAAA,IAAAA,CAAAA,kBAAAA,CAAAG,UAAAA,SAAAA,CAAAA,EAAAA,EAAAA,CAAA,CAAA,EAAA,GAErC,IAFqCA,EAE/BD,EAA6BC,EAAUC,MAAM,CAAC"}

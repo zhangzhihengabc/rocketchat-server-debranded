@@ -1,0 +1,2 @@
+function module(t,n,r){r.export({formatPeriodRange:function(){return o}}),r.link("../../../components/dashboards/periods",{getPeriodRange:function(t){e=t}},0);var e,a=function(t){var n=String(t.getUTCDate()).padStart(2,"0"),r=String(t.getMonth()+1).padStart(2,"0");return t.getFullYear()+"-"+r+"-"+n},o=function(t){var n=e(t),r=n.start,o=n.end;return{start:a(r),end:a(o)}}}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/reports/utils/148b498cd51c0c05dc4c6699026f4bfbde7ff8a1.map

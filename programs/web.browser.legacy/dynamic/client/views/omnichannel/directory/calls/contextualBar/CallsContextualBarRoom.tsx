@@ -1,0 +1,2 @@
+function module(o,n,t){var e,i,l,c;t.link("react",{default:function(o){e=o}},0),t.link("../../../../room/contexts/RoomContext",{useVoipRoom:function(o){i=o}},1),t.link("../../../../room/contexts/RoomToolboxContext",{useRoomToolbox:function(o){l=o}},2),t.link("./VoipInfo",{VoipInfo:function(o){c=o}},3),t.exportDefault(function(){var o=i(),n=l().closeTab;return e.createElement(c,{room:o,onClickClose:n})})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/calls/contextualBar/c97145dd6dfe11a1b3d313b84f3fd55f9fbcb041.map

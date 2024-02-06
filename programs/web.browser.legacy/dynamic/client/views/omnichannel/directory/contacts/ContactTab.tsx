@@ -1,0 +1,2 @@
+function module(t,e,n){var o,u,l,i;n.link("@rocket.chat/ui-contexts",{usePermission:function(t){o=t}},0),n.link("react",{default:function(t){u=t}},1),n.link("../../../notAuthorized/NotAuthorizedPage",{default:function(t){l=t}},2),n.link("./ContactTable",{default:function(t){i=t}},3),n.exportDefault(function(){return o("view-l-room")?u.createElement(i,null):u.createElement(l,null)})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/contacts/a86b78a8ad59d7a9692bfbdab60e0fc104f6d677.map

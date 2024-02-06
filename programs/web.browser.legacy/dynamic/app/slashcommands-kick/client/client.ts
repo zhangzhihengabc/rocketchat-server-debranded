@@ -1,0 +1,2 @@
+function module(o,m,a){var n;a.link("../../utils/lib/slashCommand",{slashCommands:function(o){n=o}},0),n.add({command:"kick",callback:function(o){var m=o.params.trim();if(""!==m)return m.replace("@","")},options:{description:"Remove_someone_from_room",params:"@username",permission:"remove-user"}})}
+//# sourceMappingURL=/dynamic/app/slashcommands-kick/client/c45371a43e8a8aa22d0ddc49b6c17b2c174a9dcc.map

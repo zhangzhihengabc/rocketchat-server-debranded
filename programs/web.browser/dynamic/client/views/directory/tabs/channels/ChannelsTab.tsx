@@ -1,0 +1,2 @@
+function module(e,t,l){let n,u,o,a;l.link("@rocket.chat/ui-contexts",{usePermission(e){n=e}},0),l.link("react",{default(e){u=e}},1),l.link("../../../notAuthorized/NotAuthorizedPage",{default(e){o=e}},2),l.link("./ChannelsTable",{default(e){a=e}},3),l.exportDefault(()=>{let e=n("view-c-room");return e?u.createElement(a,null):u.createElement(o,null)})}
+//# sourceMappingURL=/dynamic/client/views/directory/tabs/channels/5a02f95a183d008f5d5c25958d07b2c8c8bc3fa0.map

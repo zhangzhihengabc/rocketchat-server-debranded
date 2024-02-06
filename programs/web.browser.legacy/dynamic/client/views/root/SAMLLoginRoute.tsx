@@ -1,0 +1,2 @@
+function module(e,t,n){var o,a,r,u;n.link("@rocket.chat/ui-contexts",{useRouter:function(e){o=e},useToastMessageDispatch:function(e){a=e}},0),n.link("meteor/meteor",{Meteor:function(e){r=e}},1),n.link("react",{useEffect:function(e){u=e}},2),n.exportDefault(function(){var e=o(),t=a();return u(function(){var n=e.getRouteParameters().token;r.loginWithSamlToken(n,function(n){n&&t({type:"error",message:n}),e.navigate({pathname:"/home"},{replace:!0})})},[t,e]),null})}
+//# sourceMappingURL=/dynamic/client/views/root/d577a9e42a8a28151bba752cc827594f0c5e0911.map

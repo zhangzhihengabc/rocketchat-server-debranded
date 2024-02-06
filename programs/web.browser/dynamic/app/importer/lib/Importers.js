@@ -1,0 +1,2 @@
+function module(r,t,e){let o;e.export({Importers:()=>s}),e.link("./ImporterInfo",{ImporterInfo(r){o=r}},0);let s=new class r{constructor(){this.importers=new Map}add(r,t){if(!(r instanceof o))throw Error("The importer must be a valid ImporterInfo instance.");return r.importer=t,this.importers.set(r.key,r),this.importers.get(r.key)}get(r){return this.importers.get(r)}getAll(){return Array.from(this.importers.values())}}}
+//# sourceMappingURL=/dynamic/app/importer/lib/ef82df242601f2c7298be402c33e139d3b3657ea.map

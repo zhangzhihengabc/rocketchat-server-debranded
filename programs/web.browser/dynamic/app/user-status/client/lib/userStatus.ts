@@ -1,0 +1,2 @@
+function module(e,a,t){let s;t.export({userStatus:()=>l}),t.link("@rocket.chat/core-typings",{UserStatus(e){s=e}},0);let l={packages:{base:{render:e=>e}},list:{online:{name:s.ONLINE,localizeName:!0,id:s.ONLINE,statusType:s.ONLINE},away:{name:s.AWAY,localizeName:!0,id:s.AWAY,statusType:s.AWAY},busy:{name:s.BUSY,localizeName:!0,id:s.BUSY,statusType:s.BUSY},offline:{name:s.OFFLINE,localizeName:!0,id:s.OFFLINE,statusType:s.OFFLINE}}}}
+//# sourceMappingURL=/dynamic/app/user-status/client/lib/79625b50b847fad77fdb13724d93c4dacb2cbbe9.map

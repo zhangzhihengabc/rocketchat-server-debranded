@@ -1,0 +1,2 @@
+function module(t,n,e){e.export({MultipleBusinessHoursBehavior:function(){return o}}),e.link("@rocket.chat/core-typings",{LivechatBusinessHourTypes:function(t){u=t}},0);var u,o=function(){function t(){}var n=t.prototype;return n.getView=function(){return"livechatBusinessHours"},n.showCustomTemplate=function(t){return!t._id||t.type!==u.DEFAULT},n.showBackButton=function(){return!0},t}()}
+//# sourceMappingURL=/dynamic/ee/app/livechat-enterprise/client/views/business-hours/279c8640352a896053d35a489ab2088bfe38b453.map

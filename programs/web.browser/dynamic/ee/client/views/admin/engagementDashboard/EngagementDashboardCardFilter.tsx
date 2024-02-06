@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,r,o;l.link("@rocket.chat/fuselage",{Box(e){n=e},Flex(e){a=e},InputBox(e){r=e}},0),l.link("react",{default(e){o=e}},1),l.exportDefault(e=>{let{children:t=o.createElement(r.Skeleton,null)}=e;return o.createElement(n,{display:"flex",justifyContent:"flex-end",alignItems:"center",wrap:"no-wrap"},t&&o.createElement(a.Item,{grow:0},t))})}
+//# sourceMappingURL=/dynamic/ee/client/views/admin/engagementDashboard/8fbb1602f297d30e0eb8a7958d8c3a469b32317f.map

@@ -1,0 +1,2 @@
+function module(e,t,r){let n,u;async function i(e){try{let t=await n.fetchQuery({queryKey:["ee.features"],queryFn:u});return t.includes(e)}catch(e){return console.error("Error getting modules",e),!1}}r.export({hasLicense:()=>i}),r.link("../../../../client/lib/queryClient",{queryClient(e){n=e}},0),r.link("../../../client/lib/fetchFeatures",{fetchFeatures(e){u=e}},1)}
+//# sourceMappingURL=/dynamic/ee/app/license/client/730e5e8544e50206b378eabeb15cf725258701b3.map

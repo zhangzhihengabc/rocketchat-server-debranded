@@ -1,0 +1,2 @@
+function module(n,t,e){var a,i;e.link("meteor/meteor",{Meteor:function(n){a=n}},0),e.link("../../../app/notifications/client",{Notifications:function(n){i=n}},1),a.startup(function(){i.onLogged("updateAvatar",function(n){if("username"in n){var t=n.username,e=n.etag;t&&a.users.update({username:t},{$set:{avatarETag:e}})}})})}
+//# sourceMappingURL=/dynamic/client/startup/notifications/a90eea12785e52aa0b5db61782d6e8995484fe2c.map

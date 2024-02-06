@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({useShowingResultsLabel:function(){return o}}),e.link("@rocket.chat/ui-contexts",{useTranslation:function(n){u=n}},0),e.link("react",{useCallback:function(n){r=n}},1);var u,r,o=function(){var n=u();return r(function(t){var e=t.count,u=t.current;return n("Showing_results_of",u+1,Math.min(u+t.itemsPerPage,e),e)},[n])}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/hooks/e311f1178c6f68ec47c21fe6d8da181a07c5302c.map

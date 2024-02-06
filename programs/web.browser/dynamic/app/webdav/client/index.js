@@ -1,0 +1,2 @@
+function module(t,e,n){let r,o,a;n.link("meteor/meteor",{Meteor(t){r=t}},0),n.link("meteor/tracker",{Tracker(t){o=t}},1),n.link("../../settings/client",{settings(t){a=t}},2),r.startup(()=>{o.autorun(t=>{a.get("Webdav_Integration_Enabled")&&(t.stop(),n.dynamicImport("./startup/sync"),n.dynamicImport("./actionButton"))})})}
+//# sourceMappingURL=/dynamic/app/webdav/client/c55bbcab135fe1ff242324510bd5e01c5f19a8bf.map

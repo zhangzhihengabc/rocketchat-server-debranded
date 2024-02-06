@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,r,i;let c=["caption","children"];l.link("@babel/runtime/helpers/extends",{default(e){n=e}},0),l.link("@babel/runtime/helpers/objectWithoutProperties",{default(e){a=e}},1),l.link("@rocket.chat/fuselage",{Box(e){r=e}},0),l.link("react",{default(e){i=e}},1),l.exportDefault(e=>{let{caption:t,children:l}=e,u=a(e,c);return i.createElement(r,n({},u,{display:"flex",alignItems:"center"}),i.createElement(r,{fontScale:"c2"},t),l)})}
+//# sourceMappingURL=/dynamic/client/views/composer/EmojiPicker/ToneSelector/2b3362a57e3c869f5bb64ffcd81ba36cb7df65bc.map

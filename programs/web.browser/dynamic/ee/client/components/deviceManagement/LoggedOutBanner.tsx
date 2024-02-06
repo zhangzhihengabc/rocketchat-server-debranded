@@ -1,0 +1,2 @@
+function module(e,t,n){let a,l,r,c,i;n.link("@rocket.chat/fuselage",{Banner(e){a=e},Box(e){l=e},Icon(e){r=e}},0),n.link("@rocket.chat/ui-contexts",{useTranslation(e){c=e}},1),n.link("react",{default(e){i=e}},2),n.exportDefault(()=>{let e=c();return i.createElement(a,{variant:"warning",icon:i.createElement(r,{name:"warning",size:"x24"})},i.createElement(l,{textAlign:"left"},e("Logged_Out_Banner_Text")))})}
+//# sourceMappingURL=/dynamic/ee/client/components/deviceManagement/5564ca7d4e15c5f06031d20920801ff11db2c170.map

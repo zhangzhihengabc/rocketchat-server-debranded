@@ -1,0 +1,2 @@
+function module(e,t,n){n.export({delegate:()=>i,triggerClick:()=>l});let i=e=>{let{parent:t=document,eventName:n,elementSelector:i,listener:l}=e,c=function(e){for(let{target:t}=e;t&&t instanceof Element&&t!==this;t=t.parentNode)if(t.matches(i)){l.call(t,e,t);break}};return t.addEventListener(n,c,!1),()=>{t.removeEventListener(n,c,!1)}},l=e=>{let t=document.createEvent("HTMLEvents");t.initEvent("click",!0,!1),null==e||e.dispatchEvent(t)}}
+//# sourceMappingURL=/dynamic/client/lib/utils/d1de3c3f5843422e576a59c1b702c1d5c25cf183.map

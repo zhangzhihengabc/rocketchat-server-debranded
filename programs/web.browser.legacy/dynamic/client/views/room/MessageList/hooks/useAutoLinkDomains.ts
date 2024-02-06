@@ -1,0 +1,2 @@
+function module(n,t,u){u.export({useAutoLinkDomains:function(){return e}}),u.link("@rocket.chat/ui-contexts",{useSetting:function(n){i=n}},0),u.link("react",{useMemo:function(n){o=n}},1);var i,o,e=function(){var n=i("Message_CustomDomain_AutoLink"),t=o(function(){return n?n.split(",").map(function(n){return n.trim()}):[]},[n]);return o(function(){return t},[t])}}
+//# sourceMappingURL=/dynamic/client/views/room/MessageList/hooks/ecb9ebb0557f278ae3c7fa651124c7b0ba1e886e.map

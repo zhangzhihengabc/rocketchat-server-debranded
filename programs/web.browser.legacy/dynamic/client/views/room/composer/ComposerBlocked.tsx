@@ -1,0 +1,2 @@
+function module(t,e,n){var o,c,u;n.link("@rocket.chat/ui-composer",{MessageFooterCallout:function(t){o=t}},0),n.link("@rocket.chat/ui-contexts",{useTranslation:function(t){c=t}},1),n.link("react",{default:function(t){u=t}},2),n.exportDefault(function(){var t=c();return u.createElement(o,null,t("room_is_blocked"))})}
+//# sourceMappingURL=/dynamic/client/views/room/composer/416452d249f82f4a0c23ec08de57a35d959b93f9.map

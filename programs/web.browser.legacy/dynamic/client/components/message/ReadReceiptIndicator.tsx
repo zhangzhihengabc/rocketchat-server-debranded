@@ -1,0 +1,2 @@
+function module(n,e,t){var o,a,c;t.link("@rocket.chat/fuselage",{Box:function(n){o=n},Icon:function(n){a=n}},0),t.link("react",{default:function(n){c=n}},1),t.exportDefault(function(n){var e=n.unread;return c.createElement(o,{position:"absolute",insetBlockStart:2,insetInlineEnd:8},c.createElement(a,{name:"check",size:"x16",color:e?"annotation":"info"}))})}
+//# sourceMappingURL=/dynamic/client/components/message/ebe55646043d3109a7dd41629f58eabed9a8fed1.map

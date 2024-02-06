@@ -1,0 +1,2 @@
+function module(e,n,t){var i,u,o,l;t.link("@rocket.chat/ui-contexts",{usePermission:function(e){i=e}},0),t.link("react",{default:function(e){u=e}},1),t.link("../../notAuthorized/NotAuthorizedPage",{default:function(e){o=e}},2),t.link("./AdminUsersPage",{default:function(e){l=e}},3),t.exportDefault(function(){return i("view-user-administration")?u.createElement(l,null):u.createElement(o,null)})}
+//# sourceMappingURL=/dynamic/client/views/admin/users/dd96aa1c9fbb459b45a6834295a933d450824cd3.map

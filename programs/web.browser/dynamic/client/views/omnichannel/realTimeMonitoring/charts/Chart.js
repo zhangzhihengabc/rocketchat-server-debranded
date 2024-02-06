@@ -1,0 +1,2 @@
+function module(e,t,l){let n,a,r,i;l.link("@babel/runtime/helpers/extends",{default(e){n=e}},0),l.link("@rocket.chat/fuselage",{Box(e){a=e}},0),l.link("react",{default(e){r=e},forwardRef(e){i=e}},1);let f={minHeight:"250px"},u=i(function e(e,t){return r.createElement(a,n({padding:"x20",height:"x300"},e),r.createElement("canvas",{ref:t,style:f}))});l.exportDefault(u)}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/realTimeMonitoring/charts/9e13654b3dbb52419c11d6b28e3e7f75a6543d8d.map

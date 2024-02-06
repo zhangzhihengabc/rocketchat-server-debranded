@@ -1,0 +1,2 @@
+function module(e,s,t){let r,a,c;t.export({useEndpointUpload:()=>o}),t.link("@rocket.chat/ui-contexts",{useToastMessageDispatch(e){r=e},useUpload(e){a=e}},0),t.link("react",{useCallback(e){c=e}},1);let o=(e,s)=>{let t=a(e),o=r();return c(async e=>{try{let r=t(e),a=r instanceof Promise?r:r.promise,c=await a;if(!c.success)throw Error(String(c.status));return s&&o({type:"success",message:s}),c}catch(e){return o({type:"error",message:e}),{success:!1}}},[o,t,s])}}
+//# sourceMappingURL=/dynamic/client/hooks/1de30879aaf0c9894e8508d85048f6e92b5a8b95.map

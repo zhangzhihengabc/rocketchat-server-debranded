@@ -1,0 +1,2 @@
+function module(n,t,e){e.export({useCreateRoomModal:function(){return a}}),e.link("@rocket.chat/fuselage-hooks",{useMutableCallback:function(n){o=n}},0),e.link("@rocket.chat/ui-contexts",{useSetModal:function(n){u=n}},1),e.link("react",{default:function(n){c=n}},2);var o,u,c,a=function(n){var t=u();return o(function(){var e=function(){t(null)};t(function(){return c.createElement(n,{onClose:e})})})}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/hooks/e2603a0defe05640f2155ea5873a54f910b27d48.map

@@ -1,0 +1,2 @@
+function module(e,n,r){r.export({GenericTableLoadingTable:function(){return l}}),r.link("react",{default:function(e){t=e}},0),r.link("./GenericTableLoadingRow",{GenericTableLoadingRow:function(e){a=e}},1);var t,a,l=function(e){var n=e.headerCells;return t.createElement(t.Fragment,null,Array.from({length:10},function(e,r){return t.createElement(a,{key:r,cols:n})}))}}
+//# sourceMappingURL=/dynamic/client/components/GenericTable/0535fa3cc0592400b8ea31bd2e67133872756c7c.map

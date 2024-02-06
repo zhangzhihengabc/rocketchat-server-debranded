@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/ui/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './views/app/photoswipeContent.ts'; // without the *.ts extension, *.html gets loaded first\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA"}

@@ -1,0 +1,2 @@
+function module(n,e,t){var f,a,o,l,i;t.link("../InfoPanel",{default:function(n){f=n}},0),t.link("./UserInfo",{default:function(n){a=n}},1),t.link("./UserInfoAction",{default:function(n){o=n}},2),t.link("./UserInfoAvatar",{default:function(n){l=n}},3),t.link("./UserInfoUsername",{default:function(n){i=n}},4),t.exportDefault(Object.assign(a,{Action:o,Avatar:l,Info:f.Text,Label:f.Label,Username:i}))}
+//# sourceMappingURL=/dynamic/client/components/UserInfo/622e584f2950b15f86c0ad1f0f4b741d38ad18c5.map

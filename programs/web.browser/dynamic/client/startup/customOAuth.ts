@@ -1,0 +1,2 @@
+function module(e,t,o){let i,r,n;o.link("meteor/meteor",{Meteor(e){i=e}},0),o.link("meteor/service-configuration",{ServiceConfiguration(e){r=e}},1),o.link("../../app/custom-oauth/client/custom_oauth_client",{CustomOAuth(e){n=e}},2),i.startup(()=>{r.configurations.find({custom:!0}).observe({async added(e){let{isOauthCustomConfiguration:t}=await o.dynamicImport("@rocket.chat/rest-typings");t(e)&&new n(e.service,{serverURL:e.serverURL,authorizePath:e.authorizePath,scope:e.scope})}})})}
+//# sourceMappingURL=/dynamic/client/startup/a23c1d69236f531d8ca897faf4be98c5041a05c8.map

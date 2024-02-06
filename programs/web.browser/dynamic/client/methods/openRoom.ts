@@ -1,0 +1,2 @@
+function module(e,o,r){let n,t;r.link("meteor/meteor",{Meteor(e){n=e}},0),r.link("../../app/models/client",{ChatSubscription(e){t=e}},1),n.methods({async openRoom(e){if(!n.userId())throw new n.Error("error-invalid-user","Invalid user",{method:"openRoom"});return t.update({rid:e,"u._id":n.userId()},{$set:{open:!0}})}})}
+//# sourceMappingURL=/dynamic/client/methods/66aaf46490590adec35ff2f33fb14ddce266a936.map

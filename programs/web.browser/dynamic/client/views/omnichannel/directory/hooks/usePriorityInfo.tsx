@@ -1,0 +1,2 @@
+function module(e,i,t){let n,r,o;t.export({usePriorityInfo:()=>c}),t.link("@rocket.chat/ui-contexts",{useEndpoint(e){n=e}},0),t.link("@tanstack/react-query",{useQuery(e){r=e}},1),t.link("../../../../../ee/client/omnichannel/hooks/useOmnichannelPriorities",{useOmnichannelPriorities(e){o=e}},2);let c=e=>{let{enabled:i}=o(),t=n("GET","/v1/livechat/priorities/:priorityId",{priorityId:e});return r(["/v1/livechat/priorities",e],()=>t(),{cacheTime:0,enabled:i})}}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/directory/hooks/9216cd585bcb5e3aa2c581da20aa5e22e97daae7.map

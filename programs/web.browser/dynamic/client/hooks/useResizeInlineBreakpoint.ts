@@ -1,0 +1,2 @@
+function module(e,n,t){let i,l,o;t.export({useResizeInlineBreakpoint:()=>r}),t.link("@rocket.chat/fuselage-hooks",{useResizeObserver(e){i=e},useStableArray(e){l=e}},0),t.link("react",{useMemo(e){o=e}},1);let r=function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:[],n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,{ref:t,borderBoxSize:r}=i({debounceDelay:n}),s=r?r.inlineSize:0,u=l(e),a=o(()=>u.map(e=>!s||s>e),[s,u]);return[t,...a]}}
+//# sourceMappingURL=/dynamic/client/hooks/d4f2c48ed44f24d0f855aae92bb65addbb2f2be9.map

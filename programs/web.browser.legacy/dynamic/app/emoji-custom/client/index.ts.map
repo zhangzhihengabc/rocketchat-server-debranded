@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/emoji-custom/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import './lib/emojiCustom';\nimport './notifications/deleteEmojiCustom';\nimport './notifications/updateEmojiCustom';\n",null],"names":["module","link"],"mappings":"uBAAAA,EAAOC,IAAAA,CAAAA,qBAAoBD,EAAAA,IAAAA,CAAAA,qCAAAA,EAAAA,IAAAA,CAAAA"}

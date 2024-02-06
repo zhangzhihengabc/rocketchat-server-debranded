@@ -1,0 +1,2 @@
+function module(n,t,o){o.export({useContactProfileRoomAction:function(){return i}}),o.link("react",{lazy:function(n){e=n},useMemo:function(n){r=n}},0);var e,r,c=e(function(){return o.dynamicImport("../../views/omnichannel/directory/contacts/contextualBar/ContactsContextualBar")}),i=function(){return r(function(){return{id:"contact-profile",groups:["live"],title:"Contact_Info",icon:"user",tabComponent:c,order:1}},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/roomActions/918c0109cc0f493bc2776ccd158fbc7fb09ca59e.map

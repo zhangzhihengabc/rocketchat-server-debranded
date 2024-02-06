@@ -1,0 +1,2 @@
+function module(e,t,a){let r,s;a.export({useChangeRole:()=>c}),a.link("@rocket.chat/fuselage-hooks",{useMutableCallback(e){r=e}},0),a.link("@rocket.chat/ui-contexts",{useToastMessageDispatch(e){s=e}},1);let c=e=>{let{onGrant:t,onRemove:a,permissionId:c}=e,l=s();return r(async(e,r)=>{try{return r?await a(c,e):await t(c,e),!r}catch(e){l({type:"error",message:e})}return r})}}
+//# sourceMappingURL=/dynamic/client/views/admin/permissions/hooks/915f83cbbc798baa5e3944d03e283ec00fbcc6b6.map

@@ -1,0 +1,2 @@
+function module(e,l,t){let n,a,c,r,u,i,m;t.link("@rocket.chat/fuselage",{Field(e){n=e},FieldLabel(e){a=e},FieldRow(e){c=e},Flex(e){r=e},InputBox(e){u=e},Skeleton(e){i=e}},0),t.link("react",{default(e){m=e}},1),t.exportDefault(()=>m.createElement(n,null,m.createElement(r.Item,{align:"stretch"},m.createElement(a,null,m.createElement(i,{width:"25%"}))),m.createElement(c,null,m.createElement(u.Skeleton,null))))}
+//# sourceMappingURL=/dynamic/client/views/admin/settings/8b8cbd4290e6f5b4c8ddc21af534b5eb5ccd4267.map

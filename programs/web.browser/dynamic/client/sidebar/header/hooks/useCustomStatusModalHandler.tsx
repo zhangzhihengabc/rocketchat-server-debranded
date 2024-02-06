@@ -1,0 +1,2 @@
+function module(t,e,l){let u,s,a,n;l.export({useCustomStatusModalHandler:()=>o}),l.link("@rocket.chat/ui-contexts",{useSetModal(t){u=t},useUser(t){s=t}},0),l.link("react",{default(t){a=t}},1),l.link("../EditStatusModal",{default(t){n=t}},2);let o=()=>{let t=s(),e=u();return()=>{e(a.createElement(n,{userStatus:null==t?void 0:t.status,userStatusText:null==t?void 0:t.statusText,onClose:()=>e(null)}))}}}
+//# sourceMappingURL=/dynamic/client/sidebar/header/hooks/6b4894c75ddedaeaa1cd2bccf9a72b9369d22eaf.map

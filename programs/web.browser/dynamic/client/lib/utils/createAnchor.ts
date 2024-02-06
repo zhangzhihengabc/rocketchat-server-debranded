@@ -1,0 +1,2 @@
+function module(e,t,n){let o;n.export({createAnchor:()=>d}),n.link("./deleteAnchor",{registerAnchor(e){o=e}},0);let d=function(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"div",n=document.getElementById(e);if(n&&n.tagName.toLowerCase()===t)return n;let d=document.createElement(t);return d.id=e,document.body.appendChild(d),o(d,()=>document.body.removeChild(d)),d}}
+//# sourceMappingURL=/dynamic/client/lib/utils/606872fba037f498a9173c41a5f96a992dbc5797.map

@@ -1,0 +1,2 @@
+function module(e,r,t){let o,a;t.export({useMessageSearchProviderQuery:()=>c}),t.link("@rocket.chat/ui-contexts",{useMethod(e){o=e}},0),t.link("@tanstack/react-query",{useQuery(e){a=e}},1);let c=()=>{let e=o("rocketchatSearch.getProvider");return a(["search","provider"],async()=>{let r=await e();if(void 0===r)throw Error("Search provider not found");return r})}}
+//# sourceMappingURL=/dynamic/client/views/room/contextualBar/MessageSearchTab/hooks/622ee96c2d4ba63070ee52d039ff845fd9966000.map

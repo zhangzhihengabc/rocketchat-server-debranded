@@ -1,0 +1,2 @@
+function module(t,n,e){var u,c,o,i;e.link("@rocket.chat/ui-contexts",{useSetting:function(t){u=t}},0),e.link("react",{default:function(t){c=t}},1),e.link("../../notAuthorized/NotAuthorizedPage",{default:function(t){o=t}},2),e.link("./AccountSecurityPage",{default:function(t){i=t}},3),e.exportDefault(function(){var t=u("Accounts_TwoFactorAuthentication_Enabled"),n=u("E2E_Enable");return t||n?c.createElement(i,null):c.createElement(o,null)})}
+//# sourceMappingURL=/dynamic/client/views/account/security/384de95f19f4f35221d7b6f14d0954f9fccd6956.map

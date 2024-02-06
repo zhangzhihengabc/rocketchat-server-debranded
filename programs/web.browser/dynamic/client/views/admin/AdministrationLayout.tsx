@@ -1,0 +1,2 @@
+function module(e,l,t){let a,n,r;t.link("react",{default(e){a=e}},0),t.link("../../sidebar/SidebarPortal",{default(e){n=e}},1),t.link("./sidebar/AdminSidebar",{default(e){r=e}},2),t.exportDefault(e=>{let{children:l}=e;return a.createElement(a.Fragment,null,a.createElement(n,null,a.createElement(r,null)),l)})}
+//# sourceMappingURL=/dynamic/client/views/admin/85bf8cdd3128ff2d6036a03799f670d96e060af3.map

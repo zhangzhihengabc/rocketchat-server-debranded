@@ -1,0 +1,2 @@
+)]}'
+{"version":3,"sources":["meteor://💻app/app/apple/client/index.ts","meteor://💻app/<anon>"],"sourcesContent":["import { CustomOAuth } from '../../custom-oauth/client/custom_oauth_client';\nimport { config } from '../lib/config';\n\nnew CustomOAuth('apple', config);\n",null],"names":["CustomOAuth","config","module","link"],"mappings":"2BAAAA,EAA4EC,EAAnEC,EAAaC,IAAA,CAAM,gDAAgD,CAAAH,YAAAA,SAAAA,CAAAA,EAAAA,EAAAA,CAAA,CAAA,EAAA,GAAAE,EAAAA,IAAAA,CAAAA,gBAAAA,CAAAD,OAAAA,SAAAA,CAAAA,EAAAA,EAAAA,CAAA,CAAA,EAAA,GAG5E,IAAID,EAAY,QAASC"}

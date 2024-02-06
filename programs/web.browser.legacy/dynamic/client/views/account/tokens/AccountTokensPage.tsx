@@ -1,0 +1,2 @@
+function module(e,n,t){var l,c,a,o;t.link("@rocket.chat/ui-contexts",{useTranslation:function(e){l=e}},0),t.link("react",{default:function(e){c=e}},1),t.link("../../../components/Page",{default:function(e){a=e}},2),t.link("./AccountTokensTable",{default:function(e){o=e}},3),t.exportDefault(function(){var e=l();return c.createElement(a,null,c.createElement(a.Header,{title:e("Personal_Access_Tokens")}),c.createElement(a.Content,null,c.createElement(o,null)))})}
+//# sourceMappingURL=/dynamic/client/views/account/tokens/abcc7818fbf2683413a6996e69581076deba7c82.map

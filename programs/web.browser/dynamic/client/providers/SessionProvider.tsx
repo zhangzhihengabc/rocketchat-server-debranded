@@ -1,0 +1,2 @@
+function module(e,t,i){let r,c,n,o;i.link("@rocket.chat/ui-contexts",{SessionContext(e){r=e}},0),i.link("meteor/session",{Session(e){c=e}},1),i.link("react",{default(e){n=e}},2),i.link("../lib/createReactiveSubscriptionFactory",{createReactiveSubscriptionFactory(e){o=e}},3);let l={query:o(e=>c.get(e)),dispatch:(e,t)=>{c.set(e,t)}};i.exportDefault(e=>{let{children:t}=e;return n.createElement(r.Provider,{children:t,value:l})})}
+//# sourceMappingURL=/dynamic/client/providers/0a0853ee8e5b9a9e2ce98879afd5d95f9d0f42ed.map

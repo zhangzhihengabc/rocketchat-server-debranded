@@ -1,0 +1,2 @@
+function module(e,n,r){r.link("@babel/runtime/helpers/typeof",{default:function(e){t=e}},0),r.export({useMessageComposerMergedRefs:function(){return u}}),r.link("react",{useCallback:function(e){o=e}},0);var t,o,u=function(){for(var e=arguments.length,n=Array(e),r=0;r<e;r++)n[r]=arguments[r];return o(function(e){n.filter(Boolean).forEach(function(n){if("function"==typeof n){n(e);return}"object"===t(n)&&(n.current=e)})},n)}}
+//# sourceMappingURL=/dynamic/client/views/room/composer/hooks/7f4b6756057bdde69e66aefda64c0bda594fb402.map

@@ -1,0 +1,2 @@
+function module(e,t,n){var l,i,u,a;n.link("@rocket.chat/ui-contexts",{usePermission:function(e){l=e}},0),n.link("react",{default:function(e){i=e}},1),n.link("../../../../client/views/notAuthorized/NotAuthorizedPage",{default:function(e){u=e}},2),n.link("./SlaPage",{default:function(e){a=e}},3),n.exportDefault(function(){return l("manage-livechat-sla")?i.createElement(a,null):i.createElement(u,null)})}
+//# sourceMappingURL=/dynamic/ee/client/omnichannel/slaPolicies/f36d5dc2734e88482d3b2b7597ed78e557188b68.map

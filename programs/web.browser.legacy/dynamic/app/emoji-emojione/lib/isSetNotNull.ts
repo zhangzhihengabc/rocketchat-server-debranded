@@ -1,0 +1,2 @@
+function module(e,n,r){r.link("@babel/runtime/regenerator",{default:function(e){t=e}},0),r.export({isSetNotNull:function(){return u}});var t,u=function(e){var n;return t.async(function(r){for(;;)switch(r.prev=r.next){case 0:return r.prev=0,r.next=3,t.awrap(e());case 3:n=r.sent,r.next=9;break;case 6:r.prev=6,r.t0=r.catch(0),n=null;case 9:return r.abrupt("return",null!=n);case 10:case"end":return r.stop()}},null,null,[[0,6]],Promise)}}
+//# sourceMappingURL=/dynamic/app/emoji-emojione/lib/580dfe1d5db41ea688459632cc82bbbd3bdd4855.map

@@ -1,0 +1,2 @@
+function module(n,t,r){r.link("@babel/runtime/helpers/inheritsLoose",{default:function(n){i=n}},0),r.export({SlackImporterInfo:function(){return e}}),r.link("../../importer/lib/ImporterInfo",{ImporterInfo:function(n){o=n}},0);var i,o,e=function(n){function t(){return n.call(this,"slack","Slack","application/zip")||this}return i(t,n),t}(o)}
+//# sourceMappingURL=/dynamic/app/importer-slack/lib/dab0f966e0f4bd85af6dd9cd7d5652d4e4c5ab4f.map

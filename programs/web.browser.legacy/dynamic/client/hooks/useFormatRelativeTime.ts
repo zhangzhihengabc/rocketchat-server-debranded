@@ -1,0 +1,2 @@
+function module(e,i,r){r.export({useFormatRelativeTime:function(){return l}}),r.link("moment",{default:function(e){t=e}},0),r.link("react",{useCallback:function(e){n=e}},1);var t,n,l=function(){return n(function(e){return t.relativeTimeThreshold("s",60),t.relativeTimeThreshold("ss",0),t.relativeTimeThreshold("m",60),t.relativeTimeThreshold("h",24),t.relativeTimeThreshold("d",31),t.relativeTimeThreshold("M",12),t.duration(e).humanize()},[])}}
+//# sourceMappingURL=/dynamic/client/hooks/d44a1f47afdf8daa1f22519a193befe845d40fd7.map

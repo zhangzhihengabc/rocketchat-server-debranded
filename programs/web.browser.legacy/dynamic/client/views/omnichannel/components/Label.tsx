@@ -1,0 +1,2 @@
+function module(e,t,n){var l,u,o;n.link("@babel/runtime/helpers/extends",{default:function(e){l=e}},0),n.link("@rocket.chat/fuselage",{Box:function(e){u=e}},0),n.link("react",{default:function(e){o=e}},1),n.exportDefault(function(e){return o.createElement(u,l({mbe:8,fontScale:"p2m",color:"default"},e))})}
+//# sourceMappingURL=/dynamic/client/views/omnichannel/components/38c9361dda283db3fdde319504debc874b81296c.map
