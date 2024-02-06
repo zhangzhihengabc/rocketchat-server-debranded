@@ -1,6 +1,6 @@
 FROM node:latest
 COPY . /app
-USER rocketchat
+
 
 WORKDIR /app/bundle
 
